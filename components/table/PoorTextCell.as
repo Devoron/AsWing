@@ -2,12 +2,12 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table{
+package devoron.aswing3d.table{
 
-import org.aswing.*;
-import org.aswing.geom.*;
-import org.aswing.plaf.ComponentUI;
-import org.aswing.graphics.*;
+import devoron.aswing3d.*;
+import devoron.aswing3d.geom.*;
+import devoron.aswing3d.plaf.ComponentUI;
+import devoron.aswing3d.graphics.*;
 import flash.text.*;
 
 /**
@@ -58,15 +58,15 @@ public class PoorTextCell extends Component implements TableCell{
 		
 	override public function setComBounds(b:IntRectangle):void{
 		readyToPaint = true;
-		if(!b.equals(bounds)){
-			if(b.width != bounds.width || b.height != bounds.height){
+		if(!b.equals(compBounds)){
+			if(b.width != compBounds.width || b.height != compBounds.height){
 				repaint();
 				
 				//textField.height = b.height;
 		//textField.width = b.width;
 				
 			}
-			bounds.setRect(b);
+			compBounds.setRect(b);
 			locate();
 			valid = false;
 		}

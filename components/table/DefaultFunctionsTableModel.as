@@ -1,10 +1,10 @@
-package org.aswing.table
+package devoron.aswing3d.table
 {
 	import flash.display.Sprite;
 	import flash.utils.describeType;
 	import flash.utils.getDefinitionByName;
-	import org.aswing.table.DefaultTableModel;
-	import org.aswing.util.HashMap;
+	import devoron.aswing3d.table.DefaultTableModel;
+	import devoron.aswing3d.util.HashMap;
 	
 	public class DefaultFunctionsTableModel extends DefaultTableModel
 	{

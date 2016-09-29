@@ -2,10 +2,10 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table.sorter{
+package devoron.aswing3d.table.sorter{
 
-import org.aswing.table.TableCell;
-import org.aswing.table.TableCellFactory;
+import devoron.aswing3d.table.TableCell;
+import devoron.aswing3d.table.TableCellFactory;
 
 /**
  * @author iiley

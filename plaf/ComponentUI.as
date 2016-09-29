@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf
+package devoron.aswing
 {
 	
 import flash.display.InteractiveObject;

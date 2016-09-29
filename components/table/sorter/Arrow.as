@@ -2,16 +2,18 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table.sorter{
+package devoron.aswing3d.table.sorter{
 
 import flash.display.*;
 import flash.filters.DropShadowFilter;
 import flash.geom.Matrix;
 import flash.geom.Point;
+import org.aswing.AbstractButton;
+import org.aswing.Icon;
 
-import org.aswing.*;
-import org.aswing.geom.*;
-import org.aswing.graphics.*;
+import devoron.aswing3d.*;
+import devoron.aswing3d.geom.*;
+import devoron.aswing3d.graphics.*;
 
 /**
  * @author iiley

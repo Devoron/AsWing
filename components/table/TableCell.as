@@ -2,10 +2,10 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table{
+package devoron.aswing3d.table{
 
-import org.aswing.Cell;
-import org.aswing.JTable;
+import devoron.aswing3d.Cell;
+import devoron.aswing3d.JTable;
 
 /**
  * @author iiley

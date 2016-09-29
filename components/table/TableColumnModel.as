@@ -2,9 +2,9 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table{
+package devoron.aswing3d.table{
 
-import org.aswing.ListSelectionModel;
+import devoron.aswing3d.ListSelectionModel;
 
 /**
  * Defines the requirements for a table column model object suitable for

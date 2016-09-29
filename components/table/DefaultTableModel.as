@@ -2,11 +2,11 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing.table
+package devoron.aswing3d.table
 {
 	
-	import org.aswing.event.TableModelEvent;
-	import org.aswing.util.ArrayUtils;
+	import devoron.aswing3d.event.TableModelEvent;
+	import devoron.aswing3d.util.ArrayUtils;
 	
 	/**
 	 * @author iiley

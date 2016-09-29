@@ -2,9 +2,9 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table{
+package devoron.aswing3d.table{
 
-import org.aswing.CellEditor;
+import devoron.aswing3d.CellEditor;
 
 /**
  * @author iiley

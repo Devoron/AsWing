@@ -2,9 +2,9 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table.sorter{
+package devoron.aswing3d.table.sorter{
 
-import org.aswing.table.TableModel;
+import devoron.aswing3d.table.TableModel;
 
 /**
  * @author iiley

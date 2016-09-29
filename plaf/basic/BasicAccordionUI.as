@@ -13,13 +13,6 @@ package devoron.aswing3d.plaf.basic
 	import flash.ui.Keyboard;
 	import flash.utils.Timer;
 	
-	import devoron.aswing3d.*;
-	import devoron.aswing3d.event.FocusKeyEvent;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.graphics.*;
-	import devoron.aswing3d.plaf.*;
-	import devoron.aswing3d.plaf.basic.accordion.*;
-	import devoron.aswing3d.plaf.basic.tabbedpane.Tab;
 	
 	/**
 	 * Basic accordion ui imp.

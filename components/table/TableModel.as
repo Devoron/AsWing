@@ -2,9 +2,9 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 	
-package org.aswing.table{
+package devoron.aswing3d.table{
 
-import org.aswing.event.TableModelListener;
+import devoron.aswing3d.event.TableModelListener;
 
 /**
  *  The <code>TableModel</code> interface specifies the methods the

@@ -2,11 +2,11 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table.sorter{
+package devoron.aswing3d.table.sorter{
 
-import org.aswing.JTable;
-import org.aswing.table.DefaultTextHeaderCell;
-import org.aswing.UIManager;
+import devoron.aswing3d.JTable;
+import devoron.aswing3d.table.DefaultTextHeaderCell;
+import devoron.aswing3d.UIManager;
 
 /**
  * @author iiley

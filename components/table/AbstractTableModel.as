@@ -2,12 +2,12 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table{
+package devoron.aswing3d.table{
 
-import org.aswing.event.TableModelEvent;
-import org.aswing.event.TableModelListener;
-import org.aswing.util.ArrayUtils;
-import org.aswing.error.ImpMissError;
+import devoron.aswing3d.event.TableModelEvent;
+import devoron.aswing3d.event.TableModelListener;
+import devoron.aswing3d.util.ArrayUtils;
+import devoron.aswing3d.error.ImpMissError;
 
 /**
  *  This abstract class provides default implementations for most of

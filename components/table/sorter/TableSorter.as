@@ -2,20 +2,21 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table.sorter{
+package devoron.aswing3d.table.sorter{
 
 import flash.events.MouseEvent;
+import org.aswing.Icon;
 
-import org.aswing.*;
-import org.aswing.event.*;
-import org.aswing.geom.*;
-import org.aswing.table.AbstractTableModel;
-import org.aswing.table.JTableHeader;
-import org.aswing.table.TableCellFactory;
-import org.aswing.table.TableColumnModel;
-import org.aswing.table.TableModel;
-import org.aswing.util.ArrayUtils;
-import org.aswing.util.HashMap;
+import devoron.aswing3d.*;
+import devoron.aswing3d.event.*;
+import devoron.aswing3d.geom.*;
+import devoron.aswing3d.table.AbstractTableModel;
+import devoron.aswing3d.table.JTableHeader;
+import devoron.aswing3d.table.TableCellFactory;
+import devoron.aswing3d.table.TableColumnModel;
+import devoron.aswing3d.table.TableModel;
+import devoron.aswing3d.util.ArrayUtils;
+import devoron.aswing3d.util.HashMap;
 
 /**
  * A class that make your JTable sortable. Usage:
@@ -233,7 +234,7 @@ public class TableSorter extends AbstractTableModel implements TableModelListene
 	 * @param columnClass the column class name
 	 * @param comparator the comparator function should be this spec:
 	 * 			function(o1, o2):int, it should return -1 or 0 or 1.
-	 * @see org.aswing.table.TableModel#getColumnClass()
+	 * @see devoron.aswing3d.table.TableModel#getColumnClass()
 	 */
     public function setColumnComparator(columnClass:String, comparator:Function):void {
         if (comparator == null) {

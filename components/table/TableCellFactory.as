@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table{
+package devoron.aswing3d.table{
 
 /**
  * TableCellFactory for create cells for table

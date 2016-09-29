@@ -1,4 +1,4 @@
-package org.aswing.table{
+package devoron.aswing3d.table{
 
 
 /**

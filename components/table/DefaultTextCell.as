@@ -2,12 +2,12 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table{
+package devoron.aswing3d.table{
 	
-import org.aswing.Component;
-import org.aswing.geom.*;
-import org.aswing.JLabel;
-import org.aswing.JTable;
+import devoron.aswing3d.Component;
+import devoron.aswing3d.geom.*;
+import devoron.aswing3d.JLabel;
+import devoron.aswing3d.JTable;
 
 /**
  * Default table cell to render text
@@ -28,11 +28,11 @@ public class DefaultTextCell extends JLabel implements TableCell{
 	 */
 	override public function setComBounds(b:IntRectangle):void{
 		readyToPaint = true;
-		if(!b.equals(bounds)){
-			if(b.width != bounds.width || b.height != bounds.height){
+		if(!b.equals(compBounds)){
+			if(b.width != compBounds.width || b.height != compBounds.height){
 				repaint();
 			}
-			bounds.setRect(b);
+			compBounds.setRect(b);
 			locate();
 			valid = false;
 		}

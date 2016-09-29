@@ -2,13 +2,13 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table{
+package devoron.aswing3d.table{
 
-import org.aswing.DefaultListSelectionModel;
-import org.aswing.ListSelectionModel;
-import org.aswing.util.ArrayUtils;
-import org.aswing.event.PropertyChangeEvent;
-import org.aswing.event.SelectionEvent;
+import devoron.aswing3d.DefaultListSelectionModel;
+import devoron.aswing3d.ListSelectionModel;
+import devoron.aswing3d.util.ArrayUtils;
+import devoron.aswing3d.event.PropertyChangeEvent;
+import devoron.aswing3d.event.SelectionEvent;
 
 /**
  * The standard column-handler for a <code>JTable</code>.
@@ -241,7 +241,7 @@ public class DefaultTableColumnModel implements TableColumnModel{
 	 *
 	 * @param x  the horizontal location of interest
 	 * @return the index of the column or -1 if no column is found
-	 * @see org.aswing.JTable#columnAtPoint()
+	 * @see devoron.aswing3d.JTable#columnAtPoint()
 	 */	
 	public function getColumnIndexAtX(x:int):int{
 		if (x < 0){

@@ -1,13 +1,9 @@
-/*
- Copyright aswing.org, see the LICENCE.txt.
-*/
-
-package org.aswing.table{
+package devoron.aswing3d.table{
 
 import flash.filters.DropShadowFilter;
 
-import org.aswing.JTable;
-import org.aswing.UIManager;
+import devoron.aswing3d.JTable;
+import devoron.aswing3d.UIManager;
 
 /**
  * Default table header cell to render text
@@ -18,8 +14,8 @@ public class DefaultTextHeaderCell extends DefaultTextCell{
 	public function DefaultTextHeaderCell() {
 		super();
 		setHorizontalAlignment(CENTER);
-		setBorder(UIManager.getBorder("TableHeader.cellBorder"));
-		setBackgroundDecorator(UIManager.getGroundDecorator("TableHeader.cellBackground"));
+		//setBorder(UIManager.getBorder("TableHeader.cellBorder"));
+		//setBackgroundDecorator(UIManager.getGroundDecorator("TableHeader.cellBackground"));
 		setOpaque(false);
 		setTextFilters([new DropShadowFilter(1, 45, 0xFFFFFF, 0.2, 1, 1, 1, 1)]);
 	}

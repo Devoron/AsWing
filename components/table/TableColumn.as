@@ -2,17 +2,17 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.table{
+package devoron.aswing3d.table{
 
-import org.aswing.Component;
-import org.aswing.event.*;
+import devoron.aswing3d.Component;
+import devoron.aswing3d.event.*;
 import flash.events.EventDispatcher;
 	
 /**
  * Dispatched when a property changed.
- * @eventType org.aswing.event.PropertyChangeEvent.PROPERTY_CHANGE
+ * @eventType devoron.aswing3d.event.PropertyChangeEvent.PROPERTY_CHANGE
  */
-[Event(name="propertyChange", type="org.aswing.event.PropertyChangeEvent")]
+[Event(name="propertyChange", type="devoron.aswing3d.event.PropertyChangeEvent")]
 
 /**
  *  A <code>TableColumn</code> represents all the attributes of a column in a
@@ -240,7 +240,7 @@ public class TableColumn extends EventDispatcher{
 	 * @param listener the listener
 	 * @param priority the priority
 	 * @param useWeakReference Determines whether the reference to the listener is strong or weak.
-	 * @see org.aswing.event.PropertyChangeEvent#PROPERTY_CHANGE
+	 * @see devoron.aswing3d.event.PropertyChangeEvent#PROPERTY_CHANGE
      */
     public function addPropertyChangeListener(listener:Function, priority:int=0, useWeakReference:Boolean=false):void{
     	addEventListener(PropertyChangeEvent.PROPERTY_CHANGE, listener, false, priority, useWeakReference);
