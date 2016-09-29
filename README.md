@@ -16,4 +16,5 @@ Dependencies|Зависимости:
 1. https://github.com/Gamua/Starling-Framework
 2. https://github.com/Devoron/Starling-Extension-Graphics
 
-
+Read Wiki for more information|Читайте Wiki для большего ознакомления
+https://github.com/Devoron/AsWing-Starling/wiki
