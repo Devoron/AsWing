@@ -2,15 +2,14 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.skinbuilder
+package org.aswing.skinbuilder
 {
-	
+	import org.aswing.plaf.DefaultsDecoratorBase;
 	import flash.display.*;
 	import flash.events.*;
 	import org.aswing.GroundDecorator;
 	import org.aswing.Icon;
 	
-	import devoron.aswing3d.*;
 	import org.aswing.error.ImpMissError;
 	import org.aswing.event.*;
 	import org.aswing.geom.*;

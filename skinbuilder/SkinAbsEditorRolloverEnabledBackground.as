@@ -2,10 +2,9 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.skinbuilder{
+package org.aswing.skinbuilder{
 	
 import flash.events.MouseEvent;
-import devoron.aswing3d.*;
 import org.aswing.plaf.ComponentUI;
 import org.aswing.geom.IntRectangle;
 import org.aswing.graphics.Graphics2D;

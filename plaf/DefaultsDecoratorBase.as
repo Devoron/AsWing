@@ -1,6 +1,7 @@
-package devoron.aswing3d.plaf{
+package org.aswing.plaf{
 
 import org.aswing.Component;	
+import org.aswing.ComponentUI;
 
 public class DefaultsDecoratorBase implements DefaultsDecorator{
 	

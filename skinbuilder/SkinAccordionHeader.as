@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.skinbuilder{
+package org.aswing.skinbuilder{
 
 import devoron.aswing3d.*;
 import org.aswing.plaf.basic.accordion.BasicAccordionHeader;

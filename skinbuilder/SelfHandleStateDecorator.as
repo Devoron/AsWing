@@ -2,9 +2,8 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.skinbuilder
+package org.aswing.skinbuilder
 {
-	import devoron.aswing3d.*;
 	import org.aswing.error.ImpMissError;
 	import org.aswing.event.*;
 	import org.aswing.geom.*;
