@@ -5,8 +5,6 @@
 package org.aswing
 {
 	
-import org.aswing.geom.IntRectangle;
-import org.aswing.graphics.Graphics2D;
 	
 /**
  * Interface describing an object capable of rendering a border around the edges of a component.
