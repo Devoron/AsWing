@@ -4,8 +4,8 @@
 
 package org.aswing.graphics
 {
+	import org.aswing.values.ASColor;
 	import starling.display.Graphics;
-	import org.aswing.ASColor;
 	import org.aswing.graphics.IBrush;
 	
 	/**

@@ -4,8 +4,13 @@
 
 package org.aswing.components
 {
+	import org.aswing.util.Reflection;
+	import org.aswing.plaf.InsetsUIResource;
+	import flash.events.FocusEvent;
+	import org.aswing.border.Border;
+	import org.aswing.event.AWEvent;
+	import org.aswing.plaf.UIResource;
 	import org.aswing.values.ASFont;
-	import flash.events.Event;
 	import org.aswing.AWMLTagInfo;
 	import org.aswing.AWSprite;
 	import org.aswing.ComponentUI;
@@ -15,10 +20,12 @@ package org.aswing.components
 	import org.aswing.geom.IntRectangle;
 	import org.aswing.util.HashMap;
 	import org.aswing.values.ASColor;
+	import org.aswing.values.Insets;
 	import starling.display.DisplayObject;
 	import starling.display.DisplayObjectContainer;
 	import starling.display.Sprite;
 	
+	import flash.events.Event;
 	import flash.display.InteractiveObject;
 	import flash.utils.Dictionary;
 	import flash.utils.getTimer;
@@ -184,7 +191,7 @@ package org.aswing.components
 		
 		protected var drawTransparentTrigger:Boolean = true;
 		protected var valid:Boolean;
-		protected var bounds:IntRectangle;
+		protected var comBounds:IntRectangle;
 		protected var readyToPaint:Boolean;
 		
 		private var transparentTriggerDrawn:Boolean = false;
@@ -220,7 +227,7 @@ package org.aswing.components
 			clientProperty = null;
 			alignmentX = 0;
 			alignmentY = 0;
-			bounds = new IntRectangle();
+			comBounds = new IntRectangle();
 			opaque = false;
 			opaqueSet = false;
 			valid = false;
@@ -1208,12 +1215,12 @@ package org.aswing.components
 		{
 			if (rv != null)
 			{
-				rv.setRect(bounds);
+				rv.setRect(comBounds);
 				return rv;
 			}
 			else
 			{
-				return new IntRectangle(bounds.x, bounds.y, bounds.width, bounds.height);
+				return new IntRectangle(comBounds.x, comBounds.y, comBounds.width, comBounds.height);
 			}
 		}
 		
@@ -1224,10 +1231,10 @@ package org.aswing.components
 		 */
 		public function setLocation(newPos:IntPoint):void
 		{
-			var oldPos:IntPoint = bounds.getLocation();
+			var oldPos:IntPoint = comBounds.getLocation();
 			if (!newPos.equals(oldPos))
 			{
-				bounds.setLocation(newPos);
+				comBounds.setLocation(newPos);
 				locate();
 				dispatchEvent(new MovedEvent(oldPos, newPos));
 			}
@@ -1278,12 +1285,12 @@ package org.aswing.components
 		{
 			if (rv != null)
 			{
-				rv.setLocationXY(bounds.x, bounds.y);
+				rv.setLocationXY(comBounds.x, comBounds.y);
 				return rv;
 			}
 			else
 			{
-				return new IntPoint(bounds.x, bounds.y);
+				return new IntPoint(comBounds.x, comBounds.y);
 			}
 		}
 		
@@ -1349,10 +1356,10 @@ package org.aswing.components
 		{
 			newSize.width = Math.max(0, newSize.width);
 			newSize.height = Math.max(0, newSize.height);
-			var oldSize:IntDimension = new IntDimension(bounds.width, bounds.height);
+			var oldSize:IntDimension = new IntDimension(comBounds.width, comBounds.height);
 			if (!newSize.equals(oldSize))
 			{
-				bounds.setSize(newSize);
+				comBounds.setSize(newSize);
 				size();
 				dispatchEvent(new ResizedEvent(oldSize, newSize));
 			}
@@ -1375,12 +1382,12 @@ package org.aswing.components
 		{
 			if (rv != null)
 			{
-				rv.setSizeWH(bounds.width, bounds.height);
+				rv.setSizeWH(comBounds.width, comBounds.height);
 				return rv;
 			}
 			else
 			{
-				return new IntDimension(bounds.width, bounds.height);
+				return new IntDimension(comBounds.width, comBounds.height);
 			}
 		}
 		
@@ -1418,7 +1425,7 @@ package org.aswing.components
 		 */
 		public function getWidth():int
 		{
-			return bounds.width;
+			return comBounds.width;
 		}
 		
 		/**
@@ -1427,7 +1434,7 @@ package org.aswing.components
 		 */
 		public function getHeight():int
 		{
-			return bounds.height;
+			return comBounds.height;
 		}
 		
 		/**
@@ -1457,7 +1464,7 @@ package org.aswing.components
 		 */
 		public function getX():int
 		{
-			return bounds.x;
+			return comBounds.x;
 		}
 		
 		/**
@@ -1467,7 +1474,7 @@ package org.aswing.components
 		 */
 		public function getY():int
 		{
-			return bounds.y;
+			return comBounds.y;
 		}
 		
 		/**

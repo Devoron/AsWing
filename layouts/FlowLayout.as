@@ -4,9 +4,9 @@
 package org.aswing.layouts
 {
 	import org.aswing.AsWingConstants;
+	import org.aswing.components.Component;
+	import org.aswing.components.Container;
 	import org.aswing.layout.EmptyLayout;
-	import org.aswing.Component;
-	import org.aswing.Container;
 	import org.aswing.geom.IntDimension;
 	import org.aswing.Insets;
 	import org.aswing.geom.IntPoint;
@@ -202,7 +202,7 @@ package org.aswing.layouts
 		 * @see Container
 		 * @see #doLayout()
 		 */
-		override public function preferredLayoutSize(target:Container):IntDimension
+		public function preferredLayoutSize(target:Container):IntDimension
 		{
 			var dim:IntDimension = new IntDimension(0, 0);
 			var nmembers:int = target.getComponentCount();
@@ -244,7 +244,7 @@ package org.aswing.layouts
 		 * @see Container
 		 * @see Container#doLayout()
 		 */
-		override public function minimumLayoutSize(target:Container):IntDimension
+		public function minimumLayoutSize(target:Container):IntDimension
 		{
 			return target.getInsets().getOutsideSize();
 		}
@@ -294,7 +294,7 @@ package org.aswing.layouts
 		 * @see Container
 		 * @see Container#doLayout
 		 */
-		override public function layoutContainer(target:Container):void
+		public function layoutContainer(target:Container):void
 		{
 			var insets:Insets = target.getInsets();
 			var td:IntDimension = target.getSize();

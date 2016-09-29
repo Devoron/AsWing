@@ -1,4 +1,4 @@
-package devoron.aswing3d.plaf.basic.background{
+package org.aswing.plaf.basic.background{
 	
 import flash.display.DisplayObject;
 import flash.display.GradientType;

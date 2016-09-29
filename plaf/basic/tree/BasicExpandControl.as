@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic.tree{
+package org.aswing.plaf.basic.tree{
 
 import devoron.aswing3d.*;
 import org.aswing.plaf.UIResource;

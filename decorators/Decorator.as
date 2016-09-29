@@ -4,7 +4,7 @@
 
 package org.aswing.decorators
 {
-	import org.aswing.Component;
+	import org.aswing.components.Component;
 	import starling.display.DisplayObject;
 	
 	/**

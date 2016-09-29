@@ -4,9 +4,8 @@
 
 package org.aswing.layouts
 {
-	
+	import org.aswing.components.Container;
 	import org.aswing.components.Component;
-	import org.aswing.Container;
 	import org.aswing.geom.IntDimension;
 	
 	/**

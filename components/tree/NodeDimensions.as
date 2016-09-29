@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.tree { 
+package org.aswing.components.tree { 
 
 import org.aswing.geom.IntRectangle;
 

@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic.border{
+package org.aswing.plaf.basic.border{
 	
 import flash.display.DisplayObject;
 import flash.display.Shape;

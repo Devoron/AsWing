@@ -4,13 +4,13 @@
 
 package org.aswing.plaf
 {
+	import org.aswing.border.Border;
 	import org.aswing.components.Component;
 	import org.aswing.geom.IntRectangle;
 	import org.aswing.graphics.Graphics2D;
 	import org.aswing.plaf.UIStyleTune;
 	import org.aswing.plaf.ASFontUIResource;
 	import org.aswing.plaf.ASColorUIResource;
-	import org.aswing.Border;
 	import org.aswing.decorators.GroundDecorator;
 	import org.aswing.decorators.Icon;
 	import org.aswing.StyleTune;

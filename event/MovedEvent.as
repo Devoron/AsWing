@@ -4,7 +4,7 @@
 
 package org.aswing.event
 {
-	import starling.events.Event;
+	import flash.events.Event;
 	import org.aswing.geom.IntPoint;
 	
 	/**

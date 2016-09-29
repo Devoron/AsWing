@@ -1,4 +1,4 @@
-package devoron.aswing3d.plaf.basic.border
+package org.aswing.plaf.basic.border
 {
 	import org.aswing.Insets;
 	import starling.display.DisplayObject;

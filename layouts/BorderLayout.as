@@ -3,11 +3,11 @@
  */
 package org.aswing.layouts
 {
+	import org.aswing.values.Insets;
+	import org.aswing.components.Component;
+	import org.aswing.components.Container;
 	import org.aswing.layout.EmptyLayout;
-	import org.aswing.Component;
-	import org.aswing.Container;
 	import org.aswing.geom.IntDimension;
-	import org.aswing.Insets;
 	import org.aswing.geom.IntRectangle;
 	
 	/**
@@ -343,7 +343,7 @@ package org.aswing.layouts
 		 * @see     Container
 		 * @see     Container#doLayout()
 		 */
-		override public function layoutContainer(target:Container):void
+		public function layoutContainer(target:Container):void
 		{
 			var td:IntDimension = target.getSize();
 			var insets:Insets = target.getInsets();

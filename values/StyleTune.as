@@ -1,4 +1,4 @@
-package org.aswing{
+package org.aswing.values{
 
 /**
  * The style tune include factors to generate colors for gradient content and border, 

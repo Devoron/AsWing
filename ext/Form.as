@@ -4,10 +4,10 @@
 
 package org.aswing.ext
 {
+	import org.aswing.components.containers.JPanel;
 	import org.aswing.ext.FormRow;
 	import org.aswing.components.Component;
 	import org.aswing.components.Container;
-	import org.aswing.components.containers.JPanel;
 	import org.aswing.decorators.Icon;
 	import org.aswing.layouts.LayoutManager;
 	import org.aswing.components.separators.JSeparator;

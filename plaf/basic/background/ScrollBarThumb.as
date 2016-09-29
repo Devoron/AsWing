@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic.background{
+package org.aswing.plaf.basic.background{
 	
 import flash.display.CapsStyle;
 import flash.display.DisplayObject;

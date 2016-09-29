@@ -2,8 +2,13 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing
+package org.aswing.border
 {
+	import org.aswing.values.Insets;
+	import org.aswing.components.Component;
+	import org.aswing.decorators.Decorator;
+	import org.aswing.geom.IntRectangle;
+	import org.aswing.graphics.Graphics2D;
 	
 	
 /**
