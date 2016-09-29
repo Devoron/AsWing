@@ -3,10 +3,6 @@
  */
 package devoron.aswing3d.border {
 
-import devoron.aswing3d.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
-import org.aswing3d.Insets;
 import starling.display.Shape;
 
 /**

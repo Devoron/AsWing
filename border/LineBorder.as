@@ -7,9 +7,6 @@ package devoron.aswing3d.border
 	
 	//import flash.display.*;
 	
-	import devoron.aswing3d.*;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.graphics.*;
 	import flash.display.BitmapData;
 	import org.aswing3d.Insets;
 	import starling.display.DisplayObject;
