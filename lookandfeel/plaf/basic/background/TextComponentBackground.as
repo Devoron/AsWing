@@ -18,7 +18,7 @@ package devoron.aswing3d.plaf.basic.background
 	import org.aswing.StyleTune;
 	import org.aswing.geom.IntRectangle;
 	import org.aswing.graphics.*;
-	import org.aswing.plaf.UIResource;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	
 	/**
 	 * @private

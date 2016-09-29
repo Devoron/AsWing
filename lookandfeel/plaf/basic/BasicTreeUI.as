@@ -12,6 +12,7 @@ import org.aswing.FocusManager;
 import org.aswing.Insets;
 import org.aswing.lookandfeel.plaf.BaseComponentUI;
 import org.aswing.lookandfeel.plaf.TreeUI;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 import devoron.aswing3d.*;
 import org.aswing.event.*;

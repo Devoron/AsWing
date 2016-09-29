@@ -5,11 +5,16 @@
 package org.aswing.components.windows
 {
 	import flash.events.Event;
+	import flash.events.MouseEvent;
+	import org.aswing.AsWingManager;
 	import org.aswing.components.windows.JRootPane;
+	import org.aswing.event.MovedEvent;
+	import org.aswing.geom.IntPoint;
 	import org.aswing.util.ArrayList;
 	import flash.geom.Rectangle;
 	import starling.display.DisplayObjectContainer;
 	import starling.display.Sprite;
+	import starling.display.Stage;
 	
 	/**
 	 * Dispatched when the popup opened.
@@ -376,7 +381,7 @@ package org.aswing.components.windows
 		
 		private var lastDragPos:IntPoint;
 		
-		override public function startDrag(lockCenter:Boolean = false, bounds:Rectangle = null):void
+		public function startDrag(lockCenter:Boolean = false, bounds:Rectangle = null):void
 		{
 			if (stage)
 			{
@@ -387,7 +392,7 @@ package org.aswing.components.windows
 			}
 		}
 		
-		override public function stopDrag():void
+		public function stopDrag():void
 		{
 			super.stopDrag();
 			if (stage)

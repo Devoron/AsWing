@@ -2,8 +2,9 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.lookandfeel.plaf
+package org.aswing.plaf
 {
+import org.aswing.lookandfeel.plaf.ComponentUI;
 import org.aswing.border.Border;
 import org.aswing.components.Component;
 import org.aswing.decorators.GroundDecorator;
@@ -11,7 +12,7 @@ import org.aswing.decorators.Icon;
 import org.aswing.geom.IntDimension;
 import org.aswing.geom.IntRectangle;
 import org.aswing.graphics.Graphics2D;
-import org.aswing.values.ASColor;
+impororg.aswing.lookandfeel.plaf.ComponentUI;
 import org.aswing.values.ASFont;
 import org.aswing.values.Insets;
 import flash.display.InteractiveObject;

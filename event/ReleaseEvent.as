@@ -4,9 +4,10 @@
 
 package org.aswing.event
 {
+	import starling.events.Event;
+	import org.aswing.event.MouseEvent;
 	import starling.display.DisplayObject;
-	import flash.events.Event;
-	import flash.events.MouseEvent;
+	import starling.events.Touch;
 	
 	/**
 	 * Event for display object release and release outside.
@@ -102,7 +103,7 @@ package org.aswing.event
 			return releasedOutSide;
 		}
 		
-		override public function clone():Event
+		override public function clone():Touch
 		{
 			return new ReleaseEvent(type, getPressTarget(), isReleasedOutSide(), this);
 		}

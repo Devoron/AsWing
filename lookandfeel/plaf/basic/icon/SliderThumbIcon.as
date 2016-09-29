@@ -7,6 +7,7 @@ package org.aswing.plaf.basic.icon{
 //import flash.display.SimpleButton;
 import org.aswing.JButton;
 import flash.geom.Matrix;
+import org.aswing.lookandfeel.plaf.UIResource;
 import starling.display.DisplayObject;
 import starling.display.Graphics;
 import starling.display.Shape;

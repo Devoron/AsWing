@@ -202,7 +202,7 @@ package org.aswing.layouts
 		 * @see Container
 		 * @see #doLayout()
 		 */
-		public function preferredLayoutSize(target:Container):IntDimension
+		override public function preferredLayoutSize(target:Container):IntDimension
 		{
 			var dim:IntDimension = new IntDimension(0, 0);
 			var nmembers:int = target.getComponentCount();
@@ -244,7 +244,7 @@ package org.aswing.layouts
 		 * @see Container
 		 * @see Container#doLayout()
 		 */
-		public function minimumLayoutSize(target:Container):IntDimension
+		override public function minimumLayoutSize(target:Container):IntDimension
 		{
 			return target.getInsets().getOutsideSize();
 		}
@@ -294,7 +294,7 @@ package org.aswing.layouts
 		 * @see Container
 		 * @see Container#doLayout
 		 */
-		public function layoutContainer(target:Container):void
+		override public function layoutContainer(target:Container):void
 		{
 			var insets:Insets = target.getInsets();
 			var td:IntDimension = target.getSize();

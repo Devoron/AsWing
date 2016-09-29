@@ -343,7 +343,7 @@ package org.aswing.layouts
 		 * @see     Container
 		 * @see     Container#doLayout()
 		 */
-		public function layoutContainer(target:Container):void
+		override public function layoutContainer(target:Container):void
 		{
 			var td:IntDimension = target.getSize();
 			var insets:Insets = target.getInsets();

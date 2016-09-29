@@ -130,7 +130,7 @@ import org.aswing.geom.IntRectangle;
 import org.aswing.Component;
 import flash.display.DisplayObject;
 import org.aswing.AbstractButton;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 /**
  * This background adapter will invisible the original background, and visible it 

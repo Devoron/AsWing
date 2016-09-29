@@ -20,7 +20,7 @@ package devoron.aswing3d.plaf.basic.border
 	import org.aswing.graphics.GradientBrush;
 	import org.aswing.graphics.Graphics2D;
 	import org.aswing.graphics.SolidBrush;
-	import org.aswing.plaf.UIResource;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	
 	public class ComboBoxPopupBorder implements Border, UIResource
 	{

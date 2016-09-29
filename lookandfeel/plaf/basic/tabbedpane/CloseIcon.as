@@ -1,7 +1,7 @@
 package devoron.aswing3d.plaf.basic.tabbedpane{
 
 import org.aswing.graphics.Graphics2D;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.Component;
 import org.aswing.Icon;
 import org.aswing.ASColor;

@@ -6,7 +6,7 @@ package devoron.aswing3d.plaf.basic.border
 {
 import devoron.aswing3d.*;
 import org.aswing.border.*;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.Insets;
 
 /**

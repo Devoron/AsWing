@@ -4,12 +4,12 @@
 
 package org.aswing.components
 {
+	import org.aswing.plaf.ComponentUI;
 	import flash.geom.Rectangle;
 	import org.aswing.AsWingUtils;
 	import org.aswing.components.windows.JRootPane;
 	import org.aswing.dnd.SourceData;
 	import org.aswing.keyboard.KeyboardManager;
-	import org.aswing.lookandfeel.plaf.ComponentUI;
 	import flash.events.KeyboardEvent;
 	import flash.events.MouseEvent;
 	import org.aswing.components.Container;

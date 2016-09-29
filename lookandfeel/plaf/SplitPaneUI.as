@@ -1,4 +1,4 @@
-package org.aswing.lookandfeel.plaf
+package devoron.aswing3d.plaf
 {
 import devoron.aswing3d.*;
 

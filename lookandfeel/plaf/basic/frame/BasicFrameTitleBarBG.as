@@ -13,7 +13,7 @@ import org.aswing.graphics.GradientBrush;
 import org.aswing.graphics.Graphics2D;
 import org.aswing.graphics.Pen;
 import org.aswing.plaf.FrameUI;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 public class BasicFrameTitleBarBG implements GroundDecorator, UIResource{
 		

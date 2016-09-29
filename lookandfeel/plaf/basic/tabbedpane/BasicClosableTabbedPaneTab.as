@@ -11,7 +11,7 @@ import org.aswing.geom.IntRectangle;
 import org.aswing.graphics.Graphics2D;
 import org.aswing.graphics.SolidBrush;
 import org.aswing.layouts.CenterLayout;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.plaf.basic.BasicGraphicsUtils;
 import org.aswing.AbstractButton;
 import org.aswing.ASFont;

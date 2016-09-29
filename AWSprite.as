@@ -4,11 +4,12 @@
 
 package org.aswing
 {
+	import flash.geom.Point;
 	import starling.display.DisplayObject;
 	import starling.display.Shape;
 	import starling.display.Sprite;
+	import starling.events.Event;
 	
-	import flash.events.*;
 	import org.aswing.event.*;
 	import org.aswing.geom.*;
 	
@@ -56,7 +57,7 @@ package org.aswing
 		public function AWSprite(clipMasked:Boolean = false)
 		{
 			super();
-			focusRect = false;
+			//focusRect = false;
 			usingBitmap = false;
 			clipMaskRect = new IntRectangle();
 			setClipMasked(clipMasked);
@@ -85,9 +86,9 @@ package org.aswing
 			}
 		}
 		
-		protected function d_removeChild(child:DisplayObject):DisplayObject
+		protected function d_removeChild(child:DisplayObject, dispose:Boolean = false):DisplayObject
 		{
-			return super.removeChild(child);
+			return super.removeChild(child, dispose);
 		}
 		
 		/**
@@ -105,32 +106,32 @@ package org.aswing
 			}
 		}
 		
-		override public function removeChild(child:DisplayObject):DisplayObject
+		override public function removeChild(child:DisplayObject, dispose:Boolean = false):DisplayObject
 		{
 			if (usingBitmap)
 			{
-				return content.removeChild(child);
+				return content.removeChild(child, dispose);
 			}
 			else
 			{
-				return d_removeChild(child);
+				return d_removeChild(child, dispose);
 			}
 		}
 		
-		protected function d_removeChildAt(index:int):DisplayObject
+		protected function d_removeChildAt(index:int, dispose:Boolean = false):DisplayObject
 		{
-			return super.removeChildAt(index);
+			return super.removeChildAt(index, dispose);
 		}
 		
-		override public function removeChildAt(index:int):DisplayObject
+		override public function removeChildAt(index:int, dispose:Boolean = false):DisplayObject
 		{
 			if (usingBitmap)
 			{
-				return content.removeChildAt(index);
+				return content.removeChildAt(index, dispose);
 			}
 			else
 			{
-				return d_removeChildAt(index);
+				return d_removeChildAt(index, dispose);
 			}
 		}
 		
@@ -339,12 +340,14 @@ package org.aswing
 		{
 			if (isClipMasked() && !shapeFlag)
 			{
-				return maskShape.hitTestPoint(x, y, shapeFlag);
+				//return maskShape.hitTestPoint(x, y, shapeFlag);
+				return maskShape.hitTest(new Point(x, y));
 			}
 			else
 			{
 				//TODO use bounds to test the x, y
-				return super.hitTestPoint(x, y, shapeFlag);
+				//return super.hitTestPoint(x, y, shapeFlag);
+				return maskShape.hitTest(new Point(x, y));
 			}
 		}
 		
@@ -352,12 +355,17 @@ package org.aswing
 		{
 			if (isClipMasked())
 			{
-				return maskShape.hitTestObject(obj);
+				//return maskShape.hitTestObject(obj);
+				//return maskShape.hitTest(new Point(x, y));
+				return null;
 			}
 			else
 			{
-				//TODO use bounds to test the obj
-				return super.hitTestObject(obj);
+				return null;
+					//TODO use bounds to test the obj
+					//return super.hitTestObject(obj);
+					//return super.hitTest(
+					//return maskShape.hitTest(new Point(x, y));
 			}
 		}
 		
@@ -479,7 +487,7 @@ package org.aswing
 			if (m != clipMasked)
 			{
 				clipMasked = m;
-				setUsingBitmap(cacheAsBitmap && clipMasked);
+				//setUsingBitmap(cacheAsBitmap && clipMasked);
 				if (clipMasked)
 				{
 					checkCreateMaskShape();
@@ -532,8 +540,8 @@ package org.aswing
 				if (!content)
 				{
 					content = new Sprite();
-					content.tabEnabled = false;
-					content.mouseEnabled = false;
+						//**** content.tabEnabled = false;
+						//**** content.mouseEnabled = false;
 				}
 				//move children from this to content
 				children = new Array();
@@ -607,13 +615,15 @@ package org.aswing
 		
 		public function set filters(value:Array):void
 		{
-			super.filters = value;
-			setUsingBitmap(super.cacheAsBitmap && clipMasked);
+			//super.filters = value;
+			super.filter = value[0];
+			//*** setUsingBitmap(super.cacheAsBitmap && clipMasked);
 		}
 		
 		public function set cacheAsBitmap(value:Boolean):void
 		{
-			super.cacheAsBitmap = value;
+			//*** super.cacheAsBitmap = value;
+			trace(value);
 			setUsingBitmap(value && clipMasked);
 		}
 		
@@ -648,7 +658,7 @@ package org.aswing
 			pressedTarget = e.target as DisplayObject;
 			if (stage)
 			{
-				stage.addEventListener(MouseEvent.MOUSE_UP, __awStageMouseUpListener, false, 0, true);
+				stage.addEventListener(MouseEvent.MOUSE_UP, __awStageMouseUpListener /*, false, 0, true*/);
 				addEventListener(Event.REMOVED_FROM_STAGE, __awStageRemovedFrom);
 			}
 		}

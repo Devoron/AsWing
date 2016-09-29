@@ -6,7 +6,7 @@ package devoron.aswing3d.plaf.basic.border{
 	
 import org.aswing.ASColor;
 import org.aswing.border.LineBorder;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.Component;
 import org.aswing.graphics.Graphics2D;
 import org.aswing.geom.IntRectangle;

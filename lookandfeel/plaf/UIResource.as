@@ -1,4 +1,4 @@
-package org.aswing.lookandfeel.plaf
+package org.aswing.plaf
 {
 	
 /**

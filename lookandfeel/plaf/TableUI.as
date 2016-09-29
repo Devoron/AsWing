@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.lookandfeel.plaf{
+package devoron.aswing3d.plaf{
 
 import org.aswing.JTable;
 import org.aswing.geom.IntDimension;

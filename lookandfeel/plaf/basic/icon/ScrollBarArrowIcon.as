@@ -12,7 +12,7 @@ import org.aswing.Icon;
 import devoron.aswing3d.*;
 import org.aswing.geom.*;
 import org.aswing.graphics.*;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.plaf.basic.BasicGraphicsUtils;
 
 /**

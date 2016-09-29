@@ -2,11 +2,11 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing.lookandfeel.plaf
+package org.aswing.plaf
 {
+	import org.aswing.lookandfeel.plaf.BaseComponentUI;
 	import org.aswing.components.Component;
-	import org.aswing.lookandfeel.plaf.ComponentUI;
-	import org.aswing.decorators.GroundDecorator;
+	import org.asorg.aswing.lookandfeel.plaf.BaseComponentUI org.aswing.decorators.GroundDecorator;
 	import org.aswing.decorators.Icon;
 	import org.aswing.values.ASColor;
 	import org.aswing.values.ASFont;

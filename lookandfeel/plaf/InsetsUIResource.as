@@ -2,7 +2,7 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing.lookandfeel.plaf
+package org.aswing.plaf
 {
 	import org.aswing.values.Insets;
 	
