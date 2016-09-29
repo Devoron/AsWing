@@ -2,14 +2,14 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing
+package org.aswing.components.buttons
 {
-	
+	import org.aswing.models.ButtonModel;
+	import org.aswing.util.ArrayUtils;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
 	import flash.events.IEventDispatcher;
 	import org.aswing.event.AWEvent;
-	import org.aswing.util.ArrayUtils;
 	
 	/**
 	 * This class is used to create a multiple-exclusion scope for a set of buttons.

@@ -5,8 +5,16 @@
 package org.aswing.lookandfeel
 {
 
+import org.aswing.border.Border;
+import org.aswing.components.Component;
+import org.aswing.decorators.GroundDecorator;
+import org.aswing.decorators.Icon;
 import org.aswing.lookandfeel.plaf.ComponentUI;
 import org.aswing.plaf.basic.BasicLookAndFeel;
+import org.aswing.values.ASColor;
+import org.aswing.values.ASFont;
+import org.aswing.values.Insets;
+import org.aswing.values.StyleTune;
 	
 /**
  * This class keeps track of the current look and feel and its defaults.

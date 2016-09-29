@@ -2,11 +2,17 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing
+package org.aswing.components.buttons
 {
 
 //import devoron.gameeditor.core.Settings;
 import flash.display.SimpleButton;
+import org.aswing.AsWingConstants;
+import org.aswing.components.windows.JRootPane;
+import org.aswing.decorators.Icon;
+import org.aswing.lookandfeel.UIManager;
+import org.aswing.models.DefaultButtonModel;
+import org.aswing.values.Insets;
 
 import org.aswing.plaf.basic.BasicButtonUI;
 

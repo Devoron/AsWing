@@ -5,6 +5,8 @@
 package org.aswing.ext
 {
 	import org.aswing.components.containers.JPanel;
+	import org.aswing.components.labels.JLabel;
+	import org.aswing.components.spacers.JSpacer;
 	import org.aswing.ext.FormRow;
 	import org.aswing.components.Component;
 	import org.aswing.components.Container;

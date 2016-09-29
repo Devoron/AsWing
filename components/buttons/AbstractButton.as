@@ -6,6 +6,14 @@ package org.aswing.components.buttons
 {
 	import org.aswing.AsWingConstants;
 	import org.aswing.components.Component;
+	import org.aswing.decorators.Icon;
+	import org.aswing.event.AWEvent;
+	import org.aswing.event.InteractiveEvent;
+	import org.aswing.lookandfeel.plaf.ArrayUIResource;
+	import org.aswing.lookandfeel.plaf.InsetsUIResource;
+	import org.aswing.lookandfeel.plaf.UIResource;
+	import org.aswing.models.ButtonModel;
+	import org.aswing.values.Insets;
 	import starling.display.DisplayObject;
 	import flash.display.SimpleButton;
 	import flash.events.Event;

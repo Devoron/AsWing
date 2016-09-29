@@ -1,18 +1,25 @@
 package org.aswing.components.windows
 {
+	import org.aswing.AsWingConstants;
+	import org.aswing.components.buttons.JButton;
+	import org.aswing.components.Component;
+	import org.aswing.components.labels.JLabel;
+	import org.aswing.components.windows.FrameTitleBar;
+	import org.aswing.components.buttons.AbstractButton;
+	import org.aswing.components.Container;
 	import flash.events.Event;
-	import org.aswing.AbstractButton;
-	import org.aswing.Container;
-	import org.aswing.FrameTitleBar;
+	import org.aswing.decorators.Icon;
 	import org.aswing.layouts.BorderLayout;
 	import org.aswing.layouts.FrameTitleBarLayout;
 	import org.aswing.layouts.SoftBoxLayout;
+	import org.aswing.lookandfeel.plaf.UIResource;
+	import org.aswing.lookandfeel.UIManager;
+	import org.aswing.values.Insets;
 	
 	import org.aswing.border.EmptyBorder;
 	import org.aswing.event.FrameEvent;
 	import org.aswing.event.InteractiveEvent;
 	import org.aswing.event.WindowEvent;
-	import org.aswing.plaf.UIResource;
 	import org.aswing.plaf.basic.BasicFrameTitleBarUI;
 	
 	/**

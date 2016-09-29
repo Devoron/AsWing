@@ -4,15 +4,16 @@
 
 package org.aswing.components.windows
 {
+	import org.aswing.components.buttons.JButton;
 	import org.aswing.components.Container;
-	
+	import org.aswing.keyboard.KeyboardManager;
 	import flash.display.InteractiveObject;
 	import flash.events.KeyboardEvent;
 	import flash.events.TextEvent;
 	import flash.text.TextField;
 	import flash.ui.Keyboard;
 	import org.aswing.components.buttons.AbstractButton;
-	import org.aswing.JButton;
+	import org.aswing.keyboard.KeyMap;
 	import org.aswing.layouts.BorderLayout;
 	import starling.events.Event;
 	

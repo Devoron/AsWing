@@ -4,6 +4,7 @@
 
 package org.aswing.components
 {
+	import org.aswing.focus.FocusTraversalPolicy;
 	import org.aswing.layouts.EmptyLayout;
 	import org.aswing.layouts.LayoutManager;
 	import starling.display.DisplayObject;

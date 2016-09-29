@@ -1,9 +1,9 @@
-package devoron.aswing3d.resizer
+package org.aswing.resizer
 {
-	import org.aswing.Component;
+	import org.aswing.components.Component;
 	import org.aswing.resizer.Resizer;
 	/**
-	 * ...
+	 * EmptyResizer
 	 * @author DEVORON
 	 */
 	public class EmptyResizer implements Resizer

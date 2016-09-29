@@ -2,8 +2,11 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing{
+package org.aswing.components.labels{
 
+import org.aswing.AsWingConstants;
+import org.aswing.components.Component;
+import org.aswing.decorators.Icon;
 import org.aswing.plaf.basic.BasicLabelUI;
 import flash.display.DisplayObject;
 	

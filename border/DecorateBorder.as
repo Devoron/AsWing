@@ -4,14 +4,14 @@
 
 package org.aswing.border
 {
+	import org.aswing.border.Border;
+	import org.aswing.components.Component;
+	import org.aswing.values.Insets;
+	import org.aswing.graphics.Graphics2D;
+	import org.aswing.geom.IntRectangle;
+	import org.aswing.error.ImpMissError;
 	import starling.display.Sprite;
 	import starling.display.DisplayObject;
-	import org.aswing.graphics.Graphics2D;
-	import org.aswing.Border;
-	import org.aswing.geom.IntRectangle;
-	import org.aswing.Component;
-	import org.aswing.Insets;
-	import org.aswing.error.ImpMissError;
 	
 	/**
 	 * DecorateBorder make your border can represented as many border arounded.

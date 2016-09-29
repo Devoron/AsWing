@@ -1,4 +1,4 @@
-package devoron.aswing3d.util{
+package org.aswing.util{
 
 import flash.utils.Dictionary;
 

@@ -8,10 +8,12 @@ package org.aswing.components.windows
 	import flash.events.MouseEvent;
 	import org.aswing.AsWingManager;
 	import org.aswing.components.Component;
+	import org.aswing.components.Container;
 	import org.aswing.Container;
 	import org.aswing.geom.IntDimension;
 	import org.aswing.geom.IntPoint;
 	import org.aswing.layouts.BorderLayout;
+	import org.aswing.layouts.LayoutManager;
 	import org.aswing.layouts.WindowLayout;
 	import starling.display.DisplayObjectContainer;
 	import starling.display.Stage;

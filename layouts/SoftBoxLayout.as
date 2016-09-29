@@ -3,13 +3,13 @@
  */
 package org.aswing.layouts
 {
-	import org.aswing.layout.EmptyLayout;
+	import org.aswing.components.Component;
+	import org.aswing.components.Container;
+	import org.aswing.layouts.EmptyLayout;
+	import org.aswing.values.Insets;
 	import org.aswing.AsWingConstants;
-	import org.aswing.Component;
-	import org.aswing.Container;
 	import org.aswing.geom.IntDimension;
 	import org.aswing.geom.IntRectangle;
-	import org.aswing.Insets;
 	
 	/**
 	 * The SoftBoxLayout will layout the child components using their preferredWidth or preferredHeight instead of width or height.

@@ -2,11 +2,11 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.plaf.basic
+package org.aswing.lookandfeel.plaf.basic
 {
-	import org.aswing.ASFont;
-	import org.aswing.Insets;
-	import org.aswing.JButton;
+	import org.aswing.components.buttons.JButton;
+	import org.aswing.values.Insets;
+	import org.aswing.values.ASFont;
 	import org.aswing.lookandfeel.plaf.BaseComponentUI;
 	import starling.display.DisplayObject;
 	import flash.display.InteractiveObject;
@@ -402,11 +402,13 @@ package devoron.aswing3d.plaf.basic
 			
 			//m.ro
 			rotateAngle += angle;
-			if (rotateAngle > 360){
+			if (rotateAngle > 360)
+			{
 				rotateAngle = rotateAngle - 360;
 			}
-			else if (rotateAngle < 0){
-				rotateAngle = 360 +rotateAngle;
+			else if (rotateAngle < 0)
+			{
+				rotateAngle = 360 + rotateAngle;
 			}
 			
 			trace("3:angle " + rotateAngle);
@@ -666,7 +668,7 @@ package devoron.aswing3d.plaf.basic
 			inputText.setLocationXY(insets.left + _internalRadius, td.height * .5 - td.height * .25 * .5 - _internalRadius * .5);
 			//inputText.setSizeWH(td.width - insets.left - insets.right - buttonSize.width, td.height * .25);
 			inputText.setSizeWH((_radius) * 2 - _internalRadius * 2 - insets.left - insets.right, td.height * .25 + 2);
-		
+			
 			//
 			var font:ASFont = inputText.getFont();
 			font = font.changeSize(20);

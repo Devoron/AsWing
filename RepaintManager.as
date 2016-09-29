@@ -139,8 +139,8 @@ package org.aswing
 			}
 			else
 			{
-				st.addEventListener(Event.RENDER, __render, false, 0, true);
-				st.invalidate();
+				st.addEventListener(Event.RENDER, __render/*, false, 0, true*/);
+				//st.invalidate();
 			}
 		}
 		

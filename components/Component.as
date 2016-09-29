@@ -4,7 +4,8 @@
 
 package org.aswing.components
 {
-	import org.aswing.plaf.ComponentUI;
+	import org.aswing.focus.FocusManager;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
 	import flash.geom.Rectangle;
 	import org.aswing.AsWingUtils;
 	import org.aswing.components.windows.JRootPane;

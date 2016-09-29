@@ -1,4 +1,4 @@
-package org.aswing.plaf{
+package org.aswing.lookandfeel.plaf{
 	import org.aswing.lookandfeel.plaf.ArrayUIResource;
 
 public dynamic class ArrayUIResource extends Array implements UIResource{

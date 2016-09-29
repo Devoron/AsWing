@@ -2,12 +2,14 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing.plaf
+package org.aswing.lookandfeel.plaf
 {
+	import org.aswing.values.Insets;
 	import org.aswing.border.Border;
 	import org.aswing.components.Component;
 	import org.aswing.geom.IntRectangle;
 	import org.aswing.graphics.Graphics2D;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	import org.aswing.plaf.UIStyleTune;
 	import org.aswing.lookandfeel.plaf.ASFontUIResource;
 	import org.aswing.lookandfeel.plaf.ASColorUIResource;
@@ -16,7 +18,7 @@ package org.aswing.plaf
 	import org.aswing.StyleTune;
 	import org.aswing.values.ASColor;
 	import org.aswing.values.ASFont;
-	import org.aswing.Insets;
+	import org.aswing.values.StyleTune;
 	import starling.display.DisplayObject;
 	
 	/**

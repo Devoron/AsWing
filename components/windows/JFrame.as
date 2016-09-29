@@ -7,13 +7,17 @@ package org.aswing.components.windows
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
+	import org.aswing.components.windows.JWindow;
+	import org.aswing.decorators.Icon;
+	import org.aswing.event.FrameEvent;
+	import org.aswing.event.PropertyChangeEvent;
 	import org.aswing.FrameTitleBar;
 	import org.aswing.geom.IntRectangle;
-	import org.aswing.JWindow;
+	import org.aswing.keyboard.KeyType;
 	import org.aswing.layouts.WindowLayout;
+	import org.aswing.lookandfeel.plaf.FrameUI;
 	import org.aswing.resizer.Resizer;
 	import org.aswing.resizer.ResizerController;
-	
 	
 	/**
 	 * Dispatched when the frame's state changed. the state is all about:
@@ -155,7 +159,7 @@ package org.aswing.components.windows
 			closable = true;
 			icon = DefaultEmptyDecoraterResource.INSTANCE;
 			lastNormalStateBounds = new IntRectangle(0, 0, 200, 100);
-			setName(title=="" ? "JFrame" : title);
+			setName(title == "" ? "JFrame" : title);
 			addEventListener(Event.ADDED_TO_STAGE, __frameAddedToStage);
 			addEventListener(Event.REMOVED_FROM_STAGE, __frameRemovedFromStage);
 			addEventListener(MovedEvent.MOVED, __frameMoved);
@@ -393,7 +397,7 @@ package org.aswing.components.windows
 		
 		/**
 		 * Gets maximized bounds for this frame.<br>
-		 //* If the maximizedBounds was setted by setMaximizedBounds it will return the setted value.
+		   //* If the maximizedBounds was setted by setMaximizedBounds it will return the setted value.
 		 * else if the owner is a JWindow it will return the owner's content pane's bounds, if
 		 * the owner is a movieclip it will return the movie's stage bounds.
 		 */
@@ -761,7 +765,7 @@ package org.aswing.components.windows
 		public function setCloseKeyAction(keyStroke:KeyType):void
 		{
 			if (closeKeyStroke)
-				keyManager.unregisterKeyAction(closeKeyStroke);
+				//keyManager.unregisterKeyAction(closeKeyStroke);
 			closeKeyStroke = keyStroke;
 			if (keyStroke && closable)
 				keyManager.registerKeyAction(keyStroke, closeReleased);

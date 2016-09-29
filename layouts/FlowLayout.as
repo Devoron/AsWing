@@ -8,8 +8,8 @@ package org.aswing.layouts
 	import org.aswing.components.Component;
 	import org.aswing.components.Container;
 	import org.aswing.geom.IntDimension;
-	import org.aswing.Insets;
 	import org.aswing.geom.IntPoint;
+	import org.aswing.values.Insets;
 	
 	/**
 	 * A flow layout arranges components in a left-to-right flow, much

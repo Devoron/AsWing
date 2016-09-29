@@ -4,8 +4,11 @@
 
 package org.aswing
 {
-	
-	import flash.display.*;
+	import flash.display.StageAlign;
+	import flash.display.StageScaleMode;
+	import starling.display.DisplayObjectContainer;
+	import starling.display.Sprite;
+	import starling.display.Stage;
 	import flash.events.Event;
 	import flash.events.TimerEvent;
 	import flash.utils.Timer;
@@ -75,9 +78,10 @@ package org.aswing
 			setRoot(root);
 			if (stage)
 			{
-				stage.align = StageAlign.TOP_LEFT;
-				stage.scaleMode = StageScaleMode.NO_SCALE;
-				stage.stageFocusRect = false;
+				trace("dsfd");
+					//stage.align = StageAlign.TOP_LEFT;
+					//stage.scaleMode = StageScaleMode.NO_SCALE;
+					//stage.stageFocusRect = false;
 			}
 			preventNullFocus = _preventNullFocus;
 			RepaintManager.getInstance().setAlwaysUseTimer(workWithFlex);
