@@ -1,4 +1,4 @@
-package devoron.aswing3d.plaf.basic.splitpane
+package org.aswing.plaf.basic.splitpane
 {
 import devoron.aswing3d.*;
 import org.aswing.geom.*;

@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic.accordion{
+package org.aswing.plaf.basic.accordion{
 
 import devoron.aswing3d.*;
 import org.aswing.geom.IntRectangle;
@@ -24,7 +24,7 @@ public class BasicAccordionHeader implements Tab{
 	protected var owner:Component;
 	protected var placement:int;
 	
-	public function BasicAccordionHeader(){
+	//public function BasicAccordionHeader(){
 	}
 	
 	public function initTab(owner:Component):void{

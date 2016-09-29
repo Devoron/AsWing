@@ -2,7 +2,7 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.border
+package org.aswing.border
 {
 	import starling.display.Sprite;
 	import starling.display.DisplayObject;

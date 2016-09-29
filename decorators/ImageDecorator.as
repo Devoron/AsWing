@@ -1,4 +1,4 @@
-package devoron.aswing3d.decorators
+package org.aswing.decorators
 {
 	import starling.display.Image;
 	import starling.display.Sprite;

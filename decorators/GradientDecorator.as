@@ -1,4 +1,4 @@
-package devoron.aswing3d.decorators
+package org.aswing.decorators
 {
 	import flash.display.Shape;
 	import starling.display.DisplayObject;
@@ -22,7 +22,7 @@ package devoron.aswing3d.decorators
 	 * ColorDecorator
 	 * @author DEVORON
 	 */
-	public class GradientBackgroundDecorator implements GroundDecorator
+	public class GradientDecorator implements GroundDecorator
 	{
 		public var radius:Number;
 		protected var topRightRadius:Number = -1;
@@ -50,7 +50,7 @@ package devoron.aswing3d.decorators
 		public static const LINEAR:String = GradientType.LINEAR;
 		public static const RADIAL:String = GradientType.RADIAL;
 		
-		public function GradientBackgroundDecorator(fillType:String, colors:Array, alphas:Array, ratios:Array, matrix:Matrix, spreadMethod:String = "pad", interpolationMethod:String = "rgb", focalPointRatio:Number = 0, borderColor:ASColor = null, radius:Number = 0)
+		public function GradientDecorator(fillType:String, colors:Array, alphas:Array, ratios:Array, matrix:Matrix, spreadMethod:String = "pad", interpolationMethod:String = "rgb", focalPointRatio:Number = 0, borderColor:ASColor = null, radius:Number = 0)
 		{
 			this.ratios = ratios;
 			this.fillType = fillType;

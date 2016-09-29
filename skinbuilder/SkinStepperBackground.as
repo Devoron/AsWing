@@ -1,4 +1,4 @@
-package devoron.aswing3d.skinbuilder{
+package org.aswing.skinbuilder{
 
 
 /**

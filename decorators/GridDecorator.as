@@ -1,4 +1,4 @@
-package devoron.aswing3d.decorators
+package org.aswing.decorators
 {
 	import starling.display.Shape;
 	import starling.display.DisplayObject;
@@ -18,7 +18,7 @@ package devoron.aswing3d.decorators
 	 * ColorDecorator
 	 * @author DEVORON
 	 */
-	public class GridBackgroundDecorator implements GroundDecorator
+	public class GridDecorator implements GroundDecorator
 	{
 		private var gridColor:ASColor;
 		public var radius:Number;
@@ -39,7 +39,7 @@ package devoron.aswing3d.decorators
 		protected var openingRect:Rectangle;
 		protected var internalBorderColor:ASColor;
 		
-		public function GridBackgroundDecorator(gridColor:ASColor, bgColor:ASColor = null, borderColor:ASColor = null, radius:Number = 0)
+		public function GridDecorator(gridColor:ASColor, bgColor:ASColor = null, borderColor:ASColor = null, radius:Number = 0)
 		{
 			this.gridColor = gridColor;
 			this.radius = radius;

@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic.tabbedpane{
+package org.aswing.plaf.basic.tabbedpane{
 
 import devoron.aswing3d.*;
 import org.aswing.ASFont;

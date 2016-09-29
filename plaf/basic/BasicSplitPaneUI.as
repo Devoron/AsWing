@@ -1,4 +1,4 @@
-package devoron.aswing3d.plaf.basic
+package org.aswing.plaf.basic
 {
 	import org.aswing.Insets;
 	import starling.display.DisplayObject;

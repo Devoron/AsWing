@@ -2,10 +2,11 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.skinbuilder{
+package org.aswing.skinbuilder{
 
-import devoron.aswing3d.*;
-import org.aswing.plaf.*;
+import org.aswing.ComponentUI;
+import org.aswing.JSplitPane;
+import org.aswing.Orientable;
 import org.aswing.plaf.basic.splitpane.Divider;
 import org.aswing.AbstractButton;
 import org.aswing.JButton;
