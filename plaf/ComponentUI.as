@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing
+package org.aswing
 {
 	
 import flash.display.InteractiveObject;
@@ -11,7 +11,6 @@ import org.aswing.GroundDecorator;
 import org.aswing.Icon;
 import org.aswing.Insets;
 
-import devoron.aswing3d.*;
 import org.aswing.geom.*;
 import org.aswing.graphics.*;
  

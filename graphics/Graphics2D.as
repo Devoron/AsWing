@@ -2,11 +2,10 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.graphics
+package org.aswing.graphics
 {
 	import starling.display.Graphics;
 
-//import flash.display.Graphics;
 
 /**
  * Encapsulate and enhance flash.display.graphics drawing API.

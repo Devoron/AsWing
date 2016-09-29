@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.geom
+package org.aswing.geom
 {
 
 import org.aswing.geom.IntPoint;

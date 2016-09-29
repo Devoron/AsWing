@@ -1,4 +1,4 @@
-﻿package devoron.aswing3d.layout
+﻿package org.aswing.layout
 {
 	import org.aswing.Container;
 	import org.aswing.geom.IntDimension;

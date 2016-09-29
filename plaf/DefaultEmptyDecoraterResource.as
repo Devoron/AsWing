@@ -2,14 +2,13 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.plaf
+package org.aswing.plaf
 {
 	import org.aswing.ASFont;
 	import org.aswing.GroundDecorator;
 	import org.aswing.Icon;
 	import org.aswing.Insets;
 	import starling.display.DisplayObject;
-	import devoron.aswing3d.*;
 	import org.aswing.geom.*;
 	import org.aswing.graphics.*;
 	

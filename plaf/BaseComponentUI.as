@@ -2,16 +2,16 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf
+package org.aswing.plaf
 {
 	
 import flash.display.InteractiveObject;
 import org.aswing.ASFont;
+import org.aswing.ComponentUI;
 import org.aswing.GroundDecorator;
 import org.aswing.Icon;
 import org.aswing.Insets;
 
-import devoron.aswing3d.*;
 import org.aswing.error.ImpMissError;
 import org.aswing.geom.IntDimension;
 import org.aswing.geom.IntRectangle;

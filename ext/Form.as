@@ -2,9 +2,10 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.ext
+package org.aswing.ext
 {
-	import away3d.library.assets.AssetType;
+	import org.aswing.FlowLayout;
+	import org.aswing.CenterLayout;
 	import org.aswing.layout.BorderLayout;
 	import org.aswing.layout.CenterLayout;
 	import org.aswing.Component;

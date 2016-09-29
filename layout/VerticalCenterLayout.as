@@ -1,7 +1,7 @@
 /*
  Copyright aswing.org, see the LICENCE.txt.
 */
-package devoron.aswing3d.layout
+package org.aswing.layout
 {
 import org.aswing.Component;
 import org.aswing.Container;

@@ -4,6 +4,7 @@
 
 package org.aswing{
 
+import devoron.aswing3d.plaf.basic.BasicPanelUI;
 import org.aswing.layout.FlowLayout;
 import org.aswing.plaf.basic.BasicPanelUI;
 	

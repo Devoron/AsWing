@@ -4,7 +4,6 @@
 
 package org.aswing
 {
-	
 	import flash.text.TextField;
 	import flash.text.TextFormat;
 	import flash.text.TextFormatAlign;
