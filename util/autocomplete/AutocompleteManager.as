@@ -1,9 +1,10 @@
-﻿package devoron.aswing3d.util.autocomplete {
+﻿package org.aswing.util.autocomplete
+{
+	import org.aswing.components.textcomponents.JTextField;
 	import org.aswing.util.TextUtils;
 	import flash.events.Event;
 	import flash.events.KeyboardEvent;
 	import flash.ui.Keyboard;
-	import org.aswing.JTextField;
 	
 	/**
 	 * ...
@@ -21,7 +22,7 @@
 		public var suggestionActive:Boolean = false;
 		public var ready:Boolean = false;
 		
-		public function AutocompleteManager(targetTextField:JTextField=null)
+		public function AutocompleteManager(targetTextField:JTextField = null)
 		{
 			this.targetTextField = targetTextField;
 		}

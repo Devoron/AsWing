@@ -1,5 +1,6 @@
-package devoron.aswing3d.decorators
+package org.aswing.decorators
 {
+	import org.aswing.graphics.Pen;
 	import starling.display.DisplayObject;
 	import starling.display.Image;
 	import starling.display.Shape;

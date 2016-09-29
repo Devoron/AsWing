@@ -2,7 +2,7 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.graphics
+package org.aswing.graphics
 {
 	import starling.display.Graphics;
 	import org.aswing.graphics.IBrush;

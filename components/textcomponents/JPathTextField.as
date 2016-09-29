@@ -1,4 +1,4 @@
-package org.aswing
+package org.aswing.components.textcomponents
 {
 	//import devoron.utils.FilesObserver;
 	import flash.events.Event;
@@ -6,6 +6,7 @@ package org.aswing
 	import flash.net.SharedObject;
 	import flash.system.System;
 	import org.aswing.event.AWEvent;
+	import org.aswing.JTextField;
 	
 	//import org.aswing.ext.DataContainerForm;
 	

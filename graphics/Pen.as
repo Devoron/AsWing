@@ -2,10 +2,11 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.graphics
+package org.aswing.graphics
 {
+	import org.aswing.graphics.IPen;
+	import org.aswing.values.ASColor;
 	import starling.display.Graphics;
-	import org.aswing.ASColor;
 	
 	/**
 	 * Pen encapsulate normal lineStyle properties. <br>
