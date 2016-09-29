@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic{
+package org.aswing.plaf.basic{
 	
 import devoron.aswing3d.*;
 import org.aswing.graphics.Graphics2D;

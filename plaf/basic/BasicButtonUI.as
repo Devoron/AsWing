@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic
+package org.aswing.plaf.basic
 {
 	
 import flash.text.*;
@@ -13,7 +13,6 @@ import org.aswing.FocusManager;
 import org.aswing.Icon;
 import org.aswing.Insets;
 
-import devoron.aswing3d.*;
 import org.aswing.event.AWEvent;
 import org.aswing.event.FocusKeyEvent;
 import org.aswing.geom.IntDimension;
