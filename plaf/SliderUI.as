@@ -2,8 +2,9 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf{
+package org.aswing.plaf{
 
+import org.aswing.ComponentUI;
 import org.aswing.Insets;
 
 /**

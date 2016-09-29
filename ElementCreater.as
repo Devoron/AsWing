@@ -4,7 +4,7 @@ package org.aswing
 	/*
 	   Copyright aswing.org, see the LICENCE.txt.
 	 */
-	
+	import devoron.aswing3d.util.MathUtils;
 	import flash.display.MovieClip;
 	import flash.text.TextField;
 	import org.aswing.util.DepthManager;

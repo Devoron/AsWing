@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.skinbuilder{
+package org.aswing.skinbuilder{
 
 public class SkinTreeFolderExpandedIcon extends SinglePicIcon{
 	

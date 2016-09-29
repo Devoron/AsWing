@@ -2,14 +2,15 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.skinbuilder{
+package org.aswing.skinbuilder{
 
-import devoron.aswing3d.*;
+import org.aswing.Component;
+import org.aswing.JPopup;
 import org.aswing.layout.BorderLayout;
-import org.aswing.plaf.*;
 import org.aswing.plaf.basic.BasicAdjusterUI;
 import org.aswing.Insets;
 import org.aswing.JButton;
+import org.aswing.plaf.SliderUI;
 
 public class SkinAdjusterUI extends BasicAdjusterUI{
 	

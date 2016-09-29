@@ -1,18 +1,21 @@
 /*
- Copyright aswing.org, see the LICENCE.txt.
-*/
+   Copyright aswing.org, see the LICENCE.txt.
+ */
 
-package devoron.aswing3d.skinbuilder{
+package org.aswing.skinbuilder
+{
+	import starling.display.DisplayObject;
 	
-import org.aswing.AssetBackground;
-import flash.display.DisplayObject;
-import org.aswing.plaf.UIResource;
-
-public class SkinAssetBackground extends AssetBackground implements UIResource{
+	import org.aswing.AssetBackground;
+	import org.aswing.plaf.UIResource;
 	
-	public function SkinAssetBackground(asset:DisplayObject){
-		super(asset);
+	public class SkinAssetBackground extends AssetBackground implements UIResource
+	{
+		
+		public function SkinAssetBackground(asset:DisplayObject)
+		{
+			super(asset);
+		}
+	
 	}
-	
-}
 }

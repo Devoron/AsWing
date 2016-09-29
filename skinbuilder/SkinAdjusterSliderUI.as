@@ -2,9 +2,8 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.skinbuilder{
+package org.aswing.skinbuilder{
 
-import devoron.aswing3d.*;
 
 public class SkinAdjusterSliderUI extends SkinSliderUI{
 	
