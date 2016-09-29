@@ -6,6 +6,7 @@ package devoron.aswing3d.plaf.basic.background{
 	
 import flash.display.*;
 import org.aswing.GroundDecorator;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 import devoron.aswing3d.*;
 import org.aswing.geom.*;

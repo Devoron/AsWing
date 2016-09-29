@@ -7,7 +7,7 @@ package org.aswing.skinbuilder
 	import starling.display.DisplayObject;
 	
 	import org.aswing.AssetBackground;
-	import org.aswing.plaf.UIResource;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	
 	public class SkinAssetBackground extends AssetBackground implements UIResource
 	{

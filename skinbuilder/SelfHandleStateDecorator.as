@@ -8,6 +8,9 @@ package org.aswing.skinbuilder
 	import org.aswing.event.*;
 	import org.aswing.geom.*;
 	import org.aswing.graphics.Graphics2D;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
+	import org.aswing.lookandfeel.plaf.DefaultsDecoratorBase;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	import org.aswing.plaf.*;
 	import flash.events.Event;
 	import flash.events.MouseEvent;

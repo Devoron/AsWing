@@ -7,6 +7,7 @@ import flash.filters.DropShadowFilter;
 import flash.geom.Matrix;
 import org.aswing.AbstractButton;
 import org.aswing.GroundDecorator;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 import devoron.aswing3d.*;
 import org.aswing.geom.IntRectangle;

@@ -4,6 +4,7 @@
 
 package devoron.aswing3d.plaf.basic{
 
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.plaf.*;
 import devoron.aswing3d.*;
 import org.aswing.event.*;

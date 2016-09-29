@@ -2,12 +2,12 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf { 
+package org.aswing.lookandfeel.plaf { 
 
 import org.aswing.geom.IntDimension;
 import org.aswing.geom.IntRectangle;
 import org.aswing.JTree;
-import org.aswing.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.ComponentUI;
 import org.aswing.tree.TreePath;
 
 /**

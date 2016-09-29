@@ -6,6 +6,8 @@ package org.aswing.lookandfeel
 {
 	
 import org.aswing.error.*;
+import org.aswing.lookandfeel.plaf.DefaultEmptyDecoraterResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.plaf.*;
 	
 /**

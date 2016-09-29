@@ -4,7 +4,7 @@ package org.aswing.paling
 	import org.aswing.components.Component;
 	import org.aswing.ComponentUI;
 	import org.aswing.graphics.Graphics2D;
-	import org.aswing.plaf.UIResource;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	import starling.display.DisplayObject;
 	import starling.display.Sprite;
 	

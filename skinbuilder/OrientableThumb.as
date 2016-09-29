@@ -4,11 +4,13 @@
 
 package org.aswing.skinbuilder
 {
-	import org.aswing.plaf.DefaultsDecoratorBase;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
+	import org.aswing.lookandfeel.plaf.DefaultsDecoratorBase;
 	import flash.display.*;
 	import flash.events.*;
 	import org.aswing.GroundDecorator;
 	import org.aswing.Icon;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	
 	import org.aswing.error.ImpMissError;
 	import org.aswing.event.*;

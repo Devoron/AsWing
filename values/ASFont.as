@@ -10,7 +10,7 @@ package org.aswing.values
 	import flash.text.TextFormatAlign;
 	
 	import org.aswing.geom.IntDimension;
-	import org.aswing.plaf.DefaultEmptyDecoraterResource;
+	import org.aswing.lookandfeel.plaf.DefaultEmptyDecoraterResource;
 	
 	/**
 	 * Font that specified the font name, size, style and whether or not embed.

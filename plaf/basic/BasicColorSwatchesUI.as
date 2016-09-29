@@ -8,6 +8,7 @@ package devoron.aswing3d.plaf.basic
 	import org.aswing.JButton;
 	import org.aswing.JColorTextField;
 	import org.aswing.lookandfeel.plaf.BaseComponentUI;
+	import org.aswing.lookandfeel.plaf.ColorSwatchesUI;
 	import starling.display.MovieClip;
 	import starling.text.TextField;
 	import flash.events.Event;

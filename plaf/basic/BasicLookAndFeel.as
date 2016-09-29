@@ -5,7 +5,7 @@
 package org.aswing.plaf.basic
 {
 	import org.aswing.plaf.basic.adjuster.PopupSliderThumbIcon;
-	import org.aswing.plaf.DefaultEmptyDecoraterResource;
+	import org.aswing.lookandfeel.plaf.DefaultEmptyDecoraterResource;
 	import org.aswing.values.ASFont;
 	import org.aswing.values.Insets;
 	

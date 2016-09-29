@@ -5,7 +5,7 @@
 package org.aswing.skinbuilder{
 	
 import flash.events.MouseEvent;
-import org.aswing.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.ComponentUI;
 import org.aswing.geom.IntRectangle;
 import org.aswing.graphics.Graphics2D;
 import org.aswing.event.ReleaseEvent;

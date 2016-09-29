@@ -6,7 +6,7 @@ package org.aswing.plaf.basic.border
 {
 	import org.aswing.border.Border;
 	import org.aswing.values.Insets;
-	import org.aswing.plaf.UIResource;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	import org.aswing.border.EmptyBorder;
 	
 	public class EmptyBorderResource extends EmptyBorder implements UIResource

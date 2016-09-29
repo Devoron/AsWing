@@ -10,7 +10,7 @@ import org.aswing.layout.BorderLayout;
 import org.aswing.plaf.basic.BasicAdjusterUI;
 import org.aswing.Insets;
 import org.aswing.JButton;
-import org.aswing.plaf.SliderUI;
+import org.aswing.lookandfeel.plaf.SliderUI;
 
 public class SkinAdjusterUI extends BasicAdjusterUI{
 	

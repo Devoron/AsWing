@@ -10,6 +10,7 @@ import flash.display.LineScaleMode;
 import flash.events.*;
 import flash.geom.Point;
 import org.aswing.GroundDecorator;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 import devoron.aswing3d.*;
 import org.aswing.event.*;

@@ -5,6 +5,9 @@
 package org.aswing.skinbuilder
 {
 	import org.aswing.GroundDecorator;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
+	import org.aswing.lookandfeel.plaf.DefaultsDecoratorBase;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	import starling.display.DisplayObject;
 	import devoron.aswing3d.*;
 	import org.aswing.error.ImpMissError;

@@ -2,6 +2,8 @@ package devoron.aswing3d.plaf.basic{
 
 import flash.display.*;
 import org.aswing.lookandfeel.plaf.BaseComponentUI;
+import org.aswing.lookandfeel.plaf.MenuElementUI;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 import devoron.aswing3d.*;
 import org.aswing.geom.*;

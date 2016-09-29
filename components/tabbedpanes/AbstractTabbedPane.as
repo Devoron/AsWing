@@ -5,6 +5,7 @@
 package org.aswing.components.tabbedpanes{
 	
 import flash.events.Event;
+import org.aswing.lookandfeel.plaf.InsetsUIResource;
 
 import org.aswing.event.*;
 import org.aswing.plaf.*;

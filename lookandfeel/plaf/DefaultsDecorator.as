@@ -1,4 +1,4 @@
-package org.aswing.plaf{
+package org.aswing.lookandfeel.plaf{
 	
 /**
  * The decorator that will use defaults properties.

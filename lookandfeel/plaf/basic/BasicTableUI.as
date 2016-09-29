@@ -11,6 +11,8 @@ package devoron.aswing3d.plaf.basic
 	import flash.events.MouseEvent;
 	import flash.ui.Keyboard;
 	import org.aswing.FocusManager;
+	import org.aswing.lookandfeel.plaf.BaseComponentUI;
+	import org.aswing.lookandfeel.plaf.TableUI;
 	
 	import devoron.aswing3d.*;
 	import org.aswing.event.*;

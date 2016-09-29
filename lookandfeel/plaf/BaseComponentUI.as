@@ -5,7 +5,7 @@
 package org.aswing.lookandfeel.plaf
 {
 	import org.aswing.components.Component;
-	import org.aswing.plaf.ComponentUI;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
 	import org.aswing.decorators.GroundDecorator;
 	import org.aswing.decorators.Icon;
 	import org.aswing.values.ASColor;

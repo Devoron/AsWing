@@ -12,8 +12,8 @@ package org.aswing.skinbuilder
 	import org.aswing.geom.IntRectangle;
 	import org.aswing.graphics.BitmapBrush;
 	import org.aswing.graphics.Graphics2D;
-	import org.aswing.plaf.DefaultsDecoratorBase;
-	import org.aswing.plaf.UIResource;
+	import org.aswing.lookandfeel.plaf.DefaultsDecoratorBase;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	
 	public class SkinTreeExpandControl extends DefaultsDecoratorBase implements ExpandControl, UIResource
 	{

@@ -6,7 +6,7 @@ import org.aswing.JLabel;
 import org.aswing.layouts.BorderLayout;
 import org.aswing.UIManager;
 import org.aswing.geom.IntDimension;
-import org.aswing.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.ComponentUI;
 
 public class FrameTitleBarLayout extends BorderLayout{
 	

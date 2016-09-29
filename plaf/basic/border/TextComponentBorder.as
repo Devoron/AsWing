@@ -8,6 +8,8 @@ import org.aswing.graphics.*;
 import org.aswing.geom.IntRectangle;
 import devoron.aswing3d.*;
 import flash.display.DisplayObject;
+import org.aswing.lookandfeel.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.plaf.*;
 import org.aswing.error.ImpMissError;
 import org.aswing.EditableComponent;

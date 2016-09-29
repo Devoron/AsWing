@@ -9,7 +9,7 @@ package org.aswing.components
 	import org.aswing.components.windows.JRootPane;
 	import org.aswing.dnd.SourceData;
 	import org.aswing.keyboard.KeyboardManager;
-	import org.aswing.plaf.ComponentUI;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
 	import flash.events.KeyboardEvent;
 	import flash.events.MouseEvent;
 	import org.aswing.components.Container;
@@ -17,9 +17,9 @@ package org.aswing.components
 	import org.aswing.event.DragAndDropEvent;
 	import org.aswing.event.FocusKeyEvent;
 	import org.aswing.geom.IntPoint;
-	import org.aswing.plaf.DefaultEmptyDecoraterResource;
+	import org.aswing.lookandfeel.plaf.DefaultEmptyDecoraterResource;
 	import org.aswing.util.Reflection;
-	import org.aswing.plaf.InsetsUIResource;
+	import org.aswing.lookandfeel.plaf.InsetsUIResource;
 	import flash.events.FocusEvent;
 	import org.aswing.border.Border;
 	import org.aswing.event.AWEvent;

@@ -8,7 +8,7 @@ package devoron.aswing3d.plaf.basic.background
 	import org.aswing.GroundDecorator;
 	import org.aswing.geom.IntRectangle;
 	import org.aswing.graphics.Graphics2D;
-	import org.aswing.plaf.UIResource;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	import org.aswing.plaf.basic.BasicGraphicsUtils;
 	import starling.display.DisplayObject;
 	

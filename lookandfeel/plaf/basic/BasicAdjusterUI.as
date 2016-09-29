@@ -15,6 +15,7 @@ import org.aswing.Insets;
 import org.aswing.JButton;
 import org.aswing.lookandfeel.plaf.AdjusterUI;
 import org.aswing.lookandfeel.plaf.BaseComponentUI;
+import org.aswing.lookandfeel.plaf.SliderUI;
 
 import org.aswing.*;
 import org.aswing.event.AWEvent;

@@ -1,4 +1,4 @@
-package org.aswing.plaf{
+package org.aswing.lookandfeel.plaf{
 
 import org.aswing.Component;	
 import org.aswing.ComponentUI;

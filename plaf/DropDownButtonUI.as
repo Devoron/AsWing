@@ -1,7 +1,7 @@
 
 package devoron.aswing3d.plaf
 {
-	import org.aswing.plaf.ComponentUI;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
 	import org.aswing.JDropDownButton;
 
 	public interface DropDownButtonUI extends ComponentUI

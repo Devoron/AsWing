@@ -17,6 +17,8 @@ package org.aswing.plaf.basic
 	import org.aswing.Insets;
 	import org.aswing.JFrame;
 	import org.aswing.lookandfeel.plaf.BaseComponentUI;
+	import org.aswing.lookandfeel.plaf.FrameUI;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	
 	import devoron.aswing3d.*;
 	import org.aswing.event.*;

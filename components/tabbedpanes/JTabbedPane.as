@@ -5,6 +5,7 @@
 package org.aswing.components.tabbedpanes
 {
 	
+import org.aswing.lookandfeel.plaf.ComponentUI;
 import org.aswing.plaf.*;
 import org.aswing.plaf.basic.BasicTabbedPaneUI;
 	

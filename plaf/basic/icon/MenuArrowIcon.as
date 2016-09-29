@@ -7,7 +7,7 @@ package devoron.aswing3d.plaf.basic.icon{
 import org.aswing.ASColor;
 import org.aswing.Component;
 import org.aswing.graphics.Graphics2D;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 /**
  * @private

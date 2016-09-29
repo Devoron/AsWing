@@ -14,7 +14,7 @@ import org.aswing.JButton;
 import org.aswing.event.InteractiveEvent;
 import org.aswing.geom.*;
 import org.aswing.graphics.*;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.plaf.basic.*;
 import org.aswing.plaf.basic.tabbedpane.Tab;
 

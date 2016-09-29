@@ -1,6 +1,7 @@
 package org.aswing.plaf.basic.border
 {
 	import org.aswing.Insets;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	import starling.display.DisplayObject;
 	import starling.display.Graphics;
 	import flash.filters.BevelFilter;

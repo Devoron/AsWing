@@ -6,7 +6,7 @@ package devoron.aswing3d.skinbuilder{
 
 import devoron.aswing3d.*;
 import org.aswing.border.EmptyBorder;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.error.ImpMissError;
 import org.aswing.Insets;
 

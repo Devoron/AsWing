@@ -7,6 +7,9 @@ package org.aswing.skinbuilder{
 import flash.display.*;
 import org.aswing.AbstractButton;
 import org.aswing.Icon;
+import org.aswing.lookandfeel.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.DefaultsDecoratorBase;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 import devoron.aswing3d.*;
 import org.aswing.error.ImpMissError;

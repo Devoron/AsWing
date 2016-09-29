@@ -8,7 +8,7 @@ import org.aswing.Container;
 import org.aswing.geom.*;
 import org.aswing.IContextMenu;
 import org.aswing.JTable;
-import org.aswing.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.ComponentUI;
 import org.aswing.UIManager;
 import org.aswing.plaf.basic.BasicTableHeaderUI;
 

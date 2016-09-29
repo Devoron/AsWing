@@ -8,7 +8,7 @@ import org.aswing.graphics.*;
 import devoron.aswing3d.*;
 import org.aswing.geom.IntRectangle;
 import flash.display.DisplayObject;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.Insets;
 import org.aswing.JFrame;
 

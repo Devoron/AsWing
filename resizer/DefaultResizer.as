@@ -16,7 +16,7 @@ package org.aswing.resizer
 	import starling.display.Sprite;
 	
 	import org.aswing.event.AWEvent;
-	import org.aswing.plaf.UIResource;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	import org.aswing.util.DepthManager;
 	
 	/**

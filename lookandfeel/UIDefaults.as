@@ -7,6 +7,8 @@ package org.aswing.lookandfeel
 	
 import org.aswing.geom.*;
 import org.aswing.graphics.*;
+import org.aswing.lookandfeel.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.EmptyUIResources;
 import org.aswing.plaf.*;
 import org.aswing.util.HashMap;
 

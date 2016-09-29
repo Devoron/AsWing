@@ -13,9 +13,9 @@ import devoron.aswing3d.*;
 import org.aswing.geom.IntRectangle;
 import org.aswing.graphics.Graphics2D;
 import org.aswing.graphics.SolidBrush;
-import org.aswing.plaf.ComponentUI;
-import org.aswing.plaf.DefaultsDecoratorBase;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.DefaultsDecoratorBase;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 public class SkinFrameBackground extends DefaultsDecoratorBase implements GroundDecorator, UIResource{
 	

@@ -462,7 +462,7 @@ import org.aswing.JButton;
 import org.aswing.JComboBox;
 import org.aswing.plaf.basic.BasicComboBoxUI;
 import org.aswing.plaf.basic.icon.ArrowIcon;
-import org.aswing.plaf.DefaultsDecoratorBase;
+import org.aswing.lookandfeel.plaf.DefaultsDecoratorBase;
 import org.aswing.plaf.UIResource;
 import org.aswing.skinbuilder.SkinComboBoxUI;
 

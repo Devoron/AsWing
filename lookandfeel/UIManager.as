@@ -5,7 +5,7 @@
 package org.aswing.lookandfeel
 {
 
-import org.aswing.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.ComponentUI;
 import org.aswing.plaf.basic.BasicLookAndFeel;
 	
 /**

@@ -6,7 +6,7 @@ package org.aswing.skinbuilder{
 
 import org.aswing.AssetBackground;
 import flash.display.DisplayObject;
-import org.aswing.plaf.UIResource;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 public class SkinToolTipBackground extends SinglePicBackground{
 	

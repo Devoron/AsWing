@@ -13,6 +13,7 @@ import org.aswing.FocusManager;
 import org.aswing.Icon;
 import org.aswing.Insets;
 import org.aswing.lookandfeel.plaf.BaseComponentUI;
+import org.aswing.lookandfeel.plaf.UIResource;
 
 import org.aswing.event.AWEvent;
 import org.aswing.event.FocusKeyEvent;

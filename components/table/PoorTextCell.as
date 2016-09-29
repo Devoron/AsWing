@@ -6,7 +6,7 @@ package devoron.aswing3d.table{
 
 import devoron.aswing3d.*;
 import org.aswing.geom.*;
-import org.aswing.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.ComponentUI;
 import org.aswing.graphics.*;
 import flash.text.*;
 

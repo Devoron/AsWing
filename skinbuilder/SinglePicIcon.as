@@ -9,8 +9,8 @@ package org.aswing.skinbuilder
 	import org.aswing.Icon;
 	import org.aswing.error.ImpMissError;
 	import org.aswing.graphics.Graphics2D;
-	import org.aswing.plaf.DefaultsDecoratorBase;
-	import org.aswing.plaf.UIResource;
+	import org.aswing.lookandfeel.plaf.DefaultsDecoratorBase;
+	import org.aswing.lookandfeel.plaf.UIResource;
 	
 	public class SinglePicIcon extends DefaultsDecoratorBase implements Icon, UIResource
 	{

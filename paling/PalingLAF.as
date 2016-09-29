@@ -8,7 +8,7 @@ package org.aswing.paling
 	import org.aswing.UIDefaults;
 	import org.aswing.lookandfeel.plaf.ASColorUIResource;
 	import org.aswing.lookandfeel.plaf.ASFontUIResource;
-	import org.aswing.plaf.InsetsUIResource;
+	import org.aswing.lookandfeel.plaf.InsetsUIResource;
 	import org.aswing.plaf.UIStyleTune;
 	import org.aswing.skinbuilder.*;
 	

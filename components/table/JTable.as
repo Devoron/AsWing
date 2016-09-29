@@ -9,6 +9,8 @@ package org.aswing
 	import flash.events.Event;
 	import org.aswing.event.*;
 	import org.aswing.geom.*;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
+	import org.aswing.lookandfeel.plaf.TableUI;
 	import org.aswing.plaf.*;
 	import org.aswing.plaf.basic.BasicTableUI;
 	import org.aswing.table.*;

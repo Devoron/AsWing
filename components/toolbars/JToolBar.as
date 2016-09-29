@@ -5,6 +5,7 @@
 package org.aswing { 
 
 import org.aswing.layouts.SoftBoxLayout;
+import org.aswing.lookandfeel.plaf.InsetsUIResource;
 import org.aswing.plaf.*;
 import org.aswing.plaf.basic.BasicToolBarUI;
 

@@ -6,6 +6,8 @@ package org.aswing
 {
 	import org.aswing.decorators.ColorBackgroundDecorator;
 	import org.aswing.event.*;
+	import org.aswing.lookandfeel.plaf.ComboBoxUI;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
 	import org.aswing.plaf.*;
 	import flash.events.Event;
 	import flash.display.InteractiveObject;

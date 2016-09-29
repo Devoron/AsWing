@@ -6,6 +6,8 @@ package org.aswing
 {
 	
 	import flash.events.Event;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
+	import org.aswing.lookandfeel.plaf.MenuElementUI;
 	import org.aswing.plaf.*;
 	import org.aswing.plaf.basic.BasicMenuItemUI;
 	

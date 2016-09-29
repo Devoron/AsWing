@@ -9,6 +9,7 @@ import devoron.aswing3d.*;
 import org.aswing.border.*;
 import org.aswing.geom.*;
 import org.aswing.graphics.*;
+import org.aswing.lookandfeel.plaf.UIResource;
 import org.aswing.plaf.*;
 
 /**

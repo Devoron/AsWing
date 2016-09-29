@@ -15,7 +15,7 @@ import org.aswing.event.TreeSelectionEvent;
 import org.aswing.geom.IntDimension;
 import org.aswing.geom.IntPoint;
 import org.aswing.geom.IntRectangle;
-import org.aswing.plaf.ComponentUI;
+import org.aswing.lookandfeel.plaf.ComponentUI;
 import org.aswing.plaf.TreeUI;
 import org.aswing.plaf.basic.BasicTreeUI;
 import org.aswing.tree.DefaultMutableTreeNode;
