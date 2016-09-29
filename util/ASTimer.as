@@ -1,7 +1,7 @@
 /*
  Copyright aswing.org, see the LICENCE.txt.
 */
-package devoron.aswing3d.util{
+package org.aswing.util{
 	
 import flash.events.TimerEvent;
 import flash.utils.clearInterval;

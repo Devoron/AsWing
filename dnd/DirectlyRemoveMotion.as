@@ -2,8 +2,9 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.dnd
+package org.aswing.dnd
 {
+	import org.aswing.dnd.DropMotion;
 	import starling.display.Sprite;
 	import org.aswing.Component;
 	

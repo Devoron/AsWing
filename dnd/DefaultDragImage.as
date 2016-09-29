@@ -2,13 +2,12 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.dnd
+package org.aswing.dnd
 {
+	import org.aswing.Component;
 	import starling.display.DisplayObject;
 	import starling.display.Graphics;
 	
-	import devoron.aswing3d.*;
-	import org.aswing.graphics.*;
 	import starling.display.Shape;
 	
 	/**
@@ -17,7 +16,6 @@ package devoron.aswing3d.dnd
 	 */
 	public class DefaultDragImage implements DraggingImage
 	{
-		
 		private var image:Shape;
 		private var width:int;
 		private var height:int;

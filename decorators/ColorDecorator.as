@@ -1,12 +1,12 @@
 package org.aswing.decorators
 {
 	import org.aswing.graphics.Pen;
+	import org.aswing.values.ASColor;
 	import starling.display.DisplayObject;
 	import starling.display.Image;
 	import starling.display.Shape;
 	import starling.display.Sprite;
 	import org.aswing.ASColor;
-	import org.aswing.Component;
 	import org.aswing.geom.IntRectangle;
 	import org.aswing.graphics.BitmapBrush;
 	import org.aswing.graphics.Graphics2D;

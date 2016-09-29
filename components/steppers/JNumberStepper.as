@@ -1,4 +1,4 @@
-package org.aswing
+package org.aswing.components.steppers
 {
 	
 	import flash.globalization.NumberFormatter;

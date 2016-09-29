@@ -1,9 +1,9 @@
-package devoron.aswing3d.decorators 
+package org.aswing.decorators 
 {
+	import org.aswing.values.ASColor;
 	import flash.display.BitmapData;
 	import flash.display.CapsStyle;
 	import flash.display.JointStyle;
-	import org.aswing.ASColor;
 	import org.aswing.Component;
 	import org.aswing.geom.IntRectangle;
 	import org.aswing.graphics.BitmapBrush;

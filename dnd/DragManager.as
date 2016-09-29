@@ -2,10 +2,13 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.dnd
+package org.aswing.dnd
 {
+	import org.aswing.dnd.SourceData;
+	import org.aswing.dnd.RejectedMotion;
 	import flash.events.MouseEvent;
-	import flash.geom.*;
+	import org.aswing.Component;
+	import org.aswing.geom.IntPoint;
 	import starling.display.DisplayObject;
 	import starling.display.DisplayObjectContainer;
 	import starling.display.Sprite;
@@ -13,11 +16,7 @@ package devoron.aswing3d.dnd
 	import starling.events.Touch;
 	import starling.events.TouchEvent;
 	import starling.events.TouchPhase;
-	
-	import devoron.aswing3d.*;
 	import org.aswing.event.DragAndDropEvent;
-	import org.aswing.geom.*;
-	import org.aswing.util.*;
 	
 	/**
 	 * Drag and Drop Manager.

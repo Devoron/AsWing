@@ -2,7 +2,7 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package devoron.aswing3d.dnd
+package org.aswing.dnd
 {
 	
 	/**
@@ -11,7 +11,6 @@ package devoron.aswing3d.dnd
 	 */
 	public class SourceData
 	{
-		
 		private var name:String;
 		private var data:*;
 		

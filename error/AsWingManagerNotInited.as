@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.error{
+package org.aswing.error{
 
 /**
  * The error indicated that the operation you are doing shuold be after 

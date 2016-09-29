@@ -2,21 +2,25 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic{
+package org.aswing.plaf.basic{
 	
+import devoron.aswing3d.event.FocusKeyEvent;
 import flash.display.InteractiveObject;
 import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.ui.Keyboard;
+import org.aswing.Component;
+import org.aswing.components.steppers.JNumberStepper;
+import org.aswing.event.AWEvent;
+import org.aswing.geom.IntDimension;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.plaf.BaseComponentUI;
 import org.aswing.util.ASTimer;
 import org.aswing.Insets;
 import org.aswing.JButton;
+import org.aswing.values.ASColor;
 
-import devoron.aswing3d.*;
-import org.aswing.event.*;
-import org.aswing.geom.*;
-import org.aswing.graphics.*;
-import org.aswing.plaf.*;
 import org.aswing.plaf.basic.icon.ArrowIcon;
 
 /**

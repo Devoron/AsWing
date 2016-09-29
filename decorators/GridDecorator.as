@@ -1,11 +1,11 @@
 package org.aswing.decorators
 {
+	import org.aswing.values.ASColor;
 	import starling.display.Shape;
 	import starling.display.DisplayObject;
 	import starling.display.Sprite;
 	import flash.display.BitmapData;
 	import flash.geom.Rectangle;
-	import org.aswing.ASColor;
 	import org.aswing.Component;
 	import org.aswing.geom.IntRectangle;
 	import org.aswing.graphics.BitmapBrush;
