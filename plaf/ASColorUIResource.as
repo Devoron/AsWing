@@ -13,7 +13,7 @@ package org.aswing.plaf
  */
 public class ASColorUIResource extends ASColor implements UIResource
 {
-	public function w(color:uint=0x000000, alpha:Number=1)
+	public function ASColorUIResource(color:uint=0x000000, alpha:Number=1)
 	{
 		super(color, alpha);
 	}

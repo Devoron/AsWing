@@ -4,6 +4,8 @@
 
 package org.aswing.skinbuilder{
 
+import org.aswing.lookandfeel.plaf.ASColorUIResource;
+import org.aswing.lookandfeel.plaf.ASFontUIResource;
 import org.aswing.plaf.*;
 import org.aswing.plaf.basic.BasicLookAndFeel;
 import org.aswing.plaf.basic.border.EmptyBorderResource;

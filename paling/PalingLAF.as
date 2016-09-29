@@ -1,15 +1,15 @@
-package devoron.aswing3d.paling
+package org.aswing.paling
 {
-	import org.aswing.ASColor;
-	import org.aswing.Insets;
 	import org.aswing.plaf.basic.BasicTableHeaderUI;
+	import org.aswing.values.Insets;
+	import org.aswing.values.ASColor;
+	import org.aswing.plaf.basic.border.EmptyBorderResource;
+	import org.aswing.plaf.basic.BasicLookAndFeel;
 	import org.aswing.UIDefaults;
-	import org.aswing.plaf.ASColorUIResource;
-	import org.aswing.plaf.ASFontUIResource;
+	import org.aswing.lookandfeel.plaf.ASColorUIResource;
+	import org.aswing.lookandfeel.plaf.ASFontUIResource;
 	import org.aswing.plaf.InsetsUIResource;
 	import org.aswing.plaf.UIStyleTune;
-	import org.aswing.plaf.basic.BasicLookAndFeel;
-	import org.aswing.plaf.basic.border.EmptyBorderResource;
 	import org.aswing.skinbuilder.*;
 	
 	public class PalingLAF extends BasicLookAndFeel

@@ -1,4 +1,5 @@
-package devoron.aswing3d.plaf{
+package org.aswing.plaf{
+	import org.aswing.lookandfeel.plaf.ArrayUIResource;
 
 public dynamic class ArrayUIResource extends Array implements UIResource{
 	

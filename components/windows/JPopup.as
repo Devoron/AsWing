@@ -5,9 +5,9 @@
 package org.aswing.components.windows
 {
 	import flash.events.Event;
+	import org.aswing.components.windows.JRootPane;
 	import org.aswing.util.ArrayList;
 	import flash.geom.Rectangle;
-	import org.aswing.JRootPane;
 	import starling.display.DisplayObjectContainer;
 	import starling.display.Sprite;
 	

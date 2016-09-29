@@ -4,6 +4,8 @@
 
 package org.aswing.components.buttons
 {
+	import org.aswing.AsWingConstants;
+	import org.aswing.components.Component;
 	import starling.display.DisplayObject;
 	import flash.display.SimpleButton;
 	import flash.events.Event;

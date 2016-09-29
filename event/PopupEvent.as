@@ -4,11 +4,11 @@
 
 package org.aswing.event
 {
-	import starling.events.Event;
+	import flash.events.Event;
 	
 	/**
 	 * The event for <code>JPopup</code>.
-	 * @see devoron.aswing3d.JPopup
+	 * @see https://github.com/Devoron/AsWing-Starling/wiki/Events
 	 * @author iiley
 	 */
 	public class PopupEvent extends AWEvent

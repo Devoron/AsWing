@@ -3,10 +3,10 @@
 */
 package org.aswing.layouts
 {
+	import org.aswing.layouts.LayoutManager;
+	import org.aswing.components.Component;
+	import org.aswing.components.Container;
 	import org.aswing.geom.IntDimension;
-	import org.aswing.Container;
-	import org.aswing.Component;
-	import org.aswing.LayoutManager;
 	
 /**
  * LayoutManager's empty implementation.

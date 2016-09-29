@@ -2,11 +2,12 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic { 
+package org.aswing.plaf.basic { 
 
 import flash.display.DisplayObject;
 import flash.events.Event;
 import flash.events.MouseEvent;
+import org.aswing.lookandfeel.plaf.BaseComponentUI;
 
 import devoron.aswing3d.*;
 import org.aswing.event.ReleaseEvent;

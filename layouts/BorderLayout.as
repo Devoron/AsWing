@@ -3,10 +3,10 @@
  */
 package org.aswing.layouts
 {
+	import org.aswing.layouts.EmptyLayout;
 	import org.aswing.values.Insets;
 	import org.aswing.components.Component;
 	import org.aswing.components.Container;
-	import org.aswing.layout.EmptyLayout;
 	import org.aswing.geom.IntDimension;
 	import org.aswing.geom.IntRectangle;
 	

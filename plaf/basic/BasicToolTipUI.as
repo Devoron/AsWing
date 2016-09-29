@@ -9,7 +9,7 @@ import org.aswing.event.ToolTipEvent;
 import org.aswing.geom.IntRectangle;
 import org.aswing.graphics.Graphics2D;
 import org.aswing.layouts.BorderLayout;
-import org.aswing.plaf.BaseComponentUI;
+import org.aswing.lookandfeel.plaf.BaseComponentUI;
 
 /**
  * @private

@@ -4,10 +4,9 @@
 
 package org.aswing.event
 {
-	
+	import org.aswing.components.Component;
+	import org.aswing.components.Container;
 	import flash.events.Event;
-	import org.aswing.Container;
-	import org.aswing.Component;
 	
 	/**
 	 * The Event class is used to Container events.

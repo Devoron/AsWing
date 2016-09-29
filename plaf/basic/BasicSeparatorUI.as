@@ -2,18 +2,19 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic
+package org.aswing.plaf.basic
 {
+import org.aswing.components.Component;
+import org.aswing.components.separators.JSeparator;
+import org.aswing.values.Insets;
 import flash.geom.Matrix;
-import org.aswing.Insets;
 
-import devoron.aswing3d.*;
 import org.aswing.geom.IntDimension;
 import org.aswing.geom.IntRectangle;
 import org.aswing.graphics.GradientBrush;
 import org.aswing.graphics.Graphics2D;
 import org.aswing.graphics.Pen;
-import org.aswing.plaf.BaseComponentUI;
+import org.aswing.lookandfeel.plaf.BaseComponentUI;
 /**
  * A Basic L&F implementation of SeparatorUI.  This implementation 
  * is a "combined" view/controller.

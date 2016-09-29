@@ -1,9 +1,9 @@
-package devoron.aswing3d.paling
+package org.aswing.paling
 {
-	import org.aswing.Component;
-	import org.aswing.Icon;
+	import org.aswing.decorators.Icon;
+	import org.aswing.components.Component;
+	import org.aswing.ComponentUI;
 	import org.aswing.graphics.Graphics2D;
-	import org.aswing.plaf.ComponentUI;
 	import org.aswing.plaf.UIResource;
 	import starling.display.DisplayObject;
 	import starling.display.Sprite;

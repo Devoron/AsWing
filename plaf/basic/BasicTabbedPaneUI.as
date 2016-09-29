@@ -14,6 +14,7 @@ import org.aswing.FocusManager;
 import org.aswing.Icon;
 import org.aswing.Insets;
 import org.aswing.JButton;
+import org.aswing.lookandfeel.plaf.BaseComponentUI;
 
 import devoron.aswing3d.*;
 import org.aswing.border.*;

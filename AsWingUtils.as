@@ -11,9 +11,14 @@ package org.aswing
 	import flash.text.TextFormat;
 	import flash.utils.Dictionary;
 	import org.aswing.components.Component;
+	import org.aswing.components.Container;
+	import org.aswing.components.containers.JPanel;
+	import org.aswing.components.windows.JPopup;
+	import org.aswing.decorators.Icon;
 	import org.aswing.geom.IntDimension;
 	import org.aswing.geom.IntPoint;
 	import org.aswing.geom.IntRectangle;
+	import org.aswing.layouts.LayoutManager;
 	import org.aswing.values.ASColor;
 	import org.aswing.values.ASFont;
 	import starling.display.DisplayObject;

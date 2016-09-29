@@ -10,6 +10,7 @@ import flash.events.MouseEvent;
 import flash.ui.Keyboard;
 import org.aswing.Insets;
 import org.aswing.JButton;
+import org.aswing.lookandfeel.plaf.BaseComponentUI;
 
 import devoron.aswing3d.*;
 import org.aswing.event.*;

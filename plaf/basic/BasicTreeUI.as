@@ -10,6 +10,7 @@ import flash.ui.Keyboard;
 import org.aswing.layout.EmptyLayout;
 import org.aswing.FocusManager;
 import org.aswing.Insets;
+import org.aswing.lookandfeel.plaf.BaseComponentUI;
 
 import devoron.aswing3d.*;
 import org.aswing.event.*;

@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.plaf.basic{
 	
-import org.aswing.plaf.BaseComponentUI;
+import org.aswing.lookandfeel.plaf.BaseComponentUI;
 import devoron.aswing3d.*;
 import org.aswing.graphics.*;
 import org.aswing.geom.*;

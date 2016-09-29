@@ -6,6 +6,7 @@ package org.aswing.plaf.basic
 {
 	import org.aswing.Icon;
 	import org.aswing.Insets;
+	import org.aswing.lookandfeel.plaf.BaseComponentUI;
 	import starling.display.Shape;
 	import flash.events.*;
 	import flash.ui.Keyboard;

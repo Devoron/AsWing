@@ -4,13 +4,16 @@
 
 package org.aswing.plaf
 {
-	import org.aswing.decorators.GroundDecorator;
+	import org.aswing.lookandfeel.plaf.BaseComponentUI;
+	import org.aswing.components.Component;
+	import org.asorg.aswing.lookandfeel.plaf.BaseComponentUI org.aswing.decorators.GroundDecorator;
 	import org.aswing.decorators.Icon;
+	import org.aswing.values.ASColor;
 	import org.aswing.values.ASFont;
 	import org.aswing.values.Insets;
+	import org.aswing.values.StyleTune;
 	
 	import flash.display.InteractiveObject;
-	import org.aswing.ComponentUI;
 	
 	import org.aswing.error.ImpMissError;
 	import org.aswing.geom.IntDimension;
