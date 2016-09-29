@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.plaf
 {
-import org.aswing3d.ASFont;
+import org.aswing.ASFont;
 
 /**
  * Font UI Resource.

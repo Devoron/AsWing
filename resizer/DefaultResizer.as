@@ -7,7 +7,7 @@ package devoron.aswing3d.resizer{
 import flash.display.*;
 import flash.events.Event;
 import flash.events.MouseEvent;
-import org.aswing3d.Insets;
+import org.aswing.Insets;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.event.AWEvent;

@@ -10,8 +10,8 @@ package devoron.aswing3d.plaf.basic
 	import devoron.aswing3d.event.*;
 	import devoron.aswing3d.geom.*;
 	import devoron.aswing3d.plaf.basic.icon.ArrowIcon;
-	import org.aswing3d.Insets;
-	import org.aswing3d.JButton;
+	import org.aswing.Insets;
+	import org.aswing.JButton;
 	
 	/**
 	 * The basic scroll pane ui imp.

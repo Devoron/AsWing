@@ -6,7 +6,7 @@ package devoron.aswing3d.skinbuilder{
 	
 import devoron.aswing3d.*;
 import devoron.aswing3d.graphics.Graphics2D;
-import org.aswing3d.AbstractButton;
+import org.aswing.AbstractButton;
 
 public class SkinCheckBoxMenuItemCheckIcon extends SinglePicIcon{
 	override protected function getDefaltsKey():String{

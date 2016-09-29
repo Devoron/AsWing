@@ -5,11 +5,11 @@
 package devoron.aswing3d.layout
 {
 
-import org.aswing3d.AlternativeScrollPane;
+import org.aswing.AlternativeScrollPane;
 import devoron.aswing3d.Component;
 import devoron.aswing3d.Container;
 import devoron.aswing3d.geom.*;
-import org.aswing3d.Insets;
+import org.aswing.Insets;
 import devoron.aswing3d.JScrollBar;
 import devoron.aswing3d.JScrollPane;
 import devoron.aswing3d.Viewportable;

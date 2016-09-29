@@ -12,8 +12,8 @@ package devoron.aswing3d.skinbuilder
 	import devoron.aswing3d.plaf.*;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
-	import org.aswing3d.GroundDecorator;
-	import org.aswing3d.Icon;
+	import org.aswing.GroundDecorator;
+	import org.aswing.Icon;
 	import starling.display.DisplayObject;
 	
 	public class SelfHandleStateDecorator extends DefaultsDecoratorBase implements GroundDecorator, Icon, UIResource

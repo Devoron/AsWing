@@ -8,8 +8,8 @@ import flash.display.Shape;
 import flash.events.MouseEvent;
 import flash.ui.Keyboard;
 import devoron.aswing3d.layout.EmptyLayout;
-import org.aswing3d.FocusManager;
-import org.aswing3d.Insets;
+import org.aswing.FocusManager;
+import org.aswing.Insets;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.event.*;

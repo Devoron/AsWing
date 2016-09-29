@@ -9,7 +9,7 @@ import flash.display.DisplayObject;
 import flash.display.LineScaleMode;
 import flash.events.*;
 import flash.geom.Point;
-import org.aswing3d.GroundDecorator;
+import org.aswing.GroundDecorator;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.event.*;

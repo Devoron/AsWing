@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.plaf{
 
-import org.aswing3d.JComboBox;
+import org.aswing.JComboBox;
 
 /**
  * Pluginable ui for JComboBox.

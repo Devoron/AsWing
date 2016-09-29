@@ -9,11 +9,11 @@ import flash.events.*;
 import flash.geom.Matrix;
 import flash.ui.Keyboard;
 import devoron.aswing3d.layout.SoftBoxLayout;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.FocusManager;
-import org.aswing3d.Icon;
-import org.aswing3d.Insets;
-import org.aswing3d.JButton;
+import org.aswing.AbstractButton;
+import org.aswing.FocusManager;
+import org.aswing.Icon;
+import org.aswing.Insets;
+import org.aswing.JButton;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.border.*;

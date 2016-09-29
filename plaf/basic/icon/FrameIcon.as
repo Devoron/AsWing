@@ -10,8 +10,8 @@ import flash.display.Sprite;
 import flash.filters.BevelFilter;
 import flash.filters.BitmapFilterType;
 import flash.filters.DropShadowFilter;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.Icon;
+import org.aswing.AbstractButton;
+import org.aswing.Icon;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.geom.IntRectangle;

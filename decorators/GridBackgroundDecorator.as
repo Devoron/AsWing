@@ -12,7 +12,7 @@ package devoron.aswing3d.decorators
 	import devoron.aswing3d.graphics.Graphics2D;
 	import devoron.aswing3d.graphics.Pen;
 	import devoron.aswing3d.graphics.SolidBrush;
-	import org.aswing3d.GroundDecorator;
+	import org.aswing.GroundDecorator;
 	
 	/**
 	 * ColorDecorator

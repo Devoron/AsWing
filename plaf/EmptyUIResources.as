@@ -6,8 +6,8 @@ package devoron.aswing3d.plaf
 {
 
 import devoron.aswing3d.Border;
-import org.aswing3d.GroundDecorator;
-import org.aswing3d.Icon;
+import org.aswing.GroundDecorator;
+import org.aswing.Icon;
 
 /**
  * The default empty values for ui resources.

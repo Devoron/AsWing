@@ -7,7 +7,7 @@ package devoron.aswing3d.plaf.basic.icon{
 import flash.display.*;
 import flash.filters.BevelFilter;
 import flash.filters.BitmapFilterType;
-import org.aswing3d.AbstractButton;
+import org.aswing.AbstractButton;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.graphics.*;

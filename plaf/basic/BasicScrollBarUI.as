@@ -7,10 +7,10 @@ package devoron.aswing3d.plaf.basic{
 import flash.display.Sprite;
 import flash.events.*;
 import flash.ui.Keyboard;
-import org.aswing3d.BoundedRangeModel;
-import org.aswing3d.GroundDecorator;
-import org.aswing3d.Icon;
-import org.aswing3d.JButton;
+import org.aswing.BoundedRangeModel;
+import org.aswing.GroundDecorator;
+import org.aswing.Icon;
+import org.aswing.JButton;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.event.*;

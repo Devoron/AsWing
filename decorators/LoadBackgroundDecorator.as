@@ -6,7 +6,7 @@ import flash.events.*;
 import flash.net.URLRequest;
 import flash.system.LoaderContext;
 import devoron.aswing3d.Component;
-import org.aswing3d.GroundDecorator;
+import org.aswing.GroundDecorator;
 
 import devoron.aswing3d.border.EmptyBorder;
 import devoron.aswing3d.geom.IntRectangle;

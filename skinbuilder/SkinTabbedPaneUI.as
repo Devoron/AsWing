@@ -6,10 +6,10 @@ package devoron.aswing3d.skinbuilder{
 
 import flash.display.DisplayObject;
 import flash.display.Sprite;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.GroundDecorator;
-import org.aswing3d.Insets;
-import org.aswing3d.JButton;
+import org.aswing.AbstractButton;
+import org.aswing.GroundDecorator;
+import org.aswing.Insets;
+import org.aswing.JButton;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.event.InteractiveEvent;

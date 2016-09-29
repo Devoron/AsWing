@@ -5,8 +5,8 @@ import flash.geom.Matrix;
 
 import devoron.aswing3d.ASColor;
 import devoron.aswing3d.Component;
-import org.aswing3d.FrameTitleBar;
-import org.aswing3d.GroundDecorator;
+import org.aswing.FrameTitleBar;
+import org.aswing.GroundDecorator;
 import devoron.aswing3d.UIManager;
 import devoron.aswing3d.geom.IntRectangle;
 import devoron.aswing3d.graphics.GradientBrush;

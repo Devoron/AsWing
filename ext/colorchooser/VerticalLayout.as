@@ -5,7 +5,7 @@ package devoron.aswing3d.colorchooser
 {
 	import devoron.aswing3d.Component;
 	import devoron.aswing3d.Container;
-	import org.aswing3d.Insets;
+	import org.aswing.Insets;
 	import devoron.aswing3d.geom.*;
 	import devoron.aswing3d.layout.EmptyLayout;
 	

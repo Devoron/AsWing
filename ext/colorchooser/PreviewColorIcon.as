@@ -3,7 +3,7 @@
  */
 package devoron.aswing3d.colorchooser
 {
-	import org.aswing3d.Icon;
+	import org.aswing.Icon;
 	import starling.display.DisplayObject;
 	import devoron.aswing3d.*;
 	import devoron.aswing3d.graphics.*;

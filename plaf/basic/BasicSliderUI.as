@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.plaf.basic
 {
-	import org.aswing3d.Icon;
-	import org.aswing3d.Insets;
+	import org.aswing.Icon;
+	import org.aswing.Insets;
 	import starling.display.Shape;
 	import flash.events.*;
 	import flash.ui.Keyboard;

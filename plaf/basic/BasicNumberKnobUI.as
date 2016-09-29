@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.plaf.basic
 {
-	import org.aswing3d.ASFont;
-	import org.aswing3d.Insets;
-	import org.aswing3d.JButton;
+	import org.aswing.ASFont;
+	import org.aswing.Insets;
+	import org.aswing.JButton;
 	import starling.display.DisplayObject;
 	import flash.display.InteractiveObject;
 	import flash.events.Event;

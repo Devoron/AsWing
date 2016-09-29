@@ -7,8 +7,8 @@ package devoron.aswing3d.skinbuilder{
 import devoron.aswing3d.*;
 import devoron.aswing3d.plaf.*;
 import devoron.aswing3d.plaf.basic.splitpane.Divider;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.JButton;
+import org.aswing.AbstractButton;
+import org.aswing.JButton;
 
 
 public class SkinSplitPaneDivider extends Divider implements Orientable{

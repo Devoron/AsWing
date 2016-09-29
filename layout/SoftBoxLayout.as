@@ -9,7 +9,7 @@ package devoron.aswing3d.layout
 	import devoron.aswing3d.Container;
 	import devoron.aswing3d.geom.IntDimension;
 	import devoron.aswing3d.geom.IntRectangle;
-	import org.aswing3d.Insets;
+	import org.aswing.Insets;
 	
 	/**
 	 * The SoftBoxLayout will layout the child components using their preferredWidth or preferredHeight instead of width or height.

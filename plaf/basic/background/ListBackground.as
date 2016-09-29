@@ -5,7 +5,7 @@ package devoron.aswing3d.plaf.basic.background
 	import devoron.aswing3d.StyleResult;
 	import devoron.aswing3d.StyleTune;
 	import devoron.aswing3d.Component;
-	import org.aswing3d.GroundDecorator;
+	import org.aswing.GroundDecorator;
 	import devoron.aswing3d.geom.IntRectangle;
 	import devoron.aswing3d.graphics.Graphics2D;
 	import devoron.aswing3d.plaf.UIResource;

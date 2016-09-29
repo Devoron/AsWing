@@ -8,7 +8,7 @@ import devoron.aswing3d.*;
 import devoron.aswing3d.plaf.*;
 import devoron.aswing3d.plaf.basic.BasicLookAndFeel;
 import devoron.aswing3d.plaf.basic.border.EmptyBorderResource;
-import org.aswing3d.Insets;
+import org.aswing.Insets;
 
 /**
  * SkinBuilder LookAndFeel let you change the skin easily 

@@ -9,8 +9,8 @@ import devoron.aswing3d.graphics.Graphics2D;
 import devoron.aswing3d.geom.IntRectangle;
 import devoron.aswing3d.geom.IntDimension;
 import devoron.aswing3d.plaf.*;	
-import org.aswing3d.AbstractButton;
-import org.aswing3d.Icon;
+import org.aswing.AbstractButton;
+import org.aswing.Icon;
 	
 /**
  * Basic ToggleButton implementation.

@@ -5,8 +5,8 @@ import flash.display.GradientType;
 import flash.display.Shape;
 import flash.filters.DropShadowFilter;
 import flash.geom.Matrix;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.GroundDecorator;
+import org.aswing.AbstractButton;
+import org.aswing.GroundDecorator;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.geom.IntRectangle;

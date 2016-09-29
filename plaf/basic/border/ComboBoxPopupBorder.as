@@ -13,7 +13,7 @@ package devoron.aswing3d.plaf.basic.border
 	import devoron.aswing3d.ASColor;
 	import devoron.aswing3d.Border;
 	import devoron.aswing3d.Component;
-	import org.aswing3d.Insets;
+	import org.aswing.Insets;
 	import devoron.aswing3d.StyleResult;
 	import devoron.aswing3d.StyleTune;
 	import devoron.aswing3d.geom.IntRectangle;

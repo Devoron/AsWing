@@ -3,7 +3,7 @@ package devoron.aswing3d.plaf.basic.tabbedpane{
 import devoron.aswing3d.graphics.Graphics2D;
 import devoron.aswing3d.plaf.UIResource;
 import devoron.aswing3d.Component;
-import org.aswing3d.Icon;
+import org.aswing.Icon;
 import devoron.aswing3d.ASColor;
 import devoron.aswing3d.graphics.Pen;
 import starling.display.DisplayObject;

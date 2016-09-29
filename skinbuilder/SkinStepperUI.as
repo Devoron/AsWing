@@ -2,9 +2,9 @@ package devoron.aswing3d.skinbuilder{
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.plaf.basic.BasicStepperUI;
-import org.aswing3d.Icon;
-import org.aswing3d.Insets;
-import org.aswing3d.JButton;
+import org.aswing.Icon;
+import org.aswing.Insets;
+import org.aswing.JButton;
 
 
 /**

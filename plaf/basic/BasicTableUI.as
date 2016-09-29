@@ -10,7 +10,7 @@ package devoron.aswing3d.plaf.basic
 	import flash.events.KeyboardEvent;
 	import flash.events.MouseEvent;
 	import flash.ui.Keyboard;
-	import org.aswing3d.FocusManager;
+	import org.aswing.FocusManager;
 	
 	import devoron.aswing3d.*;
 	import devoron.aswing3d.event.*;

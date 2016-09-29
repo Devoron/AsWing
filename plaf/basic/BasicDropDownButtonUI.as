@@ -14,10 +14,10 @@ package devoron.aswing3d.plaf.basic
 	import devoron.aswing3d.plaf.basic.icon.ScrollBarArrowIcon;
 	import devoron.aswing3d.skinbuilder.SkinButtonIcon;
 	import devoron.aswing3d.util.DepthManager;
-	import org.aswing3d.AbstractButton;
-	import org.aswing3d.Icon;
-	import org.aswing3d.Insets;
-	import org.aswing3d.JButton;
+	import org.aswing.AbstractButton;
+	import org.aswing.Icon;
+	import org.aswing.Insets;
+	import org.aswing.JButton;
 	
 	import devoron.aswing3d.*;
 	import devoron.aswing3d.event.AWEvent;

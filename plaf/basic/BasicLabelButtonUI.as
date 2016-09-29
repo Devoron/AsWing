@@ -4,7 +4,7 @@ import devoron.aswing3d.*;
 import devoron.aswing3d.geom.*;
 import devoron.aswing3d.graphics.*;
 import devoron.aswing3d.plaf.UIResource;
-import org.aswing3d.AbstractButton;
+import org.aswing.AbstractButton;
 
 /**
  * @private

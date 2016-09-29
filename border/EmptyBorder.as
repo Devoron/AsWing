@@ -8,7 +8,7 @@ import devoron.aswing3d.graphics.Graphics2D;
 import devoron.aswing3d.Border;
 import devoron.aswing3d.geom.IntRectangle;
 import devoron.aswing3d.Component;
-import org.aswing3d.Insets;
+import org.aswing.Insets;
 
 /**
  * EmptyBorder not draw any graphics, only use to hold a blank space around component.

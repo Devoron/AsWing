@@ -11,9 +11,9 @@ package devoron.aswing3d.plaf.basic
 	import flash.ui.Keyboard;
 	import devoron.aswing3d.decorators.ColorDecorator;
 	import devoron.aswing3d.layout.BorderLayout;
-	import org.aswing3d.Insets;
-	import org.aswing3d.JButton;
-	import org.aswing3d.JComboBox;
+	import org.aswing.Insets;
+	import org.aswing.JButton;
+	import org.aswing.JComboBox;
 	
 	import devoron.aswing3d.*;
 	import devoron.aswing3d.event.AWEvent;

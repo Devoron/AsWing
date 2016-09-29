@@ -4,10 +4,10 @@ import flash.display.DisplayObject;
 import flash.display.Shape;
 
 import devoron.aswing3d.ASColor;
-import org.aswing3d.AbstractButton;
+import org.aswing.AbstractButton;
 import devoron.aswing3d.ButtonModel;
 import devoron.aswing3d.Component;
-import org.aswing3d.GroundDecorator;
+import org.aswing.GroundDecorator;
 import devoron.aswing3d.JTabbedPane;
 import devoron.aswing3d.StyleResult;
 import devoron.aswing3d.StyleTune;

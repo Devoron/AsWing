@@ -5,7 +5,7 @@
 package devoron.aswing3d.tree { 
 
 import devoron.aswing3d.Component;
-import org.aswing3d.Icon;
+import org.aswing.Icon;
 import devoron.aswing3d.JLabel;
 import devoron.aswing3d.JTree;
 import devoron.aswing3d.geom.IntRectangle;

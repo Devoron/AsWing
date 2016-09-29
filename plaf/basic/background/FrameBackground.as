@@ -13,8 +13,8 @@ import flash.filters.DropShadowFilter;
 
 import devoron.aswing3d.ASColor;
 import devoron.aswing3d.Component;
-import org.aswing3d.GroundDecorator;
-import org.aswing3d.JFrame;
+import org.aswing.GroundDecorator;
+import org.aswing.JFrame;
 import devoron.aswing3d.StyleResult;
 import devoron.aswing3d.StyleTune;
 import devoron.aswing3d.geom.IntRectangle;

@@ -6,7 +6,7 @@ package devoron.aswing3d.plaf.basic{
 
 import flash.geom.Matrix;
 import flash.geom.Point;
-import org.aswing3d.AbstractButton;
+import org.aswing.AbstractButton;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.geom.*;

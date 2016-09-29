@@ -10,7 +10,7 @@ package devoron.aswing3d.plaf.basic
 	import devoron.aswing3d.layout.BorderLayout;
 	import devoron.aswing3d.layout.FlowLayout;
 	import devoron.aswing3d.layout.SoftBoxLayout;
-	import org.aswing3d.JAdjuster;
+	import org.aswing.JAdjuster;
 	
 	import devoron.aswing3d.*;
 	import devoron.aswing3d.border.BevelBorder;

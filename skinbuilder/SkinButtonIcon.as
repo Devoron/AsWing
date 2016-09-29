@@ -5,8 +5,8 @@
 package devoron.aswing3d.skinbuilder{
 
 import flash.display.*;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.Icon;
+import org.aswing.AbstractButton;
+import org.aswing.Icon;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.error.ImpMissError;

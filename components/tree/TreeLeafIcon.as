@@ -8,7 +8,7 @@ import flash.geom.Point;
 import devoron.aswing3d.Component;
 import devoron.aswing3d.geom.IntRectangle;
 import devoron.aswing3d.graphics.*;
-import org.aswing3d.Icon;
+import org.aswing.Icon;
 import devoron.aswing3d.plaf.UIResource;
 import flash.display.DisplayObject;
 import flash.geom.Matrix;

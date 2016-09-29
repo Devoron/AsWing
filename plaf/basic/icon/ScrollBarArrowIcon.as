@@ -6,8 +6,8 @@ package devoron.aswing3d.plaf.basic.icon{
 
 import flash.display.DisplayObject;
 import flash.display.Shape;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.Icon;
+import org.aswing.AbstractButton;
+import org.aswing.Icon;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.geom.*;

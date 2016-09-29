@@ -1,7 +1,7 @@
 package devoron.aswing3d.skinbuilder
 {
-	import org.aswing3d.JButton;
-	import org.aswing3d.Insets;
+	import org.aswing.JButton;
+	import org.aswing.Insets;
 	import devoron.aswing3d.plaf.basic.tabbedpane.ClosableTab;
 	import devoron.aswing3d.geom.IntDimension;
 	import devoron.aswing3d.event.ResizedEvent;

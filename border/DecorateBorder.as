@@ -10,7 +10,7 @@ package devoron.aswing3d.border
 	import devoron.aswing3d.Border;
 	import devoron.aswing3d.geom.IntRectangle;
 	import devoron.aswing3d.Component;
-	import org.aswing3d.Insets;
+	import org.aswing.Insets;
 	import devoron.aswing3d.error.ImpMissError;
 	
 	/**

@@ -8,7 +8,7 @@ import devoron.aswing3d.*;
 import devoron.aswing3d.border.EmptyBorder;
 import devoron.aswing3d.plaf.UIResource;
 import devoron.aswing3d.error.ImpMissError;
-import org.aswing3d.Insets;
+import org.aswing.Insets;
 
 public class SkinEmptyBorder extends EmptyBorder implements UIResource{
 	

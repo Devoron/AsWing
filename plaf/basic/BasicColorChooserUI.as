@@ -26,8 +26,8 @@ package devoron.aswing3d.plaf.basic
 	import devoron.aswing3d.layout.CenterLayout;
 	import devoron.aswing3d.layout.BorderLayout;
 	import devoron.aswing3d.layout.SoftBoxLayout;
-	import org.aswing3d.AbstractButton;
-	import org.aswing3d.Insets;
+	import org.aswing.AbstractButton;
+	import org.aswing.Insets;
 	
 	/**
 	 * @author iiley

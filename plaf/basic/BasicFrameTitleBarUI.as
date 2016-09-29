@@ -6,7 +6,7 @@ package devoron.aswing3d.plaf.basic{
 
 import devoron.aswing3d.ASColor;
 import devoron.aswing3d.Component;
-import org.aswing3d.FrameTitleBar;
+import org.aswing.FrameTitleBar;
 import devoron.aswing3d.LookAndFeel;
 import devoron.aswing3d.StyleResult;
 import devoron.aswing3d.geom.IntRectangle;

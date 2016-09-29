@@ -5,7 +5,7 @@
 package devoron.aswing3d.plaf.basic.icon{
 
 //import flash.display.SimpleButton;
-import org.aswing3d.JButton;
+import org.aswing.JButton;
 import flash.geom.Matrix;
 import starling.display.DisplayObject;
 import starling.display.Graphics;
@@ -14,7 +14,7 @@ import starling.display.Sprite;
 
 import devoron.aswing3d.ASColor;
 import devoron.aswing3d.Component;
-import org.aswing3d.Icon;
+import org.aswing.Icon;
 import devoron.aswing3d.StyleResult;
 import devoron.aswing3d.StyleTune;
 import devoron.aswing3d.graphics.*;

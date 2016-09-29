@@ -7,8 +7,8 @@ package devoron.aswing3d.plaf.basic{
 import devoron.aswing3d.*;
 import devoron.aswing3d.geom.*;
 import devoron.aswing3d.graphics.*;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.Icon;
+import org.aswing.AbstractButton;
+import org.aswing.Icon;
 	
 /**
  * Basic RadioButton implementation.

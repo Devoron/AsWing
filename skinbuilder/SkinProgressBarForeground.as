@@ -5,8 +5,8 @@
 package devoron.aswing3d.skinbuilder{
 
 import flash.display.*;
-import org.aswing3d.GroundDecorator;
-import org.aswing3d.Insets;
+import org.aswing.GroundDecorator;
+import org.aswing.Insets;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.geom.IntRectangle;

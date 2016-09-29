@@ -19,8 +19,8 @@ package devoron.aswing3d.ext
 	
 	import devoron.aswing3d.ASColor;
 	import devoron.aswing3d.Container;
-	import org.aswing3d.JButton;
-	import org.aswing3d.JComboBox;
+	import org.aswing.JButton;
+	import org.aswing.JComboBox;
 	import devoron.aswing3d.JLabel;
 	import devoron.aswing3d.JLabelButton;
 	import devoron.aswing3d.JPanel;

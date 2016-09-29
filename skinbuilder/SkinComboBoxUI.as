@@ -6,8 +6,8 @@ package devoron.aswing3d.skinbuilder{
 
 import devoron.aswing3d.plaf.basic.BasicComboBoxUI;
 import devoron.aswing3d.*;
-import org.aswing3d.Insets;
-import org.aswing3d.JButton;
+import org.aswing.Insets;
+import org.aswing.JButton;
 
 public class SkinComboBoxUI extends BasicComboBoxUI{
 	

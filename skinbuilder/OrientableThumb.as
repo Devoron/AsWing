@@ -7,8 +7,8 @@ package devoron.aswing3d.skinbuilder
 	
 	import flash.display.*;
 	import flash.events.*;
-	import org.aswing3d.GroundDecorator;
-	import org.aswing3d.Icon;
+	import org.aswing.GroundDecorator;
+	import org.aswing.Icon;
 	
 	import devoron.aswing3d.*;
 	import devoron.aswing3d.error.ImpMissError;

@@ -7,8 +7,8 @@ package devoron.aswing3d.plaf.basic.border{
 import flash.display.DisplayObject;
 import flash.display.Shape;
 import flash.geom.Matrix;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.Insets;
+import org.aswing.AbstractButton;
+import org.aswing.Insets;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.geom.*;

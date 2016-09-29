@@ -7,7 +7,7 @@ package devoron.aswing3d.colorchooser {
 
 import devoron.aswing3d.ASColor;
 import devoron.aswing3d.Component;
-import org.aswing3d.Icon;
+import org.aswing.Icon;
 import devoron.aswing3d.graphics.*;
 /**
  * @author iiley

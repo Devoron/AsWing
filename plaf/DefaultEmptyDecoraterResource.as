@@ -4,10 +4,10 @@
 
 package devoron.aswing3d.plaf
 {
-	import org.aswing3d.ASFont;
-	import org.aswing3d.GroundDecorator;
-	import org.aswing3d.Icon;
-	import org.aswing3d.Insets;
+	import org.aswing.ASFont;
+	import org.aswing.GroundDecorator;
+	import org.aswing.Icon;
+	import org.aswing.Insets;
 	import starling.display.DisplayObject;
 	import devoron.aswing3d.*;
 	import devoron.aswing3d.geom.*;

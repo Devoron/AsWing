@@ -6,10 +6,10 @@ package devoron.aswing3d.plaf.basic{
 
 import flash.events.Event;
 import flash.events.MouseEvent;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.ASFont;
-import org.aswing3d.Icon;
-import org.aswing3d.Insets;
+import org.aswing.AbstractButton;
+import org.aswing.ASFont;
+import org.aswing.Icon;
+import org.aswing.Insets;
 import starling.text.TextField;
 
 import devoron.aswing3d.*;

@@ -8,8 +8,8 @@ import flash.display.InteractiveObject;
 import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.ui.Keyboard;
-import org.aswing3d.Insets;
-import org.aswing3d.JButton;
+import org.aswing.Insets;
+import org.aswing.JButton;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.event.*;

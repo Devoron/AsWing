@@ -3,10 +3,10 @@
  */
 package devoron.aswing3d.plaf.basic
 {
-	import org.aswing3d.AbstractButton;
-	import org.aswing3d.JAdjuster;
-	import org.aswing3d.JButton;
-	import org.aswing3d.JColorTextField;
+	import org.aswing.AbstractButton;
+	import org.aswing.JAdjuster;
+	import org.aswing.JButton;
+	import org.aswing.JColorTextField;
 	import starling.display.MovieClip;
 	import starling.text.TextField;
 	import flash.events.Event;

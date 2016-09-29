@@ -7,8 +7,8 @@ package devoron.aswing3d.skinbuilder{
 import devoron.aswing3d.*;
 import devoron.aswing3d.plaf.ComponentUI;
 import devoron.aswing3d.plaf.basic.accordion.BasicAccordionHeader;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.JButton;
+import org.aswing.AbstractButton;
+import org.aswing.JButton;
 
 public class SkinTabbedPaneTab extends BasicAccordionHeader{
 	

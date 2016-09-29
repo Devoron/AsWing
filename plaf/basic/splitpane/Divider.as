@@ -4,10 +4,10 @@ import devoron.aswing3d.*;
 import devoron.aswing3d.geom.*;
 import devoron.aswing3d.graphics.*;
 import devoron.aswing3d.plaf.basic.icon.SolidArrowIcon;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.Icon;
-import org.aswing3d.Insets;
-import org.aswing3d.JButton;
+import org.aswing.AbstractButton;
+import org.aswing.Icon;
+import org.aswing.Insets;
+import org.aswing.JButton;
 
 /**
  * @private

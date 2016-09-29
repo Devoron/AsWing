@@ -15,7 +15,7 @@ import devoron.aswing3d.graphics.*;
 import devoron.aswing3d.geom.*;
 import flash.display.Graphics;
 import flash.ui.Keyboard;
-import org.aswing3d.FocusManager;
+import org.aswing.FocusManager;
 
 /**
  * List UI basic imp.

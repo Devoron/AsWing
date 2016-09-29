@@ -9,7 +9,7 @@ package devoron.aswing3d.plaf.basic
 	import devoron.aswing3d.plaf.basic.tabbedpane.BasicClosableTabbedPaneTab;
 	import devoron.aswing3d.event.TabCloseEvent;
 	import devoron.aswing3d.plaf.basic.tabbedpane.Tab;
-	import org.aswing3d.JClosableTabbedPane;
+	import org.aswing.JClosableTabbedPane;
 	import devoron.aswing3d.Component;
 	
 	/**

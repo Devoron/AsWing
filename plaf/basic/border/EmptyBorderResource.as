@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.plaf.basic.border{
 
-import org.aswing3d.Insets;
+import org.aswing.Insets;
 import devoron.aswing3d.Border;
 import devoron.aswing3d.plaf.UIResource;
 import devoron.aswing3d.border.EmptyBorder;

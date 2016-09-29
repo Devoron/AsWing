@@ -5,7 +5,7 @@ package devoron.aswing3d.ext
 	import devoron.aswing3d.decorators.ColorDecorator;
 	
 	import devoron.aswing3d.ASColor;
-	import org.aswing3d.Icon;
+	import org.aswing.Icon;
 	import devoron.aswing3d.JLabel;
 	import devoron.aswing3d.UIManager;
 	

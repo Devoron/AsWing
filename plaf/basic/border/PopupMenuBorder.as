@@ -1,6 +1,6 @@
 package devoron.aswing3d.plaf.basic.border
 {
-	import org.aswing3d.Insets;
+	import org.aswing.Insets;
 	import starling.display.DisplayObject;
 	import starling.display.Graphics;
 	import flash.filters.BevelFilter;

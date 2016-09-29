@@ -5,7 +5,7 @@
 package devoron.aswing3d.table.sorter{
 
 import flash.events.MouseEvent;
-import org.aswing3d.Icon;
+import org.aswing.Icon;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.event.*;

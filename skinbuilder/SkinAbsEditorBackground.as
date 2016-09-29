@@ -10,8 +10,8 @@ import devoron.aswing3d.geom.IntRectangle;
 import devoron.aswing3d.graphics.Graphics2D;
 import devoron.aswing3d.graphics.SolidBrush;
 import devoron.aswing3d.plaf.*;
-import org.aswing3d.EditableComponent;
-import org.aswing3d.GroundDecorator;
+import org.aswing.EditableComponent;
+import org.aswing.GroundDecorator;
 import starling.display.DisplayObject;
 import starling.display.Sprite;
 

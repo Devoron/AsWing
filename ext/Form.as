@@ -9,8 +9,8 @@ package devoron.aswing3d.ext
 	import devoron.aswing3d.layout.CenterLayout;
 	import devoron.aswing3d.Component;
 	import devoron.aswing3d.Container;
-	import org.aswing3d.Icon;
-	import org.aswing3d.Insets;
+	import org.aswing.Icon;
+	import org.aswing.Insets;
 	import devoron.aswing3d.JLabel;
 	import devoron.aswing3d.JPanel;
 	import devoron.aswing3d.JSeparator;

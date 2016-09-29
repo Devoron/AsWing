@@ -5,9 +5,9 @@
 package devoron.aswing3d.plaf.basic.tabbedpane{
 
 import devoron.aswing3d.*;
-import org.aswing3d.ASFont;
-import org.aswing3d.Icon;
-import org.aswing3d.Insets;
+import org.aswing.ASFont;
+import org.aswing.Icon;
+import org.aswing.Insets;
 
 /**
  * TabbedPane Tab

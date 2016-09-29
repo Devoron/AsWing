@@ -12,10 +12,10 @@ package devoron.aswing3d.plaf.basic
 	import flash.events.TimerEvent;
 	import flash.geom.Rectangle;
 	import flash.utils.Timer;
-	import org.aswing3d.FrameTitleBar;
-	import org.aswing3d.Icon;
-	import org.aswing3d.Insets;
-	import org.aswing3d.JFrame;
+	import org.aswing.FrameTitleBar;
+	import org.aswing.Icon;
+	import org.aswing.Insets;
+	import org.aswing.JFrame;
 	
 	import devoron.aswing3d.*;
 	import devoron.aswing3d.event.*;

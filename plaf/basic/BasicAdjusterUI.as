@@ -10,8 +10,8 @@ import flash.events.MouseEvent;
 import flash.filters.DropShadowFilter;
 import flash.ui.Keyboard;
 import devoron.aswing3d.layout.BorderLayout;
-import org.aswing3d.Insets;
-import org.aswing3d.JButton;
+import org.aswing.Insets;
+import org.aswing.JButton;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.event.AWEvent;
@@ -465,7 +465,7 @@ import devoron.aswing3d.Component;
 import devoron.aswing3d.graphics.Graphics2D;
 import devoron.aswing3d.graphics.Pen;
 import devoron.aswing3d.graphics.SolidBrush;
-import org.aswing3d.Icon;
+import org.aswing.Icon;
 
 
 	/**

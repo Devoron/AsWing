@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.plaf.basic.icon
 {
-	import org.aswing3d.Icon;
+	import org.aswing.Icon;
 	import starling.display.Shape;
 	import starling.display.DisplayObject;
 	import devoron.aswing3d.graphics.*;

@@ -1,7 +1,7 @@
 package devoron.aswing3d.paling
 {
 	import devoron.aswing3d.ASColor;
-	import org.aswing3d.Insets;
+	import org.aswing.Insets;
 	import devoron.aswing3d.plaf.basic.BasicTableHeaderUI;
 	import devoron.aswing3d.UIDefaults;
 	import devoron.aswing3d.plaf.ASColorUIResource;

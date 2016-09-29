@@ -12,8 +12,8 @@ package devoron.aswing3d.plaf.basic.background
 	import devoron.aswing3d.ASColor;
 	import devoron.aswing3d.AsWingManager;
 	import devoron.aswing3d.Component;
-	import org.aswing3d.EditableComponent;
-	import org.aswing3d.GroundDecorator;
+	import org.aswing.EditableComponent;
+	import org.aswing.GroundDecorator;
 	import devoron.aswing3d.StyleResult;
 	import devoron.aswing3d.StyleTune;
 	import devoron.aswing3d.geom.IntRectangle;

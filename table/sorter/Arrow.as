@@ -8,8 +8,8 @@ import flash.display.*;
 import flash.filters.DropShadowFilter;
 import flash.geom.Matrix;
 import flash.geom.Point;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.Icon;
+import org.aswing.AbstractButton;
+import org.aswing.Icon;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.geom.*;

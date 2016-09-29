@@ -10,8 +10,8 @@ import devoron.aswing3d.*;
 import flash.display.DisplayObject;
 import devoron.aswing3d.plaf.*;
 import devoron.aswing3d.error.ImpMissError;
-import org.aswing3d.EditableComponent;
-import org.aswing3d.Insets;
+import org.aswing.EditableComponent;
+import org.aswing.Insets;
 
 /**
  * Discard in aswing 2.0(Background raped his job)

@@ -6,7 +6,7 @@ package devoron.aswing3d.plaf.basic.icon
 {
 	import starling.display.DisplayObject;
 	import devoron.aswing3d.graphics.Graphics2D;
-	import org.aswing3d.Icon;
+	import org.aswing.Icon;
 	import devoron.aswing3d.Component;
 	import devoron.aswing3d.plaf.UIResource;
 	

@@ -8,8 +8,8 @@ import devoron.aswing3d.*;
 import devoron.aswing3d.layout.BorderLayout;
 import devoron.aswing3d.plaf.*;
 import devoron.aswing3d.plaf.basic.BasicAdjusterUI;
-import org.aswing3d.Insets;
-import org.aswing3d.JButton;
+import org.aswing.Insets;
+import org.aswing.JButton;
 
 public class SkinAdjusterUI extends BasicAdjusterUI{
 	

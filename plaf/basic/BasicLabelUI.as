@@ -8,8 +8,8 @@ package devoron.aswing3d.plaf.basic
 	import devoron.aswing3d.Component;
 	import devoron.aswing3d.plaf.*;
 	import devoron.aswing3d.event.AWEvent;
-	import org.aswing3d.ASFont;
-	import org.aswing3d.Icon;
+	import org.aswing.ASFont;
+	import org.aswing.Icon;
 	import starling.text.TextField;
 	//import flash.text.*;
 	import flash.filters.BlurFilter;

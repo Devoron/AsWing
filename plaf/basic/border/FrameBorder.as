@@ -9,8 +9,8 @@ import devoron.aswing3d.*;
 import devoron.aswing3d.geom.IntRectangle;
 import flash.display.DisplayObject;
 import devoron.aswing3d.plaf.UIResource;
-import org.aswing3d.Insets;
-import org.aswing3d.JFrame;
+import org.aswing.Insets;
+import org.aswing.JFrame;
 
 /**
  * Basic frame border

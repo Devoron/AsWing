@@ -5,7 +5,7 @@
 package devoron.aswing3d.plaf
 {
 	
-import org.aswing3d.Insets;
+import org.aswing.Insets;
 
 /**
  * Insets UI Resource.

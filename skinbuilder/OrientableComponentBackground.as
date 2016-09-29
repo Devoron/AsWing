@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.skinbuilder
 {
-	import org.aswing3d.GroundDecorator;
+	import org.aswing.GroundDecorator;
 	import starling.display.DisplayObject;
 	import starling.display.Sprite;
 	import devoron.aswing3d.*;

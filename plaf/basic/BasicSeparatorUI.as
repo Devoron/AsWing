@@ -5,7 +5,7 @@
 package devoron.aswing3d.plaf.basic
 {
 import flash.geom.Matrix;
-import org.aswing3d.Insets;
+import org.aswing.Insets;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.geom.IntDimension;

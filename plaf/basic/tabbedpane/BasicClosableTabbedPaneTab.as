@@ -13,12 +13,12 @@ import devoron.aswing3d.graphics.SolidBrush;
 import devoron.aswing3d.layout.CenterLayout;
 import devoron.aswing3d.plaf.UIResource;
 import devoron.aswing3d.plaf.basic.BasicGraphicsUtils;
-import org.aswing3d.AbstractButton;
-import org.aswing3d.ASFont;
-import org.aswing3d.GroundDecorator;
-import org.aswing3d.Icon;
-import org.aswing3d.Insets;
-import org.aswing3d.JButton;
+import org.aswing.AbstractButton;
+import org.aswing.ASFont;
+import org.aswing.GroundDecorator;
+import org.aswing.Icon;
+import org.aswing.Insets;
+import org.aswing.JButton;
 
 /**
  * The basic imp for ClosableTab

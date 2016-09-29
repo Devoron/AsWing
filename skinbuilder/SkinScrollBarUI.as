@@ -5,8 +5,8 @@
 package devoron.aswing3d.skinbuilder{
 
 import flash.display.DisplayObject;
-import org.aswing3d.Insets;
-import org.aswing3d.JButton;
+import org.aswing.Insets;
+import org.aswing.JButton;
 
 import devoron.aswing3d.*;
 import devoron.aswing3d.plaf.basic.BasicScrollBarUI;

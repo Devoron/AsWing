@@ -10,7 +10,7 @@ import devoron.aswing3d.geom.*;
 import devoron.aswing3d.graphics.*;
 import devoron.aswing3d.plaf.*;
 import devoron.aswing3d.util.DepthManager;
-import org.aswing3d.GroundDecorator;
+import org.aswing.GroundDecorator;
 import starling.text.TextField;
 
 /**

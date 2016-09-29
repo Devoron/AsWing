@@ -1,7 +1,7 @@
 package devoron.aswing3d.layout{
 
 import devoron.aswing3d.Container;
-import org.aswing3d.FrameTitleBar;
+import org.aswing.FrameTitleBar;
 import devoron.aswing3d.JLabel;
 import devoron.aswing3d.layout.BorderLayout;
 import devoron.aswing3d.UIManager;
