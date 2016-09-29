@@ -4,7 +4,7 @@
 
 package org.aswing
 {
-	import flash.display.Stage;
+	import starling.display.Stage;
 	import flash.events.Event;
 	import flash.events.TimerEvent;
 	import flash.utils.Timer;

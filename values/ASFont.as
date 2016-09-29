@@ -2,8 +2,9 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing
+package org.aswing.values
 {
+	import org.aswing.values.ASFontAdvProperties;
 	import flash.text.TextField;
 	import flash.text.TextFormat;
 	import flash.text.TextFormatAlign;

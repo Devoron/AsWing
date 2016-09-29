@@ -2,10 +2,10 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf
+package org.aswing.plaf
 {
+	import org.aswing.values.ASColor;
 	
-import org.aswing.ASColor;
 
 /**
  * Color UI Resource.
@@ -13,7 +13,7 @@ import org.aswing.ASColor;
  */
 public class ASColorUIResource extends ASColor implements UIResource
 {
-	public function ASColorUIResource(color:uint=0x000000, alpha:Number=1)
+	public function w(color:uint=0x000000, alpha:Number=1)
 	{
 		super(color, alpha);
 	}

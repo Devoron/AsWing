@@ -1,8 +1,8 @@
-package devoron.aswing3d.event { 
+package org.aswing.event { 
+	import devoron.aswing3d.event.TreeModelEvent;
 /*
  Copyright aswing.org, see the LICENCE.txt.
 */
-import org.aswing.event.TreeModelEvent;
 
 /**
  * Defines the interface for an object that listens

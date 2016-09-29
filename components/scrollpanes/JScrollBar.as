@@ -2,9 +2,13 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing{
+package org.aswing.components.scrollpanes{
 	
+import flash.events.Event;
+import org.aswing.AsWingConstants;
+import org.aswing.Component;
 import org.aswing.event.InteractiveEvent;
+import org.aswing.Orientable;
 import org.aswing.plaf.basic.BasicScrollBarUI;
 	
 /**

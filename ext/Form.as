@@ -4,6 +4,8 @@
 
 package org.aswing.ext
 {
+	import org.aswing.layouts.LayoutManager;
+	import org.aswing.components.separators.JSeparator;
 	import org.aswing.FlowLayout;
 	import org.aswing.CenterLayout;
 	import org.aswing.layouts.BorderLayout;
@@ -14,11 +16,9 @@ package org.aswing.ext
 	import org.aswing.Insets;
 	import org.aswing.JLabel;
 	import org.aswing.JPanel;
-	import org.aswing.JSeparator;
 	import org.aswing.JSp;
 	import org.aswing.JSpacer;
 	import org.aswing.layouts.FlowLayout;
-	import org.aswing.LayoutManager;
 	import org.aswing.geom.IntDimension;
 	
 	/**

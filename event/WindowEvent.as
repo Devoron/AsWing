@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.event{
+package org.aswing.event{
 
 import flash.events.Event;
 

@@ -1,27 +1,28 @@
 /*
- Copyright aswing.org, see the LICENCE.txt.
-*/
-
-package devoron.aswing3d.plaf
-{
-import org.aswing.ASFont;
-
-/**
- * Font UI Resource.
- * @author iiley
+   Copyright aswing.org, see the LICENCE.txt.
  */
-public class ASFontUIResource extends ASFont implements UIResource
+
+package org.aswing.plaf
 {
-	public function ASFontUIResource(name:String="Tahoma", size:Number=11, bold:Boolean=false, italic:Boolean=false, underline:Boolean=false, embedFontsOrAdvancedPros:*=null)
-	{
-		super(name, size, bold, italic, underline, embedFontsOrAdvancedPros);
-	}
-		
+	import org.aswing.values.ASFont;
+	
 	/**
-	 * Create a font ui resource with a font.
+	 * Font UI Resource.
+	 * @author iiley
 	 */
-	public static function createResourceFont(font:ASFont):ASFontUIResource{
-		return new ASFontUIResource(font.getName(), font.getSize(), font.isBold(), font.isItalic(), font.isUnderline(), font.getAdvancedProperties());
+	public class ASFontUIResource extends ASFont implements UIResource
+	{
+		public function ASFontUIResource(name:String = "Tahoma", size:Number = 11, bold:Boolean = false, italic:Boolean = false, underline:Boolean = false, embedFontsOrAdvancedPros:* = null)
+		{
+			super(name, size, bold, italic, underline, embedFontsOrAdvancedPros);
+		}
+		
+		/**
+		 * Create a font ui resource with a font.
+		 */
+		public static function createResourceFont(font:ASFont):ASFontUIResource
+		{
+			return new ASFontUIResource(font.getName(), font.getSize(), font.isBold(), font.isItalic(), font.isUnderline(), font.getAdvancedProperties());
+		}
 	}
-}
 }

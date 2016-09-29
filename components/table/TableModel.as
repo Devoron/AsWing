@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 	
-package devoron.aswing3d.table{
+package org.aswing.components.table{
 
 import org.aswing.event.TableModelListener;
 
