@@ -17,4 +17,5 @@ Dependencies|Зависимости:
 2. https://github.com/Devoron/Starling-Extension-Graphics
 
 Read Wiki for more information|Читайте Wiki для большего ознакомления
+
 https://github.com/Devoron/AsWing-Starling/wiki
