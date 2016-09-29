@@ -11,11 +11,11 @@ AsWing - это Open Source Flash ActionScript GUI framework, эта библи�
 
 Эта библиотека использует хардварное ускорение с помощью Starling.
 
-Dependencies|Зависимости:
+Dependencies | Зависимости:
 
 1. https://github.com/Gamua/Starling-Framework
 2. https://github.com/Devoron/Starling-Extension-Graphics
 
-Read Wiki for more information|Читайте Wiki для большего ознакомления
+Read Wiki for more information | Читайте Wiki для большего ознакомления
 
 https://github.com/Devoron/AsWing-Starling/wiki
