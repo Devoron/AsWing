@@ -8,7 +8,7 @@ package org.aswing
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
-	import org.aswing.layout.WindowLayout;
+	import org.aswing.layouts.WindowLayout;
 	
 	import org.aswing.event.*;
 	import org.aswing.geom.*;

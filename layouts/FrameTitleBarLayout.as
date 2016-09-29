@@ -1,9 +1,9 @@
-package org.aswing.layout{
+package org.aswing.layouts{
 
 import org.aswing.Container;
 import org.aswing.FrameTitleBar;
 import org.aswing.JLabel;
-import org.aswing.layout.BorderLayout;
+import org.aswing.layouts.BorderLayout;
 import org.aswing.UIManager;
 import org.aswing.geom.IntDimension;
 import org.aswing.plaf.ComponentUI;

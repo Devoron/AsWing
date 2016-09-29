@@ -1,14 +1,13 @@
 /*
  Copyright aswing.org, see the LICENCE.txt.
 */
-package org.aswing.layout
+package org.aswing.layouts
 {
 import org.aswing.Component;
 import org.aswing.Container;
 import org.aswing.geom.IntDimension;
 import org.aswing.geom.IntRectangle;
 import org.aswing.Insets;
-import org.aswing.layout.EmptyLayout;
 
 /**
  * Simple <code>LayoutManager</code> aligned the single contained component by the container's center.
@@ -16,9 +15,9 @@ import org.aswing.layout.EmptyLayout;
  * @author iiley
  * @author Igor Sadovskiy
  */
-public class VerticalCenterLayout extends EmptyLayout
+public class CenterLayout extends EmptyLayout
 {
-	public function VerticalCenterLayout(){
+	public function CenterLayout(){
 		super();
 	}
 	
@@ -46,16 +45,14 @@ public class VerticalCenterLayout extends EmptyLayout
 	        var cd:IntRectangle = rd.clone();
 	        var preferSize:IntDimension = c.getPreferredSize();
 	        cd.setSize(preferSize);
-			
-			trace(c);
 	        
-	      /*  if (rd.width > preferSize.width) {
+	        if (rd.width > preferSize.width) {
 	        	cd.x += (rd.width - preferSize.width) / 2;
-	        }*/
+	        }
 	        if (rd.height > preferSize.height) {
 	        	cd.y += (rd.height - preferSize.height) / 2;
 	        }
-	     	//cd.x = Math.round(cd.x);
+	     	cd.x = Math.round(cd.x);
 	     	cd.y = Math.round(cd.y);
 	     	c.setBounds(cd);   
         }

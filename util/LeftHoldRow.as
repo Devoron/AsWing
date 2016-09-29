@@ -1,6 +1,6 @@
 package devoron.aswing3d.util 
 {
-	import org.aswing.layout.FlowLayout;
+	import org.aswing.layouts.FlowLayout;
 	import org.aswing.Component;
 	import org.aswing.ext.Form;
 	import org.aswing.ext.FormRow;

@@ -3,14 +3,14 @@ package devoron.aswing3d.plaf.basic.tabbedpane{
 import flash.display.DisplayObject;
 import flash.display.Shape;
 import flash.events.Event;
-import org.aswing.layout.BorderLayout;
+import org.aswing.layouts.BorderLayout;
 import devoron.aswing3d.*;
 import org.aswing.border.EmptyBorder;
 import org.aswing.event.InteractiveEvent;
 import org.aswing.geom.IntRectangle;
 import org.aswing.graphics.Graphics2D;
 import org.aswing.graphics.SolidBrush;
-import org.aswing.layout.CenterLayout;
+import org.aswing.layouts.CenterLayout;
 import org.aswing.plaf.UIResource;
 import org.aswing.plaf.basic.BasicGraphicsUtils;
 import org.aswing.AbstractButton;

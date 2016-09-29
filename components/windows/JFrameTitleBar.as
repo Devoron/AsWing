@@ -2,9 +2,9 @@ package org.aswing
 {
 	
 	import flash.events.Event;
-	import org.aswing.layout.BorderLayout;
-	import org.aswing.layout.FrameTitleBarLayout;
-	import org.aswing.layout.SoftBoxLayout;
+	import org.aswing.layouts.BorderLayout;
+	import org.aswing.layouts.FrameTitleBarLayout;
+	import org.aswing.layouts.SoftBoxLayout;
 	
 	import org.aswing.border.EmptyBorder;
 	import org.aswing.event.FrameEvent;

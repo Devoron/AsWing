@@ -8,7 +8,7 @@ import flash.display.*;
 import flash.events.*;
 import flash.geom.Matrix;
 import flash.ui.Keyboard;
-import org.aswing.layout.SoftBoxLayout;
+import org.aswing.layouts.SoftBoxLayout;
 import org.aswing.AbstractButton;
 import org.aswing.FocusManager;
 import org.aswing.Icon;

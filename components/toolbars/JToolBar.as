@@ -4,7 +4,7 @@
 
 package org.aswing { 
 
-import org.aswing.layout.SoftBoxLayout;
+import org.aswing.layouts.SoftBoxLayout;
 import org.aswing.plaf.*;
 import org.aswing.plaf.basic.BasicToolBarUI;
 

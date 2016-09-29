@@ -10,7 +10,7 @@ package devoron.aswing3d.plaf.basic
 	import flash.events.MouseEvent;
 	import flash.geom.Rectangle;
 	import flash.ui.Keyboard;
-	import org.aswing.layout.BorderLayout;
+	import org.aswing.layouts.BorderLayout;
 	import org.aswing.plaf.basic.icon.ScrollBarArrowIcon;
 	import org.aswing.skinbuilder.SkinButtonIcon;
 	import org.aswing.util.DepthManager;

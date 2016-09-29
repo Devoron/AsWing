@@ -8,7 +8,7 @@ import flash.display.InteractiveObject;
 import flash.events.*;
 import flash.text.TextField;
 import flash.ui.Keyboard;
-import org.aswing.layout.BorderLayout;
+import org.aswing.layouts.BorderLayout;
 
 import org.aswing.error.ImpMissError;
 import org.aswing.util.HashMap;

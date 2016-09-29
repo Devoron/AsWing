@@ -9,10 +9,10 @@ package devoron.aswing3d.ext
 	import org.aswing.geom.IntDimension;
 	import org.aswing.JSp;
 	import org.aswing.JSpacer;
-	import org.aswing.layout.BorderLayout;
-	import org.aswing.layout.BoxLayout;
-	import org.aswing.layout.SoftBoxLayout;
-	import org.aswing.layout.WeightBoxLayout;
+	import org.aswing.layouts.BorderLayout;
+	import org.aswing.layouts.BoxLayout;
+	import org.aswing.layouts.SoftBoxLayout;
+	import org.aswing.layouts.WeightBoxLayout;
 	import org.aswing.SoftBox;
 	
 	import mx.controls.DateChooser;

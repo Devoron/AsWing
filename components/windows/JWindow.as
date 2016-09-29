@@ -7,8 +7,8 @@ package org.aswing
 	
 	import flash.display.*;
 	import flash.events.MouseEvent;
-	import org.aswing.layout.BorderLayout;
-	import org.aswing.layout.WindowLayout;
+	import org.aswing.layouts.BorderLayout;
+	import org.aswing.layouts.WindowLayout;
 	
 	import org.aswing.event.PopupEvent;
 	import org.aswing.event.WindowEvent;

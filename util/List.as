@@ -1,7 +1,7 @@
 /*
  Copyright aswing.org, see the LICENCE.txt.
 */
-package devoron.aswing3d.util{
+package org.aswing.util{
 /**
  * An ordered collection (also known as a sequence). 
  * The user of this interface has precise control over where in the list each element is inserted. 

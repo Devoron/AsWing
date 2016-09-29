@@ -7,9 +7,9 @@ package devoron.aswing3d.plaf.basic
 	import flash.events.FocusEvent;
 	import flash.events.MouseEvent;
 	import flash.geom.Matrix;
-	import org.aswing.layout.BorderLayout;
-	import org.aswing.layout.FlowLayout;
-	import org.aswing.layout.SoftBoxLayout;
+	import org.aswing.layouts.BorderLayout;
+	import org.aswing.layouts.FlowLayout;
+	import org.aswing.layouts.SoftBoxLayout;
 	import org.aswing.JAdjuster;
 	
 	import devoron.aswing3d.*;

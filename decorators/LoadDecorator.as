@@ -1,4 +1,4 @@
-package devoron.aswing3d.decorators{
+package org.aswing.decorators{
 
 import flash.display.DisplayObject;
 import flash.display.Loader;
@@ -15,16 +15,17 @@ import org.aswing.graphics.Graphics2D;
 /**
  * @author iiley (Burstyx Studio)
  */
-public class LoadBackground implements GroundDecorator{
+public class LoadDecorator implements GroundDecorator{
 	
 	protected var loader:Loader;
 	protected var asset:DisplayObject;
 	protected var ignorBorderMargin:Boolean;
 	
+	
 	private var _w:Number = -1;
 	private var _h:Number = -1;
 	
-	public function LoadBackground(url:String, ignoreMargin:Boolean, context:LoaderContext=null){
+	public function LoadDecorator(url:String, ignoreMargin:Boolean, context:LoaderContext=null){
 		ignorBorderMargin = ignoreMargin;
 		var urlRequest:URLRequest = new URLRequest(url);
 		getLoader().load(urlRequest, context);

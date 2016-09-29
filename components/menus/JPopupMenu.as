@@ -4,7 +4,7 @@
 
 package org.aswing.components.menus
 {
-	import org.aswing.layout.WindowLayout;
+	import org.aswing.layouts.WindowLayout;
 	
 	import flash.events.Event;
 	import flash.events.MouseEvent;

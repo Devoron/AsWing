@@ -1,4 +1,4 @@
-package org.aswing.layout
+package org.aswing.layouts
 {
 	
 	import org.aswing.AsWingConstants;

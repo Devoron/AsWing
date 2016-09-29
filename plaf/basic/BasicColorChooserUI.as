@@ -23,9 +23,9 @@ package devoron.aswing3d.plaf.basic
 	import org.aswing.geom.*;
 	import org.aswing.graphics.*;
 	import org.aswing.plaf.BaseComponentUI;
-	import org.aswing.layout.CenterLayout;
-	import org.aswing.layout.BorderLayout;
-	import org.aswing.layout.SoftBoxLayout;
+	import org.aswing.layouts.CenterLayout;
+	import org.aswing.layouts.BorderLayout;
+	import org.aswing.layouts.SoftBoxLayout;
 	import org.aswing.AbstractButton;
 	import org.aswing.Insets;
 	

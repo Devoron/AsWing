@@ -3,7 +3,7 @@
 */
 
 package org.aswing { 
-import org.aswing.layout.BoxLayout;
+import org.aswing.layouts.BoxLayout;
 import org.aswing.JPanel;
 import org.aswing.JSpacer;
 

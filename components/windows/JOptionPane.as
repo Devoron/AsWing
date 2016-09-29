@@ -8,8 +8,8 @@ package org.aswing
 	import flash.text.TextField;
 	import org.aswing.border.LineBorder;
 	import org.aswing.decorators.ColorDecorator;
-	import org.aswing.layout.BorderLayout;
-	import org.aswing.layout.FlowLayout;
+	import org.aswing.layouts.BorderLayout;
+	import org.aswing.layouts.FlowLayout;
 	
 	import org.aswing.border.EmptyBorder;
 	import org.aswing.event.*;

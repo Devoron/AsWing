@@ -10,7 +10,7 @@ package devoron.aswing3d.plaf.basic
 	import flash.geom.Rectangle;
 	import flash.ui.Keyboard;
 	import org.aswing.decorators.ColorDecorator;
-	import org.aswing.layout.BorderLayout;
+	import org.aswing.layouts.BorderLayout;
 	import org.aswing.Insets;
 	import org.aswing.JButton;
 	import org.aswing.JComboBox;

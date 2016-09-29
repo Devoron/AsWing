@@ -4,13 +4,13 @@
 
 package org.aswing.plaf.basic{
 	
-import org.aswing.layout.BorderLayout;
+import org.aswing.layouts.BorderLayout;
 import flash.display.InteractiveObject;
 import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.filters.DropShadowFilter;
 import flash.ui.Keyboard;
-import org.aswing.layout.BorderLayout;
+import org.aswing.layouts.BorderLayout;
 import org.aswing.Insets;
 import org.aswing.JButton;
 

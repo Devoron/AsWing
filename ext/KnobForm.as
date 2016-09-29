@@ -7,9 +7,9 @@ package devoron.aswing3d.ext
 	import org.aswing.JLabel;
 	import org.aswing.JNumberKnob;
 	import org.aswing.JPanel;
-	import org.aswing.layout.BorderLayout;
-	import org.aswing.layout.BoxLayout;
-	import org.aswing.layout.SoftBoxLayout;
+	import org.aswing.layouts.BorderLayout;
+	import org.aswing.layouts.BoxLayout;
+	import org.aswing.layouts.SoftBoxLayout;
 	import org.aswing.NumberBoundedRangeModel;
 	
 	/**

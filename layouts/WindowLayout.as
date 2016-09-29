@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing.layout{
+package org.aswing.layouts{
 
 import org.aswing.Component;
 import org.aswing.Container;

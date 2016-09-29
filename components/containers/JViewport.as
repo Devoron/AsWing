@@ -8,7 +8,7 @@ import org.aswing.event.InteractiveEvent;
 import org.aswing.geom.IntDimension;
 import org.aswing.geom.IntPoint;
 import org.aswing.geom.IntRectangle;
-import org.aswing.layout.ViewportLayout;
+import org.aswing.layouts.ViewportLayout;
 import org.aswing.plaf.basic.BasicViewportUI;
 
 /**

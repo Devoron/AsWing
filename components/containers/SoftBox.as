@@ -3,7 +3,7 @@
 */
 
 package org.aswing { 
-	import org.aswing.layout.SoftBoxLayout;
+	import org.aswing.layouts.SoftBoxLayout;
 
 /**
  * A <code>JPanel</code> with <code>SoftBoxLayout</code>.
