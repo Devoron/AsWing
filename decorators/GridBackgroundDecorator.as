@@ -5,13 +5,13 @@ package devoron.aswing3d.decorators
 	import starling.display.Sprite;
 	import flash.display.BitmapData;
 	import flash.geom.Rectangle;
-	import devoron.aswing3d.ASColor;
-	import devoron.aswing3d.Component;
-	import devoron.aswing3d.geom.IntRectangle;
-	import devoron.aswing3d.graphics.BitmapBrush;
-	import devoron.aswing3d.graphics.Graphics2D;
-	import devoron.aswing3d.graphics.Pen;
-	import devoron.aswing3d.graphics.SolidBrush;
+	import org.aswing.ASColor;
+	import org.aswing.Component;
+	import org.aswing.geom.IntRectangle;
+	import org.aswing.graphics.BitmapBrush;
+	import org.aswing.graphics.Graphics2D;
+	import org.aswing.graphics.Pen;
+	import org.aswing.graphics.SolidBrush;
 	import org.aswing.GroundDecorator;
 	
 	/**

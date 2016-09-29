@@ -2,12 +2,12 @@ package devoron.aswing3d.ext
 {
 	
 	import flash.events.MouseEvent;
-	import devoron.aswing3d.decorators.ColorDecorator;
+	import org.aswing.decorators.ColorDecorator;
 	
-	import devoron.aswing3d.ASColor;
+	import org.aswing.ASColor;
 	import org.aswing.Icon;
-	import devoron.aswing3d.JLabel;
-	import devoron.aswing3d.UIManager;
+	import org.aswing.JLabel;
+	import org.aswing.UIManager;
 	
 	/**
 	 * @author iiley (Burstyx Studio)

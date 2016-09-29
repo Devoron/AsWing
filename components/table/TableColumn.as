@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.Component;
-import devoron.aswing3d.event.*;
+import org.aswing.Component;
+import org.aswing.event.*;
 import flash.events.EventDispatcher;
 	
 /**

@@ -4,12 +4,12 @@
 
 package devoron.aswing3d.skinbuilder{
 
-import devoron.aswing3d.graphics.Graphics2D;
+import org.aswing.graphics.Graphics2D;
 import org.aswing.GroundDecorator;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.Component;
+import org.aswing.geom.IntRectangle;
+import org.aswing.Component;
 import flash.display.DisplayObject;
-import devoron.aswing3d.plaf.UIResource;
+import org.aswing.plaf.UIResource;
 
 public class SkinTableHeaderSortableCellBackground extends SelfHandleStateDecorator{
 	

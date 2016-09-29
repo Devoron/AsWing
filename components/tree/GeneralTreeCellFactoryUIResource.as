@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.tree { 
 
-import devoron.aswing3d.plaf.UIResource;
-import devoron.aswing3d.tree.GeneralTreeCellFactory;
+import org.aswing.plaf.UIResource;
+import org.aswing.tree.GeneralTreeCellFactory;
 
 /**
  * @author iiley

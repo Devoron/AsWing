@@ -5,10 +5,10 @@
 package devoron.aswing3d.plaf.basic{
 	
 import devoron.aswing3d.*;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.geom.IntDimension;
-import devoron.aswing3d.plaf.*;	
+import org.aswing.graphics.Graphics2D;
+import org.aswing.geom.IntRectangle;
+import org.aswing.geom.IntDimension;
+import org.aswing.plaf.*;	
 import org.aswing.AbstractButton;
 import org.aswing.Icon;
 	

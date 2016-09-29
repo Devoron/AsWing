@@ -2,7 +2,7 @@ package devoron.aswing3d.tree {
 /*
  Copyright aswing.org, see the LICENCE.txt.
 */
-import devoron.aswing3d.tree.FHTreeStateNode;
+import org.aswing.tree.FHTreeStateNode;
 
 /**
  * @author iiley

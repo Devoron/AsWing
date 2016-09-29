@@ -4,13 +4,13 @@
 
 package devoron.aswing3d.skinbuilder{
 
-import devoron.aswing3d.plaf.basic.*;
+import org.aswing.plaf.basic.*;
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.util.*;
-import devoron.aswing3d.event.*;
+import org.aswing.plaf.*;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
+import org.aswing.util.*;
+import org.aswing.event.*;
 import flash.events.*;
 import flash.display.*;
 

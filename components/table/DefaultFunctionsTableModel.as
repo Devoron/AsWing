@@ -3,8 +3,8 @@ package devoron.aswing3d.table
 	import flash.display.Sprite;
 	import flash.utils.describeType;
 	import flash.utils.getDefinitionByName;
-	import devoron.aswing3d.table.DefaultTableModel;
-	import devoron.aswing3d.util.HashMap;
+	import org.aswing.table.DefaultTableModel;
+	import org.aswing.util.HashMap;
 	
 	public class DefaultFunctionsTableModel extends DefaultTableModel
 	{

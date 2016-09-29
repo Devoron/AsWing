@@ -1,9 +1,9 @@
 ﻿package devoron.aswing3d.util.autocomplete {
-	import devoron.aswing3d.util.TextUtils;
+	import org.aswing.util.TextUtils;
 	import flash.events.Event;
 	import flash.events.KeyboardEvent;
 	import flash.ui.Keyboard;
-	import devoron.aswing3d.JTextField;
+	import org.aswing.JTextField;
 	
 	/**
 	 * ...

@@ -6,8 +6,8 @@ package devoron.aswing3d.ext
 {
 	
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.layout.EmptyLayout;
+	import org.aswing.geom.*;
+	import org.aswing.layout.EmptyLayout;
 	import org.aswing.Insets;
 	
 	public class GridListLayout extends EmptyLayout

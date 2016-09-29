@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.resizer{
 
-import devoron.aswing3d.geom.IntDimension;
-import devoron.aswing3d.geom.IntRectangle;
+import org.aswing.geom.IntDimension;
+import org.aswing.geom.IntRectangle;
 
 /**
  * The strategy for DefaultResizer to count the new bounds of component would be resized to.

@@ -5,7 +5,7 @@
 package devoron.aswing3d.graphics
 {
 	import starling.display.Graphics;
-	import devoron.aswing3d.graphics.IBrush;
+	import org.aswing.graphics.IBrush;
 	import flash.geom.Matrix;
 	import flash.display.GradientType;
 	

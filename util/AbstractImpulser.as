@@ -5,7 +5,7 @@ package devoron.aswing3d.util{
 	
  
 import flash.events.EventDispatcher;
-import devoron.aswing3d.event.AWEvent;
+import org.aswing.event.AWEvent;
 
 /**
  * Provides common routines for classes implemented

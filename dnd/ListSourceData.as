@@ -1,6 +1,6 @@
 package devoron.aswing3d.dnd {
 
-import devoron.aswing3d.dnd.SourceData;
+import org.aswing.dnd.SourceData;
 
 /**
  * The source data for draging list items.

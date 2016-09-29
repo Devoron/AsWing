@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.table.TableColumnModel;
-import devoron.aswing3d.table.TableColumnModelEvent;
+import org.aswing.table.TableColumnModel;
+import org.aswing.table.TableColumnModelEvent;
 
 /**
  * TableColumnModelListener defines the interface for an object that listens

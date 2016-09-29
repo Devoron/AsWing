@@ -8,9 +8,9 @@ import flash.filters.DropShadowFilter;
 import flash.filters.GlowFilter;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.basic.BasicSliderUI;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
+import org.aswing.plaf.basic.BasicSliderUI;
 
 /**
  * SliderUI for JAdjuster popup slider.

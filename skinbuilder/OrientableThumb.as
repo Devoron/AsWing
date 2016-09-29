@@ -11,11 +11,11 @@ package devoron.aswing3d.skinbuilder
 	import org.aswing.Icon;
 	
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.error.ImpMissError;
-	import devoron.aswing3d.event.*;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.graphics.Graphics2D;
-	import devoron.aswing3d.plaf.*;
+	import org.aswing.error.ImpMissError;
+	import org.aswing.event.*;
+	import org.aswing.geom.*;
+	import org.aswing.graphics.Graphics2D;
+	import org.aswing.plaf.*;
 	
 	public class OrientableThumb extends DefaultsDecoratorBase implements GroundDecorator, Icon, UIResource
 	{

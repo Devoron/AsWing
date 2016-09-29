@@ -10,7 +10,7 @@ import flash.filters.BitmapFilterType;
 import org.aswing.AbstractButton;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.graphics.*;
+import org.aswing.graphics.*;
 
 /**
  * @private

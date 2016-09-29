@@ -5,11 +5,11 @@
 package devoron.aswing3d.plaf.basic{
 	
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.ToolTipEvent;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.layout.BorderLayout;
-import devoron.aswing3d.plaf.BaseComponentUI;
+import org.aswing.event.ToolTipEvent;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.layout.BorderLayout;
+import org.aswing.plaf.BaseComponentUI;
 
 /**
  * @private

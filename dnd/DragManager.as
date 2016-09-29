@@ -15,9 +15,9 @@ package devoron.aswing3d.dnd
 	import starling.events.TouchPhase;
 	
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.event.DragAndDropEvent;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.util.*;
+	import org.aswing.event.DragAndDropEvent;
+	import org.aswing.geom.*;
+	import org.aswing.util.*;
 	
 	/**
 	 * Drag and Drop Manager.

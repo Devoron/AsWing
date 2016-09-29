@@ -4,10 +4,10 @@
 
 package devoron.aswing3d.border{
 
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.Border;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.Component;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.Border;
+import org.aswing.geom.IntRectangle;
+import org.aswing.Component;
 import org.aswing.Insets;
 
 /**

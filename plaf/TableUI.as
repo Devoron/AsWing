@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.plaf{
 
-import devoron.aswing3d.JTable;
-import devoron.aswing3d.geom.IntDimension;
+import org.aswing.JTable;
+import org.aswing.geom.IntDimension;
 
 /**
  * Pluginable ui for JTable.

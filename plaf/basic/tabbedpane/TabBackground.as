@@ -3,19 +3,19 @@ package devoron.aswing3d.plaf.basic.tabbedpane{
 import flash.display.DisplayObject;
 import flash.display.Shape;
 
-import devoron.aswing3d.ASColor;
+import org.aswing.ASColor;
 import org.aswing.AbstractButton;
-import devoron.aswing3d.ButtonModel;
-import devoron.aswing3d.Component;
+import org.aswing.ButtonModel;
+import org.aswing.Component;
 import org.aswing.GroundDecorator;
-import devoron.aswing3d.JTabbedPane;
-import devoron.aswing3d.StyleResult;
-import devoron.aswing3d.StyleTune;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.graphics.SolidBrush;
-import devoron.aswing3d.plaf.UIResource;
-import devoron.aswing3d.plaf.basic.BasicGraphicsUtils;
+import org.aswing.JTabbedPane;
+import org.aswing.StyleResult;
+import org.aswing.StyleTune;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.graphics.SolidBrush;
+import org.aswing.plaf.UIResource;
+import org.aswing.plaf.basic.BasicGraphicsUtils;
 
 public class TabBackground implements GroundDecorator, UIResource{
 	

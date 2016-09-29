@@ -1,8 +1,8 @@
 ﻿package devoron.aswing3d.layout
 {
-	import devoron.aswing3d.Container;
-	import devoron.aswing3d.geom.IntDimension;
-	import devoron.aswing3d.geom.IntRectangle;
+	import org.aswing.Container;
+	import org.aswing.geom.IntDimension;
+	import org.aswing.geom.IntRectangle;
 
     public class FlexLayout extends EmptyLayout
     {

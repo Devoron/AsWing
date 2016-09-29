@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.plaf.basic{
 
-import devoron.aswing3d.layout.SoftBoxLayout;
-import devoron.aswing3d.plaf.UIResource;
-import devoron.aswing3d.AsWingConstants;
+import org.aswing.layout.SoftBoxLayout;
+import org.aswing.plaf.UIResource;
+import org.aswing.AsWingConstants;
 
 /**
  * @private

@@ -5,8 +5,8 @@
 package devoron.aswing3d.skinbuilder{
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.*;
-import devoron.aswing3d.plaf.basic.splitpane.Divider;
+import org.aswing.plaf.*;
+import org.aswing.plaf.basic.splitpane.Divider;
 import org.aswing.AbstractButton;
 import org.aswing.JButton;
 

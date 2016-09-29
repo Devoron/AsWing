@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.skinbuilder{
 
-import devoron.aswing3d.plaf.basic.BasicProgressBarUI;
+import org.aswing.plaf.basic.BasicProgressBarUI;
 import flash.display.DisplayObject;
-import devoron.aswing3d.geom.IntDimension;
+import org.aswing.geom.IntDimension;
 
 public class SkinProgressBarUI extends BasicProgressBarUI{
 	

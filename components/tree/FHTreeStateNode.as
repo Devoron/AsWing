@@ -4,12 +4,12 @@
 
 package devoron.aswing3d.tree { 
 
-import devoron.aswing3d.tree.DefaultMutableTreeNode;
-import devoron.aswing3d.tree.FixedHeightLayoutCache;
-import devoron.aswing3d.tree.MutableTreeNode;
-import devoron.aswing3d.tree.SearchInfo;
-import devoron.aswing3d.tree.TreeModel;
-import devoron.aswing3d.tree.TreePath;
+import org.aswing.tree.DefaultMutableTreeNode;
+import org.aswing.tree.FixedHeightLayoutCache;
+import org.aswing.tree.MutableTreeNode;
+import org.aswing.tree.SearchInfo;
+import org.aswing.tree.TreeModel;
+import org.aswing.tree.TreePath;
 
 /**
  * FHTreeStateNode is used to track what has been expanded.

@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.event{
 	
-import devoron.aswing3d.JScrollBar;
+import org.aswing.JScrollBar;
 import flash.events.Event;
 
 /**

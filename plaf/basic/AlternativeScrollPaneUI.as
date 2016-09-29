@@ -4,12 +4,12 @@
 
 package devoron.aswing3d.plaf.basic
 {
-	import devoron.aswing3d.AlternativeScrollPane;
-	import devoron.aswing3d.plaf.BaseComponentUI;
+	import org.aswing.AlternativeScrollPane;
+	import org.aswing.plaf.BaseComponentUI;
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.event.*;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.plaf.basic.icon.ArrowIcon;
+	import org.aswing.event.*;
+	import org.aswing.geom.*;
+	import org.aswing.plaf.basic.icon.ArrowIcon;
 	import org.aswing.Insets;
 	import org.aswing.JButton;
 	

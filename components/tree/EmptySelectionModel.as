@@ -3,7 +3,7 @@ package devoron.aswing3d.tree {
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-import devoron.aswing3d.tree.DefaultTreeSelectionModel;
+import org.aswing.tree.DefaultTreeSelectionModel;
 
 /**
  * <code>EmptySelectionModel</code> is a <code>TreeSelectionModel</code>

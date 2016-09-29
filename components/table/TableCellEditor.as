@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.CellEditor;
+import org.aswing.CellEditor;
 
 /**
  * @author iiley

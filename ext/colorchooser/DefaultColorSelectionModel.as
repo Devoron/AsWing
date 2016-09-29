@@ -4,8 +4,8 @@
 package devoron.aswing3d.colorchooser { 
 import flash.events.EventDispatcher;
 
-import devoron.aswing3d.ASColor;
-import devoron.aswing3d.event.*;
+import org.aswing.ASColor;
+import org.aswing.event.*;
 
 /**
  * A generic implementation of <code>ColorSelectionModel</code>.

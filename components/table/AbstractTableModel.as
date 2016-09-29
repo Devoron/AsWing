@@ -4,10 +4,10 @@
 
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.event.TableModelEvent;
-import devoron.aswing3d.event.TableModelListener;
-import devoron.aswing3d.util.ArrayUtils;
-import devoron.aswing3d.error.ImpMissError;
+import org.aswing.event.TableModelEvent;
+import org.aswing.event.TableModelListener;
+import org.aswing.util.ArrayUtils;
+import org.aswing.error.ImpMissError;
 
 /**
  *  This abstract class provides default implementations for most of

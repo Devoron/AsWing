@@ -12,13 +12,13 @@ package devoron.aswing3d.dnd
 	import flash.display.BitmapData;
 	import flash.geom.Matrix;
 	import flash.text.TextField;
-	import devoron.aswing3d.ASColor;
-	import devoron.aswing3d.Component;
-	import devoron.aswing3d.dnd.DraggingImage;
-	import devoron.aswing3d.JLabel;
-//import devoron.aswing3d.ElementCreater;
-	import devoron.aswing3d.graphics.Pen;
-	import devoron.aswing3d.JList;
+	import org.aswing.ASColor;
+	import org.aswing.Component;
+	import org.aswing.dnd.DraggingImage;
+	import org.aswing.JLabel;
+//import org.aswing.ElementCreater;
+	import org.aswing.graphics.Pen;
+	import org.aswing.JList;
 	
 	/**
 	 * @author iiley

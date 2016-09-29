@@ -5,9 +5,9 @@
 package devoron.aswing3d.plaf.basic{
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.*;
-import devoron.aswing3d.plaf.BaseComponentUI;
-import devoron.aswing3d.geom.IntPoint;
+import org.aswing.event.*;
+import org.aswing.plaf.BaseComponentUI;
+import org.aswing.geom.IntPoint;
 import flash.ui.Keyboard;
 import flash.events.MouseEvent;
 

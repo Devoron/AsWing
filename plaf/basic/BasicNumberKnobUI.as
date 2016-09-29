@@ -18,17 +18,17 @@ package devoron.aswing3d.plaf.basic
 	import flash.text.TextFormat;
 	import flash.text.TextFormatAlign;
 	import flash.ui.Keyboard;
-	import devoron.aswing3d.decorators.ColorDecorator;
-	import devoron.aswing3d.decorators.SideLineDecorator;
-	import devoron.aswing3d.util.ASTimer;
+	import org.aswing.decorators.ColorDecorator;
+	import org.aswing.decorators.SideLineDecorator;
+	import org.aswing.util.ASTimer;
 	import starling.display.Shape;
 	
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.event.*;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.graphics.*;
-	import devoron.aswing3d.plaf.*;
-	import devoron.aswing3d.plaf.basic.icon.ArrowIcon;
+	import org.aswing.event.*;
+	import org.aswing.geom.*;
+	import org.aswing.graphics.*;
+	import org.aswing.plaf.*;
+	import org.aswing.plaf.basic.icon.ArrowIcon;
 	
 	/**
 	 * Basic stepper ui imp.

@@ -6,12 +6,12 @@ package devoron.aswing3d.tree
 {
 	import starling.display.DisplayObject;
 	import flash.geom.Point;
-	import devoron.aswing3d.ASColor;
-	import devoron.aswing3d.Component;
-	import devoron.aswing3d.geom.IntRectangle;
-	import devoron.aswing3d.graphics.*;
+	import org.aswing.ASColor;
+	import org.aswing.Component;
+	import org.aswing.geom.IntRectangle;
+	import org.aswing.graphics.*;
 	import org.aswing.Icon;
-	import devoron.aswing3d.plaf.UIResource;
+	import org.aswing.plaf.UIResource;
 	import flash.geom.Matrix;
 	
 	/**

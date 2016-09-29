@@ -1,6 +1,6 @@
 package devoron.aswing3d.plaf{
 
-import devoron.aswing3d.layout.EmptyLayout;
+import org.aswing.layout.EmptyLayout;
 
 /**
  * A UIResource layout manager.

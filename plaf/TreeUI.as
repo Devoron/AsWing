@@ -4,11 +4,11 @@
 
 package devoron.aswing3d.plaf { 
 
-import devoron.aswing3d.geom.IntDimension;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.JTree;
-import devoron.aswing3d.plaf.ComponentUI;
-import devoron.aswing3d.tree.TreePath;
+import org.aswing.geom.IntDimension;
+import org.aswing.geom.IntRectangle;
+import org.aswing.JTree;
+import org.aswing.plaf.ComponentUI;
+import org.aswing.tree.TreePath;
 
 /**
  * Pluggable look and feel interface for JTree.

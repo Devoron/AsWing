@@ -7,7 +7,7 @@ import flash.events.TimerEvent;
 import flash.utils.clearInterval;
 import flash.utils.setInterval;
 import flash.utils.Timer;
-import devoron.aswing3d.event.AWEvent;
+import org.aswing.event.AWEvent;
 /**
  * Fires one or more action events after a specified delay.  
  * For example, an animation object can use a <code>Timer</code>

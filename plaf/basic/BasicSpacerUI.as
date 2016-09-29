@@ -5,8 +5,8 @@
 package devoron.aswing3d.plaf.basic
 {
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.BaseComponentUI;
-import devoron.aswing3d.geom.IntDimension;
+import org.aswing.plaf.BaseComponentUI;
+import org.aswing.geom.IntDimension;
 
 /**
  * @private

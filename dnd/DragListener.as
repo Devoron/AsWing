@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.dnd
 {
-	import devoron.aswing3d.Component;
-	import devoron.aswing3d.geom.IntPoint;
-	import devoron.aswing3d.event.DragAndDropEvent;
+	import org.aswing.Component;
+	import org.aswing.geom.IntPoint;
+	import org.aswing.event.DragAndDropEvent;
 	
 	/**
 	 * Drag and Drop listener.

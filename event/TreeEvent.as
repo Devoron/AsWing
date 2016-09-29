@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.event{
 	
-import devoron.aswing3d.tree.TreePath;
+import org.aswing.tree.TreePath;
 import flash.events.Event;
 
 /**

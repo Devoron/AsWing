@@ -4,14 +4,14 @@
 
 package devoron.aswing3d.plaf.basic{
 
-import devoron.aswing3d.ASColor;
-import devoron.aswing3d.Component;
+import org.aswing.ASColor;
+import org.aswing.Component;
 import org.aswing.FrameTitleBar;
-import devoron.aswing3d.LookAndFeel;
-import devoron.aswing3d.StyleResult;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.plaf.BaseComponentUI;
+import org.aswing.LookAndFeel;
+import org.aswing.StyleResult;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.plaf.BaseComponentUI;
 
 /**
  * @private

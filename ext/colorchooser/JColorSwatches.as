@@ -5,8 +5,8 @@
 package devoron.aswing3d.colorchooser {
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.ColorSwatchesUI;
-import devoron.aswing3d.plaf.basic.BasicColorSwatchesUI;
+import org.aswing.plaf.ColorSwatchesUI;
+import org.aswing.plaf.basic.BasicColorSwatchesUI;
 
 /**
  * @author iiley

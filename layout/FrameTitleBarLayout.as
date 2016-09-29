@@ -1,12 +1,12 @@
 package devoron.aswing3d.layout{
 
-import devoron.aswing3d.Container;
+import org.aswing.Container;
 import org.aswing.FrameTitleBar;
-import devoron.aswing3d.JLabel;
-import devoron.aswing3d.layout.BorderLayout;
-import devoron.aswing3d.UIManager;
-import devoron.aswing3d.geom.IntDimension;
-import devoron.aswing3d.plaf.ComponentUI;
+import org.aswing.JLabel;
+import org.aswing.layout.BorderLayout;
+import org.aswing.UIManager;
+import org.aswing.geom.IntDimension;
+import org.aswing.plaf.ComponentUI;
 
 public class FrameTitleBarLayout extends BorderLayout{
 	

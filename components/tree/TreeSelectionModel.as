@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.tree { 
 
-import devoron.aswing3d.tree.RowMapper;
-import devoron.aswing3d.tree.TreePath;
+import org.aswing.tree.RowMapper;
+import org.aswing.tree.TreePath;
 
 /**
   * This interface represents the current state of the selection for

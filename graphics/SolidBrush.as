@@ -5,8 +5,8 @@
 package devoron.aswing3d.graphics
 {
 	import starling.display.Graphics;
-	import devoron.aswing3d.ASColor;
-	import devoron.aswing3d.graphics.IBrush;
+	import org.aswing.ASColor;
+	import org.aswing.graphics.IBrush;
 	
 	/**
 	 * SolidBrush encapsulate fill parameters for flash.display.Graphics.beginFill()

@@ -4,6 +4,7 @@
 
 package org.aswing{
 		
+import devoron.aswing3d.plaf.basic.BasicAdjusterUI;
 import org.aswing.event.*;
 import org.aswing.plaf.*;
 import org.aswing.plaf.basic.BasicAdjusterUI;

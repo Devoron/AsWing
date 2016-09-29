@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.skinbuilder{
 	
-import devoron.aswing3d.AssetBackground;
+import org.aswing.AssetBackground;
 import flash.display.DisplayObject;
-import devoron.aswing3d.plaf.UIResource;
+import org.aswing.plaf.UIResource;
 
 public class SkinAssetBackground extends AssetBackground implements UIResource{
 	

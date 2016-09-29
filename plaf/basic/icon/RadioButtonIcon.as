@@ -14,8 +14,8 @@ import org.aswing.AbstractButton;
 import org.aswing.Icon;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.UIResource;
+import org.aswing.graphics.*;
+import org.aswing.plaf.UIResource;
 
 /**
  * @private

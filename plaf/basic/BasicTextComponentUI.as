@@ -4,11 +4,11 @@
 
 package devoron.aswing3d.plaf.basic{
 	
-import devoron.aswing3d.plaf.BaseComponentUI;
+import org.aswing.plaf.BaseComponentUI;
 import devoron.aswing3d.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.error.ImpMissError;
+import org.aswing.graphics.*;
+import org.aswing.geom.*;
+import org.aswing.error.ImpMissError;
 
 /**
  * The base class for text component UIs.

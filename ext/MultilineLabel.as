@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.ext{
 
-import devoron.aswing3d.JTextArea;
+import org.aswing.JTextArea;
 
 /**
  * MutilineLabel performances just like a label that wordwrap and multiline. 

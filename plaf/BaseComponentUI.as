@@ -12,12 +12,12 @@ import org.aswing.Icon;
 import org.aswing.Insets;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.error.ImpMissError;
-import devoron.aswing3d.geom.IntDimension;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.graphics.Pen;
-import devoron.aswing3d.graphics.SolidBrush;
+import org.aswing.error.ImpMissError;
+import org.aswing.geom.IntDimension;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.graphics.Pen;
+import org.aswing.graphics.SolidBrush;
 
 /**
  * The base class for ComponentUI.

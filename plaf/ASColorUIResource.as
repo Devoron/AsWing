@@ -5,7 +5,7 @@
 package devoron.aswing3d.plaf
 {
 	
-import devoron.aswing3d.ASColor;
+import org.aswing.ASColor;
 
 /**
  * Color UI Resource.

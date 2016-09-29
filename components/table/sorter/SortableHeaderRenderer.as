@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.table.sorter{
 
-import devoron.aswing3d.table.TableCell;
-import devoron.aswing3d.table.TableCellFactory;
+import org.aswing.table.TableCell;
+import org.aswing.table.TableCellFactory;
 
 /**
  * @author iiley

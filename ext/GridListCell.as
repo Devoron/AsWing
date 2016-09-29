@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.ext{
 
-import devoron.aswing3d.Cell;
+import org.aswing.Cell;
 
 public interface GridListCell extends Cell{
 	

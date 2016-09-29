@@ -5,7 +5,7 @@
 package devoron.aswing3d.geom
 {
 
-import devoron.aswing3d.geom.IntPoint;
+import org.aswing.geom.IntPoint;
 import flash.geom.Rectangle;
 
 /**

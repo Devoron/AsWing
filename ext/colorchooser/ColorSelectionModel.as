@@ -5,7 +5,7 @@
 package devoron.aswing3d.colorchooser
 {
 	import flash.events.EventDispatcher;
-	import devoron.aswing3d.ASColor;
+	import org.aswing.ASColor;
 	
 	/**
 	 * @author iiley

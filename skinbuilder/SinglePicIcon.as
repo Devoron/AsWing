@@ -5,12 +5,12 @@
 package devoron.aswing3d.skinbuilder
 {
 	import starling.display.DisplayObject;
-	import devoron.aswing3d.Component;
+	import org.aswing.Component;
 	import org.aswing.Icon;
-	import devoron.aswing3d.error.ImpMissError;
-	import devoron.aswing3d.graphics.Graphics2D;
-	import devoron.aswing3d.plaf.DefaultsDecoratorBase;
-	import devoron.aswing3d.plaf.UIResource;
+	import org.aswing.error.ImpMissError;
+	import org.aswing.graphics.Graphics2D;
+	import org.aswing.plaf.DefaultsDecoratorBase;
+	import org.aswing.plaf.UIResource;
 	
 	public class SinglePicIcon extends DefaultsDecoratorBase implements Icon, UIResource
 	{

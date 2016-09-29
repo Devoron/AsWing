@@ -4,13 +4,13 @@
 
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.Container;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.IContextMenu;
-import devoron.aswing3d.JTable;
-import devoron.aswing3d.plaf.ComponentUI;
-import devoron.aswing3d.UIManager;
-import devoron.aswing3d.plaf.basic.BasicTableHeaderUI;
+import org.aswing.Container;
+import org.aswing.geom.*;
+import org.aswing.IContextMenu;
+import org.aswing.JTable;
+import org.aswing.plaf.ComponentUI;
+import org.aswing.UIManager;
+import org.aswing.plaf.basic.BasicTableHeaderUI;
 
 /**
  * This is the object which manages the header of the <code>JTable</code>.

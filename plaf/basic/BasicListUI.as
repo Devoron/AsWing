@@ -4,15 +4,15 @@
 
 package devoron.aswing3d.plaf.basic{
 
-import devoron.aswing3d.plaf.*;
+import org.aswing.plaf.*;
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.ListItemEvent;
-import devoron.aswing3d.event.FocusKeyEvent;
-import devoron.aswing3d.event.AWEvent;
-import devoron.aswing3d.event.SelectionEvent;
+import org.aswing.event.ListItemEvent;
+import org.aswing.event.FocusKeyEvent;
+import org.aswing.event.AWEvent;
+import org.aswing.event.SelectionEvent;
 import flash.events.MouseEvent;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.geom.*;
+import org.aswing.graphics.*;
+import org.aswing.geom.*;
 import flash.display.Graphics;
 import flash.ui.Keyboard;
 import org.aswing.FocusManager;

@@ -6,9 +6,9 @@ package devoron.aswing3d.plaf.basic.cursor
 {
 	import starling.display.Shape;
 	import starling.display.Graphics;
-	import devoron.aswing3d.graphics.*;
-	import devoron.aswing3d.UIManager;
-	import devoron.aswing3d.ASColor;
+	import org.aswing.graphics.*;
+	import org.aswing.UIManager;
+	import org.aswing.ASColor;
 	
 	/**
 	 * @private

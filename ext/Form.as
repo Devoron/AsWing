@@ -5,20 +5,20 @@
 package devoron.aswing3d.ext
 {
 	import away3d.library.assets.AssetType;
-	import devoron.aswing3d.layout.BorderLayout;
-	import devoron.aswing3d.layout.CenterLayout;
-	import devoron.aswing3d.Component;
-	import devoron.aswing3d.Container;
+	import org.aswing.layout.BorderLayout;
+	import org.aswing.layout.CenterLayout;
+	import org.aswing.Component;
+	import org.aswing.Container;
 	import org.aswing.Icon;
 	import org.aswing.Insets;
-	import devoron.aswing3d.JLabel;
-	import devoron.aswing3d.JPanel;
-	import devoron.aswing3d.JSeparator;
-	import devoron.aswing3d.JSp;
-	import devoron.aswing3d.JSpacer;
-	import devoron.aswing3d.layout.FlowLayout;
-	import devoron.aswing3d.LayoutManager;
-	import devoron.aswing3d.geom.IntDimension;
+	import org.aswing.JLabel;
+	import org.aswing.JPanel;
+	import org.aswing.JSeparator;
+	import org.aswing.JSp;
+	import org.aswing.JSpacer;
+	import org.aswing.layout.FlowLayout;
+	import org.aswing.LayoutManager;
+	import org.aswing.geom.IntDimension;
 	
 	/**
 	 * Form is a vertical list of <code>FormRow</code>s.

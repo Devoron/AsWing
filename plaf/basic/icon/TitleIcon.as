@@ -7,9 +7,9 @@ package devoron.aswing3d.plaf.basic.icon
 	import org.aswing.Icon;
 	import starling.display.Shape;
 	import starling.display.DisplayObject;
-	import devoron.aswing3d.graphics.*;
+	import org.aswing.graphics.*;
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.plaf.UIResource;
+	import org.aswing.plaf.UIResource;
 	import flash.geom.Point;
 	
 	/**

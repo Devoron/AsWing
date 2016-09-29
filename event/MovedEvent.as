@@ -5,7 +5,7 @@
 package devoron.aswing3d.event
 {
 	import starling.events.Event;
-	import devoron.aswing3d.geom.IntPoint;
+	import org.aswing.geom.IntPoint;
 	
 	/**
 	 * The event for component moved.

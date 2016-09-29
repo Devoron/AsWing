@@ -2,26 +2,27 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.plaf.basic{
+package org.aswing.plaf.basic{
 	
+import org.aswing.layout.BorderLayout;
 import flash.display.InteractiveObject;
 import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.filters.DropShadowFilter;
 import flash.ui.Keyboard;
-import devoron.aswing3d.layout.BorderLayout;
+import org.aswing.layout.BorderLayout;
 import org.aswing.Insets;
 import org.aswing.JButton;
 
-import devoron.aswing3d.*;
-import devoron.aswing3d.event.AWEvent;
-import devoron.aswing3d.event.FocusKeyEvent;
-import devoron.aswing3d.event.ReleaseEvent;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.*;
-import devoron.aswing3d.plaf.basic.adjuster.PopupSliderUI;
-import devoron.aswing3d.plaf.basic.icon.ArrowIcon;
+import org.aswing.*;
+import org.aswing.event.AWEvent;
+import org.aswing.event.FocusKeyEvent;
+import org.aswing.event.ReleaseEvent;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
+import org.aswing.plaf.*;
+import org.aswing.plaf.basic.adjuster.PopupSliderUI;
+import org.aswing.plaf.basic.icon.ArrowIcon;
 
 /**
  * Basic adjust ui imp.
@@ -460,11 +461,11 @@ public class BasicAdjusterUI extends BaseComponentUI implements AdjusterUI{
 import flash.display.DisplayObject;
 import flash.display.Sprite;
 import flash.geom.Point;
-import devoron.aswing3d.ASColor;
-import devoron.aswing3d.Component;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.graphics.Pen;
-import devoron.aswing3d.graphics.SolidBrush;
+import org.aswing.ASColor;
+import org.aswing.Component;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.graphics.Pen;
+import org.aswing.graphics.SolidBrush;
 import org.aswing.Icon;
 
 

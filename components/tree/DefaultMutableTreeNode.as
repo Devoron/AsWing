@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.tree { 
 
-import devoron.aswing3d.tree.MutableTreeNode;
-import devoron.aswing3d.tree.TreeNode;
-import devoron.aswing3d.util.ArrayList;
+import org.aswing.tree.MutableTreeNode;
+import org.aswing.tree.TreeNode;
+import org.aswing.util.ArrayList;
 
 /**
  * A <code>DefaultMutableTreeNode</code> is a general-purpose node in a tree data

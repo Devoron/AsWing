@@ -6,8 +6,8 @@ package devoron.aswing3d.event
 {
 	
 import flash.events.Event;
-import devoron.aswing3d.Container;
-import devoron.aswing3d.Component;
+import org.aswing.Container;
+import org.aswing.Component;
 	
 
 /**

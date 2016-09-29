@@ -4,12 +4,12 @@
 
 package devoron.aswing3d.colorchooser
 {
-	import devoron.aswing3d.ASColor;
-	import devoron.aswing3d.colorchooser.ColorSelectionModel;
-	import devoron.aswing3d.colorchooser.DefaultColorSelectionModel;
-	import devoron.aswing3d.Component;
-	import devoron.aswing3d.Container;
-	import devoron.aswing3d.event.*;
+	import org.aswing.ASColor;
+	import org.aswing.colorchooser.ColorSelectionModel;
+	import org.aswing.colorchooser.DefaultColorSelectionModel;
+	import org.aswing.Component;
+	import org.aswing.Container;
+	import org.aswing.event.*;
 	
 	/**
 	 * Dispatched when user adjusting to a new color

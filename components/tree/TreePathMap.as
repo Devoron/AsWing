@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.tree{
 
-import devoron.aswing3d.util.HashMap;
+import org.aswing.util.HashMap;
 	
 /**
  * A hash map that accept TreePath key.

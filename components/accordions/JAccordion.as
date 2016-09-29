@@ -4,9 +4,9 @@
 
 package org.aswing.components
 {
-	import devoron.aswing3d.plaf.ComponentUI;
+	import org.aswing.plaf.ComponentUI;
 	
-	import devoron.aswing3d.plaf.basic.BasicAccordionUI;
+	import org.aswing.plaf.basic.BasicAccordionUI;
 	import org.aswing.plaf.ComponentUI;
 	import org.aswing.plaf.basic.BasicAccordionUI;
 	

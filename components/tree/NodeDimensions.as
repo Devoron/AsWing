@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.tree { 
 
-import devoron.aswing3d.geom.IntRectangle;
+import org.aswing.geom.IntRectangle;
 
 /**
  * Used by <code>AbstractLayoutCache</code> to determine the size

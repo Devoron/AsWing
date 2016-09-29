@@ -7,21 +7,21 @@ package devoron.aswing3d.plaf.basic
 	import flash.events.FocusEvent;
 	import flash.events.MouseEvent;
 	import flash.geom.Matrix;
-	import devoron.aswing3d.layout.BorderLayout;
-	import devoron.aswing3d.layout.FlowLayout;
-	import devoron.aswing3d.layout.SoftBoxLayout;
+	import org.aswing.layout.BorderLayout;
+	import org.aswing.layout.FlowLayout;
+	import org.aswing.layout.SoftBoxLayout;
 	import org.aswing.JAdjuster;
 	
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.border.BevelBorder;
-	import devoron.aswing3d.border.EmptyBorder;
-	import devoron.aswing3d.colorchooser.JColorMixer;
-	import devoron.aswing3d.colorchooser.PreviewColorIcon;
-	import devoron.aswing3d.colorchooser.VerticalLayout;
-	import devoron.aswing3d.event.*;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.graphics.*;
-	import devoron.aswing3d.plaf.BaseComponentUI;
+	import org.aswing.border.BevelBorder;
+	import org.aswing.border.EmptyBorder;
+	import org.aswing.colorchooser.JColorMixer;
+	import org.aswing.colorchooser.PreviewColorIcon;
+	import org.aswing.colorchooser.VerticalLayout;
+	import org.aswing.event.*;
+	import org.aswing.geom.*;
+	import org.aswing.graphics.*;
+	import org.aswing.plaf.BaseComponentUI;
 	
 	/**
 	 * @private

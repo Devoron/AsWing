@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.resizer{
 	
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.Component;
+import org.aswing.geom.*;
+import org.aswing.Component;
 
 /**
  * A basic implementation of ResizeStrategy.

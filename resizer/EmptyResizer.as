@@ -1,7 +1,7 @@
 package devoron.aswing3d.resizer
 {
-	import devoron.aswing3d.Component;
-	import devoron.aswing3d.resizer.Resizer;
+	import org.aswing.Component;
+	import org.aswing.resizer.Resizer;
 	/**
 	 * ...
 	 * @author DEVORON

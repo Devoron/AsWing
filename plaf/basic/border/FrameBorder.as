@@ -4,11 +4,11 @@
 
 package devoron.aswing3d.plaf.basic.border{
 	
-import devoron.aswing3d.graphics.*;
+import org.aswing.graphics.*;
 import devoron.aswing3d.*;
-import devoron.aswing3d.geom.IntRectangle;
+import org.aswing.geom.IntRectangle;
 import flash.display.DisplayObject;
-import devoron.aswing3d.plaf.UIResource;
+import org.aswing.plaf.UIResource;
 import org.aswing.Insets;
 import org.aswing.JFrame;
 

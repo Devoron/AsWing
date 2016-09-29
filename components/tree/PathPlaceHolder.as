@@ -2,7 +2,7 @@ package devoron.aswing3d.tree {
 /*
  Copyright aswing.org, see the LICENCE.txt.
 */
-import devoron.aswing3d.tree.TreePath;
+import org.aswing.tree.TreePath;
 
 /**
  * @author iiley

@@ -1,6 +1,6 @@
 package devoron.aswing3d.plaf.basic.tabbedpane{
 
-import devoron.aswing3d.Component;
+import org.aswing.Component;
 
 /**
  * The closable tab has a close button.

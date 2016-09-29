@@ -4,6 +4,7 @@
 
 package org.aswing{
 	
+import org.aswing.ImpMissError;
 import flash.display.DisplayObject;
 import flash.display.Loader;
 import flash.display.Shape;

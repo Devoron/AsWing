@@ -10,8 +10,8 @@ package devoron.aswing3d.plaf.basic.icon
 	import flash.geom.Point;
 	
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.graphics.*;
-	import devoron.aswing3d.plaf.UIResource;
+	import org.aswing.graphics.*;
+	import org.aswing.plaf.UIResource;
 	
 	/**
 	 * @private

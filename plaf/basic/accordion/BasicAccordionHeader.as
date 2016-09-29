@@ -5,8 +5,8 @@
 package devoron.aswing3d.plaf.basic.accordion{
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.plaf.basic.tabbedpane.Tab;
+import org.aswing.geom.IntRectangle;
+import org.aswing.plaf.basic.tabbedpane.Tab;
 import org.aswing.AbstractButton;
 import org.aswing.ASFont;
 import org.aswing.Icon;

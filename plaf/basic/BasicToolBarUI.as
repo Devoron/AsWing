@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.plaf.basic{
 	
-import devoron.aswing3d.plaf.BaseComponentUI;
+import org.aswing.plaf.BaseComponentUI;
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.*;
+import org.aswing.event.*;
 
 /**
  * ToolBar basic ui imp.
@@ -124,13 +124,13 @@ public class BasicToolBarUI extends BaseComponentUI{
 //                 BG Decorator Adapter
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-import devoron.aswing3d.graphics.Graphics2D;
+import org.aswing.graphics.Graphics2D;
 import org.aswing.GroundDecorator;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.Component;
+import org.aswing.geom.IntRectangle;
+import org.aswing.Component;
 import flash.display.DisplayObject;
 import org.aswing.AbstractButton;
-import devoron.aswing3d.plaf.UIResource;
+import org.aswing.plaf.UIResource;
 
 /**
  * This background adapter will invisible the original background, and visible it 

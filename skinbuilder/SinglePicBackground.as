@@ -7,10 +7,10 @@ package devoron.aswing3d.skinbuilder
 	import org.aswing.GroundDecorator;
 	import starling.display.DisplayObject;
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.error.ImpMissError;
-	import devoron.aswing3d.geom.IntRectangle;
-	import devoron.aswing3d.graphics.Graphics2D;
-	import devoron.aswing3d.plaf.*;
+	import org.aswing.error.ImpMissError;
+	import org.aswing.geom.IntRectangle;
+	import org.aswing.graphics.Graphics2D;
+	import org.aswing.plaf.*;
 	
 	public class SinglePicBackground extends DefaultsDecoratorBase implements GroundDecorator, UIResource
 	{

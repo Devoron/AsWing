@@ -1,6 +1,6 @@
 package devoron.aswing3d.plaf{
 
-import devoron.aswing3d.StyleTune;
+import org.aswing.StyleTune;
 
 /**
  * StyleTune UIResource

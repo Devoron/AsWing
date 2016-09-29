@@ -9,9 +9,9 @@ import org.aswing.GroundDecorator;
 import org.aswing.Insets;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.plaf.*;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.plaf.*;
 
 public class SkinProgressBarForeground extends DefaultsDecoratorBase implements GroundDecorator, UIResource{
 

@@ -6,7 +6,7 @@ package devoron.aswing3d.skinbuilder
 {
 	import starling.display.DisplayObject;
 	import starling.display.Sprite;
-	import devoron.aswing3d.geom.IntRectangle;
+	import org.aswing.geom.IntRectangle;
 	
 	/**
 	 * A sprite that can view different child with different state set.

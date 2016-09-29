@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.ListSelectionModel;
+import org.aswing.ListSelectionModel;
 
 /**
  * Defines the requirements for a table column model object suitable for

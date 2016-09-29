@@ -10,17 +10,17 @@ package devoron.aswing3d.plaf.basic.border
 	//import starling.filters.
 	//import flash.filters.DropShadowFilter;
 	import flash.geom.Matrix;
-	import devoron.aswing3d.ASColor;
-	import devoron.aswing3d.Border;
-	import devoron.aswing3d.Component;
+	import org.aswing.ASColor;
+	import org.aswing.Border;
+	import org.aswing.Component;
 	import org.aswing.Insets;
-	import devoron.aswing3d.StyleResult;
-	import devoron.aswing3d.StyleTune;
-	import devoron.aswing3d.geom.IntRectangle;
-	import devoron.aswing3d.graphics.GradientBrush;
-	import devoron.aswing3d.graphics.Graphics2D;
-	import devoron.aswing3d.graphics.SolidBrush;
-	import devoron.aswing3d.plaf.UIResource;
+	import org.aswing.StyleResult;
+	import org.aswing.StyleTune;
+	import org.aswing.geom.IntRectangle;
+	import org.aswing.graphics.GradientBrush;
+	import org.aswing.graphics.Graphics2D;
+	import org.aswing.graphics.SolidBrush;
+	import org.aswing.plaf.UIResource;
 	
 	public class ComboBoxPopupBorder implements Border, UIResource
 	{

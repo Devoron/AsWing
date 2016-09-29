@@ -1,8 +1,8 @@
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.ListModel;
-import devoron.aswing3d.event.ListDataEvent;
-import devoron.aswing3d.event.ListDataListener;
+import org.aswing.ListModel;
+import org.aswing.event.ListDataEvent;
+import org.aswing.event.ListDataListener;
 
 /**
  * The table model return the properties of a row to be column data.

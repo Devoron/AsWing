@@ -7,9 +7,9 @@ package devoron.aswing3d.ext{
 import flash.events.*;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.util.ArrayList;
+import org.aswing.event.*;
+import org.aswing.geom.*;
+import org.aswing.util.ArrayList;
 
 
 /**

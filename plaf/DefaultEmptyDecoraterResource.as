@@ -10,8 +10,8 @@ package devoron.aswing3d.plaf
 	import org.aswing.Insets;
 	import starling.display.DisplayObject;
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.graphics.*;
+	import org.aswing.geom.*;
+	import org.aswing.graphics.*;
 	
 	/**
 	 * The default empty border to be the component border as default. So it can be

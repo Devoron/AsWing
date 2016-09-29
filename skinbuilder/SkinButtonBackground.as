@@ -10,10 +10,10 @@ import org.aswing.GroundDecorator;
 import org.aswing.JButton;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.plaf.*;
-import devoron.aswing3d.plaf.basic.*;
+import org.aswing.geom.*;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.plaf.*;
+import org.aswing.plaf.basic.*;
 
 public class SkinButtonBackground extends DefaultsDecoratorBase implements GroundDecorator, UIResource{
 	

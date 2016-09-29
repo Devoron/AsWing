@@ -2,7 +2,7 @@ package devoron.aswing3d.tree {
 /*
  Copyright aswing.org, see the LICENCE.txt.
 */
-import devoron.aswing3d.tree.TreeCell;
+import org.aswing.tree.TreeCell;
 
 /**
  * TreeCellFactory for create cells for tree

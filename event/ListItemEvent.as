@@ -7,7 +7,7 @@ package devoron.aswing3d.event{
 import flash.events.Event;
 import flash.events.MouseEvent;
 
-import devoron.aswing3d.ListCell;
+import org.aswing.ListCell;
 
 /**
  * The event for items of List.

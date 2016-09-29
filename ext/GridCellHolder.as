@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.ext{
 
-import devoron.aswing3d.Container;
+import org.aswing.Container;
 
 public class GridCellHolder extends Container{
 	

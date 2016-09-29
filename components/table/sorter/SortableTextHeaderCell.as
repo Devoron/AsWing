@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.table.sorter{
 
-import devoron.aswing3d.JTable;
-import devoron.aswing3d.table.DefaultTextHeaderCell;
-import devoron.aswing3d.UIManager;
+import org.aswing.JTable;
+import org.aswing.table.DefaultTextHeaderCell;
+import org.aswing.UIManager;
 
 /**
  * @author iiley

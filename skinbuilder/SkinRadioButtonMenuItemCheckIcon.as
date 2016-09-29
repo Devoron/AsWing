@@ -5,7 +5,7 @@
 package devoron.aswing3d.skinbuilder{
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.graphics.Graphics2D;
+import org.aswing.graphics.Graphics2D;
 import org.aswing.AbstractButton;
 
 public class SkinRadioButtonMenuItemCheckIcon extends SinglePicIcon{

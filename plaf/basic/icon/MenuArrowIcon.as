@@ -4,10 +4,10 @@
 
 package devoron.aswing3d.plaf.basic.icon{
 
-import devoron.aswing3d.ASColor;
-import devoron.aswing3d.Component;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.plaf.UIResource;
+import org.aswing.ASColor;
+import org.aswing.Component;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.plaf.UIResource;
 
 /**
  * @private

@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.event { 
 
-import devoron.aswing3d.table.TableModel;
+import org.aswing.table.TableModel;
 
 /**
  * TableModelEvent is used to notify listeners that a table model

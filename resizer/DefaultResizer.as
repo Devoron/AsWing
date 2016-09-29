@@ -10,11 +10,11 @@ import flash.events.MouseEvent;
 import org.aswing.Insets;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.AWEvent;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.UIResource;
-import devoron.aswing3d.util.DepthManager;
+import org.aswing.event.AWEvent;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
+import org.aswing.plaf.UIResource;
+import org.aswing.util.DepthManager;
 
 /**
  * Resizer is a resizer for Components to make it resizable when user mouse on 

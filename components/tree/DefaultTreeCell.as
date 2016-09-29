@@ -4,11 +4,11 @@
 
 package devoron.aswing3d.tree { 
 
-import devoron.aswing3d.Component;
+import org.aswing.Component;
 import org.aswing.Icon;
-import devoron.aswing3d.JLabel;
-import devoron.aswing3d.JTree;
-import devoron.aswing3d.geom.IntRectangle;
+import org.aswing.JLabel;
+import org.aswing.JTree;
+import org.aswing.geom.IntRectangle;
 
 /**
  * The default cell for tree.

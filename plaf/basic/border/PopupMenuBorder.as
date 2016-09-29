@@ -6,10 +6,10 @@ package devoron.aswing3d.plaf.basic.border
 	import flash.filters.BevelFilter;
 	import flash.filters.BitmapFilterType;
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.graphics.*;
-	import devoron.aswing3d.plaf.*;
-	import devoron.aswing3d.plaf.basic.BasicGraphicsUtils;
+	import org.aswing.geom.*;
+	import org.aswing.graphics.*;
+	import org.aswing.plaf.*;
+	import org.aswing.plaf.basic.BasicGraphicsUtils;
 	import starling.display.Shape;
 	import starling.filters.BlurFilter;
 	

@@ -9,8 +9,8 @@ import flash.geom.Point;
 import org.aswing.AbstractButton;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
 
 /**
  * @private

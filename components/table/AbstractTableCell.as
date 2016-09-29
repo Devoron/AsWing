@@ -4,10 +4,10 @@
 
 package devoron.aswing3d.table{
 	
-import devoron.aswing3d.error.ImpMissError;
-import devoron.aswing3d.table.TableCell;
-import devoron.aswing3d.JTable;
-import devoron.aswing3d.Component;
+import org.aswing.error.ImpMissError;
+import org.aswing.table.TableCell;
+import org.aswing.JTable;
+import org.aswing.Component;
 	
 /**
  * Abstract table cell.

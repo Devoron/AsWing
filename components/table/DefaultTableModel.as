@@ -5,8 +5,8 @@
 package devoron.aswing3d.table
 {
 	
-	import devoron.aswing3d.event.TableModelEvent;
-	import devoron.aswing3d.util.ArrayUtils;
+	import org.aswing.event.TableModelEvent;
+	import org.aswing.util.ArrayUtils;
 	
 	/**
 	 * @author iiley

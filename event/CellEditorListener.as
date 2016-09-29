@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.event { 
 
-import devoron.aswing3d.CellEditor;
+import org.aswing.CellEditor;
 
 /**
  * CellEditorListener defines the interface for an object that listens

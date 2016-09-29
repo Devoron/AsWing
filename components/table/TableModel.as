@@ -4,7 +4,7 @@
 	
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.event.TableModelListener;
+import org.aswing.event.TableModelListener;
 
 /**
  *  The <code>TableModel</code> interface specifies the methods the

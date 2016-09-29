@@ -5,7 +5,7 @@
 package devoron.aswing3d.skinbuilder{
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.basic.accordion.BasicAccordionHeader;
+import org.aswing.plaf.basic.accordion.BasicAccordionHeader;
 import org.aswing.AbstractButton;
 import org.aswing.JButton;
 

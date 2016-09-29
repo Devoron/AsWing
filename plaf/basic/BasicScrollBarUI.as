@@ -13,12 +13,12 @@ import org.aswing.Icon;
 import org.aswing.JButton;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.BaseComponentUI;
-import devoron.aswing3d.plaf.basic.icon.ScrollBarArrowIcon;
-import devoron.aswing3d.util.*;
+import org.aswing.event.*;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
+import org.aswing.plaf.BaseComponentUI;
+import org.aswing.plaf.basic.icon.ScrollBarArrowIcon;
+import org.aswing.util.*;
 
 /**
  * The basic scrollbar ui.

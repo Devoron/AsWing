@@ -4,10 +4,10 @@
 
 package devoron.aswing3d.layout{
 
-import devoron.aswing3d.Component;
-import devoron.aswing3d.Container;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.JViewport;
+import org.aswing.Component;
+import org.aswing.Container;
+import org.aswing.geom.*;
+import org.aswing.JViewport;
 
 /**
  * The default layout manager for <code>JViewport</code>. 

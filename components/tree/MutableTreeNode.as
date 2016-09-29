@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.tree { 
 
-import devoron.aswing3d.tree.TreeNode;
+import org.aswing.tree.TreeNode;
 
 /**
  * Defines the requirements for a tree node object that can change --

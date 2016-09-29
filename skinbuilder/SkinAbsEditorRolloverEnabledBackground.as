@@ -6,10 +6,10 @@ package devoron.aswing3d.skinbuilder{
 	
 import flash.events.MouseEvent;
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.ComponentUI;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.event.ReleaseEvent;
+import org.aswing.plaf.ComponentUI;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.event.ReleaseEvent;
 import flash.events.Event;
 import starling.display.DisplayObject;
 	

@@ -3,7 +3,7 @@
 */
 package devoron.aswing3d.util
 {
-import devoron.aswing3d.util.ListNode;
+import org.aswing.util.ListNode;
 /**
  * Linked list implementation of the List interface.
  * @author Tomato

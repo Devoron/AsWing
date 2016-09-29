@@ -3,17 +3,17 @@ package devoron.aswing3d.plaf.basic.frame{
 import flash.display.DisplayObject;
 import flash.geom.Matrix;
 
-import devoron.aswing3d.ASColor;
-import devoron.aswing3d.Component;
+import org.aswing.ASColor;
+import org.aswing.Component;
 import org.aswing.FrameTitleBar;
 import org.aswing.GroundDecorator;
-import devoron.aswing3d.UIManager;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.GradientBrush;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.graphics.Pen;
-import devoron.aswing3d.plaf.FrameUI;
-import devoron.aswing3d.plaf.UIResource;
+import org.aswing.UIManager;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.GradientBrush;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.graphics.Pen;
+import org.aswing.plaf.FrameUI;
+import org.aswing.plaf.UIResource;
 
 public class BasicFrameTitleBarBG implements GroundDecorator, UIResource{
 		

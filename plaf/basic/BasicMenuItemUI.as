@@ -13,10 +13,10 @@ import org.aswing.Insets;
 import starling.text.TextField;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.AWEvent;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.*;
+import org.aswing.event.AWEvent;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
+import org.aswing.plaf.*;
 
 /**
  * @private

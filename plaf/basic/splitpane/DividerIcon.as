@@ -2,11 +2,11 @@ package devoron.aswing3d.plaf.basic.splitpane
 {
 import flash.display.DisplayObject;
 
-import devoron.aswing3d.Component;
+import org.aswing.Component;
 import org.aswing.Icon;
-import devoron.aswing3d.JSplitPane;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
+import org.aswing.JSplitPane;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
 
 /**
  * @private

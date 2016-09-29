@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.error
+package org.aswing.error
 {
 /**
  * This error indicates that an abstract class's abstract method missing overriden error.

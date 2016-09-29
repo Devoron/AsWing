@@ -9,16 +9,16 @@ import org.aswing.ASFont;
 import org.aswing.Insets;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.*;
-import devoron.aswing3d.plaf.basic.adjuster.PopupSliderThumbIcon;
-import devoron.aswing3d.plaf.basic.background.*;
-import devoron.aswing3d.plaf.basic.border.*;
-import devoron.aswing3d.plaf.basic.cursor.*;
-import devoron.aswing3d.plaf.basic.frame.*;
-import devoron.aswing3d.plaf.basic.icon.*;
-import devoron.aswing3d.plaf.basic.tree.BasicExpandControl;
-import devoron.aswing3d.resizer.*;
-import devoron.aswing3d.tree.*;
+import org.aswing.plaf.*;
+import org.aswing.plaf.basic.adjuster.PopupSliderThumbIcon;
+import org.aswing.plaf.basic.background.*;
+import org.aswing.plaf.basic.border.*;
+import org.aswing.plaf.basic.cursor.*;
+import org.aswing.plaf.basic.frame.*;
+import org.aswing.plaf.basic.icon.*;
+import org.aswing.plaf.basic.tree.BasicExpandControl;
+import org.aswing.resizer.*;
+import org.aswing.tree.*;
 
 /**
  * The art design named LastWing, work by lastdance. 

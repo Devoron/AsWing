@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.plaf.UIResource;
+import org.aswing.plaf.UIResource;
 
 /**
  * @author iiley

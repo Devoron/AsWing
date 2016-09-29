@@ -8,7 +8,7 @@ import flash.display.*;
 import flash.events.*;
 import flash.geom.Matrix;
 import flash.ui.Keyboard;
-import devoron.aswing3d.layout.SoftBoxLayout;
+import org.aswing.layout.SoftBoxLayout;
 import org.aswing.AbstractButton;
 import org.aswing.FocusManager;
 import org.aswing.Icon;
@@ -16,15 +16,15 @@ import org.aswing.Insets;
 import org.aswing.JButton;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.border.*;
-import devoron.aswing3d.event.FocusKeyEvent;
-import devoron.aswing3d.event.InteractiveEvent;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.*;
-import devoron.aswing3d.plaf.basic.icon.ArrowIcon;
-import devoron.aswing3d.plaf.basic.tabbedpane.*;
-import devoron.aswing3d.util.*;
+import org.aswing.border.*;
+import org.aswing.event.FocusKeyEvent;
+import org.aswing.event.InteractiveEvent;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
+import org.aswing.plaf.*;
+import org.aswing.plaf.basic.icon.ArrowIcon;
+import org.aswing.plaf.basic.tabbedpane.*;
+import org.aswing.util.*;
 
 /**
  * @private

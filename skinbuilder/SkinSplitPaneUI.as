@@ -1,7 +1,7 @@
 package devoron.aswing3d.skinbuilder{
 	
-import devoron.aswing3d.plaf.basic.BasicSplitPaneUI;
-import devoron.aswing3d.plaf.basic.splitpane.Divider;
+import org.aswing.plaf.basic.BasicSplitPaneUI;
+import org.aswing.plaf.basic.splitpane.Divider;
 
 public class SkinSplitPaneUI extends BasicSplitPaneUI{
 

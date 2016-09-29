@@ -1,12 +1,12 @@
 package devoron.aswing3d.skinbuilder{
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.basic.tabbedpane.ClosableTab;
+import org.aswing.plaf.basic.tabbedpane.ClosableTab;
 import flash.events.MouseEvent;
 import flash.events.Event;
 import flash.display.DisplayObject;
-import devoron.aswing3d.event.TabCloseEvent;
-import devoron.aswing3d.plaf.basic.tabbedpane.Tab;
+import org.aswing.event.TabCloseEvent;
+import org.aswing.plaf.basic.tabbedpane.Tab;
 
 public class SkinClosableTabbedPaneUI extends SkinTabbedPaneUI{
 	

@@ -12,13 +12,13 @@ import starling.display.Graphics;
 import starling.display.Shape;
 import starling.display.Sprite;
 
-import devoron.aswing3d.ASColor;
-import devoron.aswing3d.Component;
+import org.aswing.ASColor;
+import org.aswing.Component;
 import org.aswing.Icon;
-import devoron.aswing3d.StyleResult;
-import devoron.aswing3d.StyleTune;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.*;
+import org.aswing.StyleResult;
+import org.aswing.StyleTune;
+import org.aswing.graphics.*;
+import org.aswing.plaf.*;
 
 /**
  * @private

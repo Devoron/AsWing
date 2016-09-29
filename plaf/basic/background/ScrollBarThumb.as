@@ -12,12 +12,12 @@ import flash.geom.Point;
 import org.aswing.GroundDecorator;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.*;
-import devoron.aswing3d.geom.IntDimension;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.*;
-import devoron.aswing3d.plaf.basic.BasicGraphicsUtils;
+import org.aswing.event.*;
+import org.aswing.geom.IntDimension;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.*;
+import org.aswing.plaf.*;
+import org.aswing.plaf.basic.BasicGraphicsUtils;
 
 /**
  * The thumb decorator for JScrollBar.

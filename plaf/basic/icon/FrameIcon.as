@@ -14,10 +14,10 @@ import org.aswing.AbstractButton;
 import org.aswing.Icon;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.plaf.UIResource;
-import devoron.aswing3d.plaf.basic.BasicGraphicsUtils;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.plaf.UIResource;
+import org.aswing.plaf.basic.BasicGraphicsUtils;
 
 /**
  * Frame title bar icon base.

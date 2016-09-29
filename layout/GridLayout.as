@@ -2,11 +2,11 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 package devoron.aswing3d.layout{
-import devoron.aswing3d.Component;
-import devoron.aswing3d.Container;
-import devoron.aswing3d.geom.IntDimension;
+import org.aswing.Component;
+import org.aswing.Container;
+import org.aswing.geom.IntDimension;
 import org.aswing.Insets;
-import devoron.aswing3d.geom.IntRectangle;
+import org.aswing.geom.IntRectangle;
 
 /**
  * @author feynixs(Cai Rong)

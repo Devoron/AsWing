@@ -5,12 +5,12 @@ import flash.display.Loader;
 import flash.events.*;
 import flash.net.URLRequest;
 import flash.system.LoaderContext;
-import devoron.aswing3d.Component;
+import org.aswing.Component;
 import org.aswing.GroundDecorator;
 
-import devoron.aswing3d.border.EmptyBorder;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.Graphics2D;
+import org.aswing.border.EmptyBorder;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.Graphics2D;
 
 /**
  * @author iiley (Burstyx Studio)

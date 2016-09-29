@@ -6,7 +6,7 @@ package devoron.aswing3d.colorchooser
 	import org.aswing.Icon;
 	import starling.display.DisplayObject;
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.graphics.*;
+	import org.aswing.graphics.*;
 	
 	/**
 	 * PreviewColorIcon represent two color rect, on previous, on current.

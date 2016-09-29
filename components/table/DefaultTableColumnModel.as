@@ -4,11 +4,11 @@
 
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.DefaultListSelectionModel;
-import devoron.aswing3d.ListSelectionModel;
-import devoron.aswing3d.util.ArrayUtils;
-import devoron.aswing3d.event.PropertyChangeEvent;
-import devoron.aswing3d.event.SelectionEvent;
+import org.aswing.DefaultListSelectionModel;
+import org.aswing.ListSelectionModel;
+import org.aswing.util.ArrayUtils;
+import org.aswing.event.PropertyChangeEvent;
+import org.aswing.event.SelectionEvent;
 
 /**
  * The standard column-handler for a <code>JTable</code>.

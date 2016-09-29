@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.table.sorter{
 
-import devoron.aswing3d.table.TableModel;
+import org.aswing.table.TableModel;
 
 /**
  * @author iiley

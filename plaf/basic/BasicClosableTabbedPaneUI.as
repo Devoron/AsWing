@@ -1,16 +1,16 @@
 package devoron.aswing3d.plaf.basic
 {
 	import starling.display.DisplayObject;
-	import devoron.aswing3d.event.FocusKeyEvent;
+	import org.aswing.event.FocusKeyEvent;
 	import flash.events.MouseEvent;
 	import flash.events.Event;
-	import devoron.aswing3d.plaf.basic.tabbedpane.ClosableTab;
+	import org.aswing.plaf.basic.tabbedpane.ClosableTab;
 	import flash.display.InteractiveObject;
-	import devoron.aswing3d.plaf.basic.tabbedpane.BasicClosableTabbedPaneTab;
-	import devoron.aswing3d.event.TabCloseEvent;
-	import devoron.aswing3d.plaf.basic.tabbedpane.Tab;
+	import org.aswing.plaf.basic.tabbedpane.BasicClosableTabbedPaneTab;
+	import org.aswing.event.TabCloseEvent;
+	import org.aswing.plaf.basic.tabbedpane.Tab;
 	import org.aswing.JClosableTabbedPane;
-	import devoron.aswing3d.Component;
+	import org.aswing.Component;
 	
 	/**
 	 * Basic imp for JClosableTabbedPane UI.

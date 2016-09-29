@@ -3,11 +3,11 @@
  */
 package devoron.aswing3d.colorchooser
 {
-	import devoron.aswing3d.Component;
-	import devoron.aswing3d.Container;
+	import org.aswing.Component;
+	import org.aswing.Container;
 	import org.aswing.Insets;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.layout.EmptyLayout;
+	import org.aswing.geom.*;
+	import org.aswing.layout.EmptyLayout;
 	
 	/**
 	 * @author iiley

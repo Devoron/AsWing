@@ -18,12 +18,12 @@ package devoron.aswing3d.plaf.basic
 	import org.aswing.JFrame;
 	
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.event.*;
-	import devoron.aswing3d.geom.*;
-	import devoron.aswing3d.graphics.*;
-	import devoron.aswing3d.plaf.*;
-	import devoron.aswing3d.plaf.basic.frame.*;
-	import devoron.aswing3d.resizer.Resizer;
+	import org.aswing.event.*;
+	import org.aswing.geom.*;
+	import org.aswing.graphics.*;
+	import org.aswing.plaf.*;
+	import org.aswing.plaf.basic.frame.*;
+	import org.aswing.resizer.Resizer;
 	
 	/**
 	 * Basic frame ui imp.

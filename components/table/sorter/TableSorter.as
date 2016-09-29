@@ -8,15 +8,15 @@ import flash.events.MouseEvent;
 import org.aswing.Icon;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.table.AbstractTableModel;
-import devoron.aswing3d.table.JTableHeader;
-import devoron.aswing3d.table.TableCellFactory;
-import devoron.aswing3d.table.TableColumnModel;
-import devoron.aswing3d.table.TableModel;
-import devoron.aswing3d.util.ArrayUtils;
-import devoron.aswing3d.util.HashMap;
+import org.aswing.event.*;
+import org.aswing.geom.*;
+import org.aswing.table.AbstractTableModel;
+import org.aswing.table.JTableHeader;
+import org.aswing.table.TableCellFactory;
+import org.aswing.table.TableColumnModel;
+import org.aswing.table.TableModel;
+import org.aswing.util.ArrayUtils;
+import org.aswing.util.HashMap;
 
 /**
  * A class that make your JTable sortable. Usage:

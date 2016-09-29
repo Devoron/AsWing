@@ -5,7 +5,7 @@
 package devoron.aswing3d.graphics
 {
 	import starling.display.Graphics;
-	import devoron.aswing3d.ASColor;
+	import org.aswing.ASColor;
 	
 	/**
 	 * Pen encapsulate normal lineStyle properties. <br>

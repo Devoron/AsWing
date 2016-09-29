@@ -4,12 +4,12 @@
 
 package devoron.aswing3d.plaf.basic{
 
-import devoron.aswing3d.plaf.*;
+import org.aswing.plaf.*;
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.ContainerEvent;
-import devoron.aswing3d.event.AWEvent;
-import devoron.aswing3d.event.FocusKeyEvent;
-import devoron.aswing3d.event.InteractiveEvent;
+import org.aswing.event.ContainerEvent;
+import org.aswing.event.AWEvent;
+import org.aswing.event.FocusKeyEvent;
+import org.aswing.event.InteractiveEvent;
 
 /**
  * @private

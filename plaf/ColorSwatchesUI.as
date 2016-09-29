@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.plaf{
 
-import devoron.aswing3d.Component;
+import org.aswing.Component;
 
 /**
  * Pluggable look and feel interface for JColorSwatchs.

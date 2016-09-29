@@ -3,9 +3,9 @@
 */
 
 package devoron.aswing3d.colorchooser { 
-import devoron.aswing3d.colorchooser.AbstractColorChooserPanel;
-import devoron.aswing3d.UIManager;
-import devoron.aswing3d.plaf.basic.BasicColorMixerUI;
+import org.aswing.colorchooser.AbstractColorChooserPanel;
+import org.aswing.UIManager;
+import org.aswing.plaf.basic.BasicColorMixerUI;
 
 /**
  * @author iiley

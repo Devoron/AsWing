@@ -1,11 +1,11 @@
 package devoron.aswing3d.plaf.basic.tabbedpane{
 
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.plaf.UIResource;
-import devoron.aswing3d.Component;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.plaf.UIResource;
+import org.aswing.Component;
 import org.aswing.Icon;
-import devoron.aswing3d.ASColor;
-import devoron.aswing3d.graphics.Pen;
+import org.aswing.ASColor;
+import org.aswing.graphics.Pen;
 import starling.display.DisplayObject;
 import starling.display.Shape;
 

@@ -5,7 +5,7 @@
 package devoron.aswing3d.plaf
 {
 
-import devoron.aswing3d.Border;
+import org.aswing.Border;
 import org.aswing.GroundDecorator;
 import org.aswing.Icon;
 

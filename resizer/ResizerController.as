@@ -4,10 +4,10 @@
 
 package devoron.aswing3d.resizer{
 
-import devoron.aswing3d.Component;
-import devoron.aswing3d.resizer.DefaultResizer;
-import devoron.aswing3d.resizer.Resizer;
-import devoron.aswing3d.util.HashMap;
+import org.aswing.Component;
+import org.aswing.resizer.DefaultResizer;
+import org.aswing.resizer.Resizer;
+import org.aswing.util.HashMap;
 
 /**
  * ResizerController make manage resizer feature easily.

@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.event{
 
-import devoron.aswing3d.Component;
-import devoron.aswing3d.dnd.*;
-import devoron.aswing3d.geom.IntPoint;
+import org.aswing.Component;
+import org.aswing.dnd.*;
+import org.aswing.geom.IntPoint;
 import flash.events.Event;
 
 public class DragAndDropEvent extends AWEvent{

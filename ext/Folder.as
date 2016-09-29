@@ -5,8 +5,8 @@
 package devoron.aswing3d.ext{
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.InteractiveEvent;
-import devoron.aswing3d.layout.BorderLayout;
+import org.aswing.event.InteractiveEvent;
+import org.aswing.layout.BorderLayout;
 import org.aswing.ASFont;
 
 /**

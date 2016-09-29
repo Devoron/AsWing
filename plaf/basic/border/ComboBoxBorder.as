@@ -4,14 +4,14 @@
 
 package devoron.aswing3d.plaf.basic.border{
 
-import devoron.aswing3d.Border;
-import devoron.aswing3d.ASColor;
-import devoron.aswing3d.border.BevelBorder;
-import devoron.aswing3d.plaf.UIResource;
-import devoron.aswing3d.Component;
+import org.aswing.Border;
+import org.aswing.ASColor;
+import org.aswing.border.BevelBorder;
+import org.aswing.plaf.UIResource;
+import org.aswing.Component;
 import org.aswing.EditableComponent;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.geom.IntRectangle;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.geom.IntRectangle;
 
 /**
  * Discard in aswing 2.0(Background raped his job)

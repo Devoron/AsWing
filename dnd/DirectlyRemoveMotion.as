@@ -5,7 +5,7 @@
 package devoron.aswing3d.dnd
 {
 	import starling.display.Sprite;
-	import devoron.aswing3d.Component;
+	import org.aswing.Component;
 	
 	/**
 	 * Remove the dragging movieclip directly.

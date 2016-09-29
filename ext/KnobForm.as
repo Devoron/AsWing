@@ -1,16 +1,16 @@
 package devoron.aswing3d.ext
 {
-	import devoron.aswing3d.ASColor;
-	import devoron.aswing3d.AsWingConstants;
-	import devoron.aswing3d.ext.Form;
-	import devoron.aswing3d.geom.IntDimension;
-	import devoron.aswing3d.JLabel;
-	import devoron.aswing3d.JNumberKnob;
-	import devoron.aswing3d.JPanel;
-	import devoron.aswing3d.layout.BorderLayout;
-	import devoron.aswing3d.layout.BoxLayout;
-	import devoron.aswing3d.layout.SoftBoxLayout;
-	import devoron.aswing3d.NumberBoundedRangeModel;
+	import org.aswing.ASColor;
+	import org.aswing.AsWingConstants;
+	import org.aswing.ext.Form;
+	import org.aswing.geom.IntDimension;
+	import org.aswing.JLabel;
+	import org.aswing.JNumberKnob;
+	import org.aswing.JPanel;
+	import org.aswing.layout.BorderLayout;
+	import org.aswing.layout.BoxLayout;
+	import org.aswing.layout.SoftBoxLayout;
+	import org.aswing.NumberBoundedRangeModel;
 	
 	/**
 	 * KnobForm

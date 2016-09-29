@@ -6,13 +6,13 @@ package devoron.aswing3d.layout
 {
 
 import org.aswing.AlternativeScrollPane;
-import devoron.aswing3d.Component;
-import devoron.aswing3d.Container;
-import devoron.aswing3d.geom.*;
+import org.aswing.Component;
+import org.aswing.Container;
+import org.aswing.geom.*;
 import org.aswing.Insets;
-import devoron.aswing3d.JScrollBar;
-import devoron.aswing3d.JScrollPane;
-import devoron.aswing3d.Viewportable;
+import org.aswing.JScrollBar;
+import org.aswing.JScrollPane;
+import org.aswing.Viewportable;
 
 /**
  * The layout manager used by <code>JScrollPane</code>.  

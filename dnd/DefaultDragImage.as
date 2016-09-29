@@ -8,7 +8,7 @@ package devoron.aswing3d.dnd
 	import starling.display.Graphics;
 	
 	import devoron.aswing3d.*;
-	import devoron.aswing3d.graphics.*;
+	import org.aswing.graphics.*;
 	import starling.display.Shape;
 	
 	/**

@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.tree { 
 
-import devoron.aswing3d.event.TreeModelListener;
-import devoron.aswing3d.tree.TreePath;
+import org.aswing.event.TreeModelListener;
+import org.aswing.tree.TreePath;
 
 /**
  * The interface that defines a suitable data model for a <code>JTree</code>. 

@@ -4,10 +4,10 @@
 
 package devoron.aswing3d.table{
 	
-import devoron.aswing3d.Component;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.JLabel;
-import devoron.aswing3d.JTable;
+import org.aswing.Component;
+import org.aswing.geom.*;
+import org.aswing.JLabel;
+import org.aswing.JTable;
 
 /**
  * Default table cell to render text

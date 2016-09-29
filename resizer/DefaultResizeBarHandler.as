@@ -7,8 +7,8 @@ package devoron.aswing3d.resizer{
 import flash.events.Event;
 import flash.events.MouseEvent;
 
-import devoron.aswing3d.AWSprite;
-import devoron.aswing3d.event.*;
+import org.aswing.AWSprite;
+import org.aswing.event.*;
 	
 /**
  * The Handler for Resizer's mc bars.

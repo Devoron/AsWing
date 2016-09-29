@@ -2,10 +2,10 @@ package devoron.aswing3d.skinbuilder
 {
 	import org.aswing.JButton;
 	import org.aswing.Insets;
-	import devoron.aswing3d.plaf.basic.tabbedpane.ClosableTab;
-	import devoron.aswing3d.geom.IntDimension;
-	import devoron.aswing3d.event.ResizedEvent;
-	import devoron.aswing3d.Component;
+	import org.aswing.plaf.basic.tabbedpane.ClosableTab;
+	import org.aswing.geom.IntDimension;
+	import org.aswing.event.ResizedEvent;
+	import org.aswing.Component;
 	
 	public class SkinClosableTabbedPaneTab extends SkinTabbedPaneTab implements ClosableTab
 	{

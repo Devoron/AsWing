@@ -5,9 +5,9 @@
 package devoron.aswing3d.skinbuilder{
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.*;
-import devoron.aswing3d.plaf.basic.BasicLookAndFeel;
-import devoron.aswing3d.plaf.basic.border.EmptyBorderResource;
+import org.aswing.plaf.*;
+import org.aswing.plaf.basic.BasicLookAndFeel;
+import org.aswing.plaf.basic.border.EmptyBorderResource;
 import org.aswing.Insets;
 
 /**

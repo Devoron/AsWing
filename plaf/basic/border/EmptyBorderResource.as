@@ -5,9 +5,9 @@
 package devoron.aswing3d.plaf.basic.border{
 
 import org.aswing.Insets;
-import devoron.aswing3d.Border;
-import devoron.aswing3d.plaf.UIResource;
-import devoron.aswing3d.border.EmptyBorder;
+import org.aswing.Border;
+import org.aswing.plaf.UIResource;
+import org.aswing.border.EmptyBorder;
 
 public class EmptyBorderResource extends EmptyBorder implements UIResource{
 	

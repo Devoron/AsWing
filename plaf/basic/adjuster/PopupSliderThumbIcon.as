@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.plaf.basic.adjuster{
 	
-import devoron.aswing3d.plaf.basic.icon.SliderThumbIcon;
-import devoron.aswing3d.Component;
+import org.aswing.plaf.basic.icon.SliderThumbIcon;
+import org.aswing.Component;
 
 /**
  * @private

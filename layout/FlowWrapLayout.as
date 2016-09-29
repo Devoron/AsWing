@@ -1,12 +1,12 @@
 package devoron.aswing3d.layout
 {
-	import devoron.aswing3d.layout.EmptyLayout;
-	import devoron.aswing3d.AsWingConstants;
-	import devoron.aswing3d.Component;
-	import devoron.aswing3d.Container;
-	import devoron.aswing3d.geom.IntDimension;
+	import org.aswing.layout.EmptyLayout;
+	import org.aswing.AsWingConstants;
+	import org.aswing.Component;
+	import org.aswing.Container;
+	import org.aswing.geom.IntDimension;
 	import org.aswing.Insets;
-	import devoron.aswing3d.geom.IntPoint;
+	import org.aswing.geom.IntPoint;
 	
 	/**
 	 * FlowWrapLayout wrap layout is extended FlowLayout,

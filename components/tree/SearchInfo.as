@@ -2,9 +2,9 @@ package devoron.aswing3d.tree {
 /*
  Copyright aswing.org, see the LICENCE.txt.
 */
-import devoron.aswing3d.tree.AbstractLayoutCache;
-import devoron.aswing3d.tree.FHTreeStateNode;
-import devoron.aswing3d.tree.TreePath;
+import org.aswing.tree.AbstractLayoutCache;
+import org.aswing.tree.FHTreeStateNode;
+import org.aswing.tree.TreePath;
 
 /**
  * @author iiley

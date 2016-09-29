@@ -5,10 +5,10 @@
 package devoron.aswing3d.tree { 
 
 import flash.events.EventDispatcher;
-import devoron.aswing3d.DefaultListSelectionModel;
-import devoron.aswing3d.event.*;
-import devoron.aswing3d.tree.*;
-import devoron.aswing3d.util.*;
+import org.aswing.DefaultListSelectionModel;
+import org.aswing.event.*;
+import org.aswing.tree.*;
+import org.aswing.util.*;
 
 /**
  * Default implementation of TreeSelectionModel.  Listeners are notified

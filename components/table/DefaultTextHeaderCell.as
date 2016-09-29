@@ -2,8 +2,8 @@ package devoron.aswing3d.table{
 
 import flash.filters.DropShadowFilter;
 
-import devoron.aswing3d.JTable;
-import devoron.aswing3d.UIManager;
+import org.aswing.JTable;
+import org.aswing.UIManager;
 
 /**
  * Default table header cell to render text

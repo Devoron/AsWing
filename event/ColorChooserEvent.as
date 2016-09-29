@@ -6,7 +6,7 @@ package devoron.aswing3d.event
 {
 import flash.events.Event;
 
-import devoron.aswing3d.ASColor;
+import org.aswing.ASColor;
 public class ColorChooserEvent extends AWEvent
 {
 	/**

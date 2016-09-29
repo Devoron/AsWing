@@ -1,10 +1,10 @@
 package devoron.aswing3d.paling
 {
-	import devoron.aswing3d.Component;
+	import org.aswing.Component;
 	import org.aswing.Icon;
-	import devoron.aswing3d.graphics.Graphics2D;
-	import devoron.aswing3d.plaf.ComponentUI;
-	import devoron.aswing3d.plaf.UIResource;
+	import org.aswing.graphics.Graphics2D;
+	import org.aswing.plaf.ComponentUI;
+	import org.aswing.plaf.UIResource;
 	import starling.display.DisplayObject;
 	import starling.display.Sprite;
 	

@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.ext{
 
-import devoron.aswing3d.ASColor;
-import devoron.aswing3d.Component;
-import devoron.aswing3d.JLabel;
+import org.aswing.ASColor;
+import org.aswing.Component;
+import org.aswing.JLabel;
 
 /**
  * The default grid list cell render value.toString() as texts.

@@ -5,11 +5,11 @@
 package devoron.aswing3d.dnd
 {
 	import starling.display.Sprite;
-	import devoron.aswing3d.Component;
+	import org.aswing.Component;
 	import flash.utils.Timer;
 	import flash.events.TimerEvent;
 	import flash.geom.Point;
-	import devoron.aswing3d.geom.IntPoint;
+	import org.aswing.geom.IntPoint;
 	
 	/**
 	 * The motion of the drop target does not accept the dropped initiator.

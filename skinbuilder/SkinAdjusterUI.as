@@ -5,9 +5,9 @@
 package devoron.aswing3d.skinbuilder{
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.layout.BorderLayout;
-import devoron.aswing3d.plaf.*;
-import devoron.aswing3d.plaf.basic.BasicAdjusterUI;
+import org.aswing.layout.BorderLayout;
+import org.aswing.plaf.*;
+import org.aswing.plaf.basic.BasicAdjusterUI;
 import org.aswing.Insets;
 import org.aswing.JButton;
 

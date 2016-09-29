@@ -11,16 +11,16 @@ import flash.filters.BevelFilter;
 import flash.filters.BitmapFilterType;
 import flash.geom.Matrix;
 
-import devoron.aswing3d.ASColor;
-import devoron.aswing3d.Component;
+import org.aswing.ASColor;
+import org.aswing.Component;
 import org.aswing.GroundDecorator;
-import devoron.aswing3d.StyleResult;
-import devoron.aswing3d.StyleTune;
-import devoron.aswing3d.geom.IntRectangle;
-import devoron.aswing3d.graphics.GradientBrush;
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.plaf.UIResource;
-import devoron.aswing3d.plaf.basic.BasicGraphicsUtils;
+import org.aswing.StyleResult;
+import org.aswing.StyleTune;
+import org.aswing.geom.IntRectangle;
+import org.aswing.graphics.GradientBrush;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.plaf.UIResource;
+import org.aswing.plaf.basic.BasicGraphicsUtils;
 
 /**
  * @private

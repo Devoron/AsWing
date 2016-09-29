@@ -12,8 +12,8 @@ import org.aswing.Icon;
 import org.aswing.Insets;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
  
 /**
  * The interface for all UI delegate objects in the AsWing pluggable look and feel architecture. 

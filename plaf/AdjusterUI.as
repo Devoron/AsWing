@@ -5,7 +5,7 @@
 package devoron.aswing3d.plaf{
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.ComponentUI;
+import org.aswing.plaf.ComponentUI;
 
 /**
  * Pluginable ui for JAdjuster.

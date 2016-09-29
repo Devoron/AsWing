@@ -5,7 +5,7 @@
 package devoron.aswing3d.event
 {
 	import flash.events.Event;
-	import devoron.aswing3d.geom.IntDimension;
+	import org.aswing.geom.IntDimension;
 	
 	/**
 	 * The event for component resized.

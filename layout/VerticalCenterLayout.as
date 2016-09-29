@@ -3,12 +3,12 @@
 */
 package devoron.aswing3d.layout
 {
-import devoron.aswing3d.Component;
-import devoron.aswing3d.Container;
-import devoron.aswing3d.geom.IntDimension;
-import devoron.aswing3d.geom.IntRectangle;
+import org.aswing.Component;
+import org.aswing.Container;
+import org.aswing.geom.IntDimension;
+import org.aswing.geom.IntRectangle;
 import org.aswing.Insets;
-import devoron.aswing3d.layout.EmptyLayout;
+import org.aswing.layout.EmptyLayout;
 
 /**
  * Simple <code>LayoutManager</code> aligned the single contained component by the container's center.

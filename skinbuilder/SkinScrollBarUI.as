@@ -9,8 +9,8 @@ import org.aswing.Insets;
 import org.aswing.JButton;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.plaf.basic.BasicScrollBarUI;
-import devoron.aswing3d.geom.*;
+import org.aswing.plaf.basic.BasicScrollBarUI;
+import org.aswing.geom.*;
 
 public class SkinScrollBarUI extends BasicScrollBarUI{
 	

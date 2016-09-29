@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.table{
 	
-import devoron.aswing3d.event.ModelEvent;
+import org.aswing.event.ModelEvent;
 
 /**
  * @author iiley

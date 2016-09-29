@@ -4,8 +4,8 @@
 
 package devoron.aswing3d.table{
 
-import devoron.aswing3d.Cell;
-import devoron.aswing3d.JTable;
+import org.aswing.Cell;
+import org.aswing.JTable;
 
 /**
  * @author iiley

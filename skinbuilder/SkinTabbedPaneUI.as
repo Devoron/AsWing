@@ -12,12 +12,12 @@ import org.aswing.Insets;
 import org.aswing.JButton;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.InteractiveEvent;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.UIResource;
-import devoron.aswing3d.plaf.basic.*;
-import devoron.aswing3d.plaf.basic.tabbedpane.Tab;
+import org.aswing.event.InteractiveEvent;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
+import org.aswing.plaf.UIResource;
+import org.aswing.plaf.basic.*;
+import org.aswing.plaf.basic.tabbedpane.Tab;
 
 public class SkinTabbedPaneUI extends BasicTabbedPaneUI implements GroundDecorator, UIResource{
 	

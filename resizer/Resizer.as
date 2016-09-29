@@ -4,7 +4,7 @@
 
 package devoron.aswing3d.resizer{
 
-import devoron.aswing3d.Component;
+import org.aswing.Component;
 
 /**
  * Component Resizer interface.

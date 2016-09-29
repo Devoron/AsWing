@@ -4,9 +4,9 @@
 
 package devoron.aswing3d.plaf.basic{
 
-import devoron.aswing3d.plaf.*;
+import org.aswing.plaf.*;
 import devoron.aswing3d.*;
-import devoron.aswing3d.event.*;
+import org.aswing.event.*;
 import flash.utils.Timer;
 import flash.events.*;
 

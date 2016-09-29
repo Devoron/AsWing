@@ -8,10 +8,10 @@ import flash.display.*;
 import org.aswing.GroundDecorator;
 
 import devoron.aswing3d.*;
-import devoron.aswing3d.geom.*;
-import devoron.aswing3d.graphics.*;
-import devoron.aswing3d.plaf.*;
-import devoron.aswing3d.plaf.basic.BasicGraphicsUtils;
+import org.aswing.geom.*;
+import org.aswing.graphics.*;
+import org.aswing.plaf.*;
+import org.aswing.plaf.basic.BasicGraphicsUtils;
 
 /**
  * The barIcon decorator for ProgressBar.

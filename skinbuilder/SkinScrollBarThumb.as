@@ -4,13 +4,13 @@
 
 package devoron.aswing3d.skinbuilder{
 
-import devoron.aswing3d.graphics.Graphics2D;
-import devoron.aswing3d.geom.*;
+import org.aswing.graphics.Graphics2D;
+import org.aswing.geom.*;
 import devoron.aswing3d.*;
 import flash.display.*;
-import devoron.aswing3d.plaf.*;
+import org.aswing.plaf.*;
 import flash.events.*;
-import devoron.aswing3d.event.*;
+import org.aswing.event.*;
 
 public class SkinScrollBarThumb extends OrientableThumb{
 
