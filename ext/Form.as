@@ -4,18 +4,19 @@
 
 package org.aswing.ext
 {
+	import org.aswing.ext.FormRow;
+	import org.aswing.components.Component;
+	import org.aswing.components.Container;
+	import org.aswing.components.containers.JPanel;
+	import org.aswing.decorators.Icon;
 	import org.aswing.layouts.LayoutManager;
 	import org.aswing.components.separators.JSeparator;
 	import org.aswing.FlowLayout;
 	import org.aswing.CenterLayout;
 	import org.aswing.layouts.BorderLayout;
 	import org.aswing.layouts.CenterLayout;
-	import org.aswing.Component;
-	import org.aswing.Container;
-	import org.aswing.Icon;
 	import org.aswing.Insets;
 	import org.aswing.JLabel;
-	import org.aswing.JPanel;
 	import org.aswing.JSp;
 	import org.aswing.JSpacer;
 	import org.aswing.layouts.FlowLayout;
@@ -43,7 +44,7 @@ package org.aswing.ext
 			
 			//_assetFullPath
 			_assetNamespace = "";
-			_assetType = AssetType.MESH;
+			//_assetType = AssetType.MESH;
 			_id = "";
 	
 		}

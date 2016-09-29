@@ -2,10 +2,9 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing.components
+package org.aswing.components.accordions
 {
 	import org.aswing.plaf.ComponentUI;
-	
 	import org.aswing.plaf.basic.BasicAccordionUI;
 	import org.aswing.plaf.ComponentUI;
 	import org.aswing.plaf.basic.BasicAccordionUI;

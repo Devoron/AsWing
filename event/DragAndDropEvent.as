@@ -4,8 +4,8 @@
 
 package org.aswing.event
 {
-	import org.aswing.Component;
-	import org.aswing.dnd.*;
+	import org.aswing.components.Component;
+	import org.aswing.dnd.SourceData;
 	import org.aswing.geom.IntPoint;
 	import flash.events.Event;
 	

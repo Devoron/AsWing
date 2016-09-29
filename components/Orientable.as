@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing{
+package org.aswing.components{
 
 /**
  * An component or any thing has HORIZONTAL or VERTICAL form.

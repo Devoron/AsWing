@@ -335,7 +335,7 @@ package org.aswing
 			}
 		}
 		
-		override public function hitTestPoint(x:Number, y:Number, shapeFlag:Boolean = false):Boolean
+		public function hitTestPoint(x:Number, y:Number, shapeFlag:Boolean = false):Boolean
 		{
 			if (isClipMasked() && !shapeFlag)
 			{
@@ -348,7 +348,7 @@ package org.aswing
 			}
 		}
 		
-		override public function hitTestObject(obj:DisplayObject):Boolean
+		public function hitTestObject(obj:DisplayObject):Boolean
 		{
 			if (isClipMasked())
 			{
@@ -605,13 +605,13 @@ package org.aswing
 			}
 		}
 		
-		override public function set filters(value:Array):void
+		public function set filters(value:Array):void
 		{
 			super.filters = value;
 			setUsingBitmap(super.cacheAsBitmap && clipMasked);
 		}
 		
-		override public function set cacheAsBitmap(value:Boolean):void
+		public function set cacheAsBitmap(value:Boolean):void
 		{
 			super.cacheAsBitmap = value;
 			setUsingBitmap(value && clipMasked);
@@ -678,7 +678,7 @@ package org.aswing
 			pressedTarget = null;
 		}
 		
-		override public function toString():String
+		public function toString():String
 		{
 			var p:DisplayObject = this;
 			var str:String = p.name;

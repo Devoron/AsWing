@@ -2,13 +2,18 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package org.aswing{
+package org.aswing.components.windows{
 
 import flash.display.InteractiveObject;
-import flash.events.*;
+import flash.events.KeyboardEvent;
+import flash.events.TextEvent;
 import flash.text.TextField;
 import flash.ui.Keyboard;
+import org.aswing.components.buttons.AbstractButton;
+import org.aswing.Container;
+import org.aswing.JButton;
 import org.aswing.layouts.BorderLayout;
+import starling.events.Event;
 
 import org.aswing.error.ImpMissError;
 import org.aswing.util.HashMap;

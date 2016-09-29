@@ -2,10 +2,10 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing
+package org.aswing.components.windows
 {
-	
-	import flash.text.TextField;
+	import org.aswing.JPanel;
+	import starling.text.TextField;
 	import org.aswing.border.LineBorder;
 	import org.aswing.decorators.ColorDecorator;
 	import org.aswing.layouts.BorderLayout;

@@ -4,16 +4,23 @@
 
 package org.aswing
 {
-	
-	import flash.display.*;
 	import flash.geom.Point;
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
 	import flash.text.TextFieldType;
 	import flash.text.TextFormat;
 	import flash.utils.Dictionary;
-	
-	import org.aswing.geom.*;
+	import org.aswing.components.Component;
+	import org.aswing.geom.IntDimension;
+	import org.aswing.geom.IntPoint;
+	import org.aswing.geom.IntRectangle;
+	import org.aswing.values.ASColor;
+	import org.aswing.values.ASFont;
+	import starling.display.DisplayObject;
+	import starling.display.DisplayObjectContainer;
+	import starling.display.Shape;
+	import starling.display.Sprite;
+	import starling.display.Stage;
 	
 	/**
 	 * A collection of utility methods for AsWing.

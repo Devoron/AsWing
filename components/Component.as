@@ -4,8 +4,8 @@
 
 package org.aswing.components
 {
+	import org.aswing.values.ASFont;
 	import flash.events.Event;
-	import org.aswing.ASFont;
 	import org.aswing.AWMLTagInfo;
 	import org.aswing.AWSprite;
 	import org.aswing.ComponentUI;

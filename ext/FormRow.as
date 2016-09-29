@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.ext{
+package org.aswing.ext{
 
 import org.aswing.JPanel;
 import org.aswing.LayoutManager;

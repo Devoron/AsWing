@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.util{
+package org.aswing.util{
 
 /**
  * ArrayList, a List implemented based on Array

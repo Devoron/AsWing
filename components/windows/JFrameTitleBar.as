@@ -1,7 +1,9 @@
-package org.aswing
+package org.aswing.components.windows
 {
-	
 	import flash.events.Event;
+	import org.aswing.AbstractButton;
+	import org.aswing.Container;
+	import org.aswing.FrameTitleBar;
 	import org.aswing.layouts.BorderLayout;
 	import org.aswing.layouts.FrameTitleBarLayout;
 	import org.aswing.layouts.SoftBoxLayout;

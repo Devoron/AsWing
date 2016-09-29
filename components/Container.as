@@ -2,11 +2,11 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing
+package org.aswing.components
 {
-	
-	import flash.display.DisplayObject;
-	import org.aswing.layout.EmptyLayout;
+	import org.aswing.layouts.EmptyLayout;
+	import org.aswing.layouts.LayoutManager;
+	import starling.display.DisplayObject;
 	
 	import org.aswing.event.*;
 	import org.aswing.geom.*;

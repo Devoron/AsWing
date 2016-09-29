@@ -2,17 +2,22 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing
+package org.aswing.components.windows
 {
-	
-	import flash.display.*;
+	import flash.display.InteractiveObject;
 	import flash.events.MouseEvent;
+	import org.aswing.AsWingManager;
+	import org.aswing.components.Component;
+	import org.aswing.Container;
+	import org.aswing.geom.IntDimension;
+	import org.aswing.geom.IntPoint;
 	import org.aswing.layouts.BorderLayout;
 	import org.aswing.layouts.WindowLayout;
+	import starling.display.DisplayObjectContainer;
+	import starling.display.Stage;
 	
 	import org.aswing.event.PopupEvent;
 	import org.aswing.event.WindowEvent;
-	import org.aswing.geom.*;
 	import org.aswing.util.ArrayList;
 	
 	/**
@@ -193,7 +198,7 @@ package org.aswing
 			return getOwnedWindowsWithOwner(this);
 		}
 		
-		public function setLocationRelativeTo(c:Component=null):void
+		public function setLocationRelativeTo(c:Component = null):void
 		{
 			if (c == null && stage)
 			{

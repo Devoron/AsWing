@@ -2,19 +2,18 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing
+package org.aswing.components.windows
 {
-	
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
+	import org.aswing.FrameTitleBar;
+	import org.aswing.geom.IntRectangle;
+	import org.aswing.JWindow;
 	import org.aswing.layouts.WindowLayout;
+	import org.aswing.resizer.Resizer;
+	import org.aswing.resizer.ResizerController;
 	
-	import org.aswing.event.*;
-	import org.aswing.geom.*;
-	import org.aswing.plaf.*;
-	import org.aswing.plaf.basic.BasicFrameUI;
-	import org.aswing.resizer.*;
 	
 	/**
 	 * Dispatched when the frame's state changed. the state is all about:
