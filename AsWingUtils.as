@@ -90,7 +90,7 @@ package org.aswing
 		public static function createSprite(parent:DisplayObjectContainer = null, name:String = null):Sprite
 		{
 			var sp:Sprite = new Sprite();
-			sp.focusRect = false;
+			/*sp.focusRect = false;
 			if (name != null)
 			{
 				sp.name = name;
@@ -99,7 +99,7 @@ package org.aswing
 			if (parent != null)
 			{
 				parent.addChild(sp);
-			}
+			}*/
 			return sp;
 		}
 		
@@ -111,22 +111,22 @@ package org.aswing
 		 */
 		public static function createLabel(parent:DisplayObjectContainer = null, name:String = null):TextField
 		{
-			var textField:TextField = new TextField();
-			textField.focusRect = false;
-			if (name != null)
-			{
-				textField.name = name;
-			}
-			textField.selectable = false;
-			textField.mouseEnabled = false;
-			textField.mouseWheelEnabled = false;
-			textField.autoSize = TextFieldAutoSize.LEFT;
-			textField.tabEnabled = false;
-			if (parent != null)
-			{
-				parent.addChild(textField);
-			}
-			return textField;
+			//var textField:TextField = new TextField();
+			//textField.focusRect = false;
+			//if (name != null)
+			//{
+				//textField.name = name;
+			//}
+			//textField.selectable = false;
+			//textField.mouseEnabled = false;
+			//textField.mouseWheelEnabled = false;
+			//textField.autoSize = TextFieldAutoSize.LEFT;
+			//textField.tabEnabled = false;
+			//if (parent != null)
+			//{
+				//parent.addChild(textField);
+			//}
+			return null;
 		}
 		
 		/**
@@ -234,9 +234,10 @@ package org.aswing
 		
 		public static function getStageMousePosition(stage:Stage = null):IntPoint
 		{
-			if (stage == null)
-				stage = AsWingManager.getStage();
-			return new IntPoint(stage.mouseX, stage.mouseY);
+			//if (stage == null)
+				//stage = AsWingManager.getStage();
+			//return new IntPoint(stage.mouseX, stage.mouseY);
+			return new IntPoint(0, 0);
 		}
 		
 		/**
@@ -278,10 +279,10 @@ package org.aswing
 			{
 				return new IntRectangle(200, 200); //just return a value here
 			}
-			if (stage.scaleMode != StageScaleMode.NO_SCALE)
+			/*if (stage.scaleMode != StageScaleMode.NO_SCALE)
 			{
 				return new IntRectangle(0, 0, stage.stageWidth, stage.stageHeight);
-			}
+			}*/
 			var sw:Number = stage.stageWidth;
 			var sh:Number = stage.stageHeight;
 			var b:IntRectangle = new IntRectangle(0, 0, sw, sh);

@@ -2,10 +2,11 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.resizer{
+package org.aswing.resizer{
 	
-import org.aswing.geom.*;
-import org.aswing.Component;
+import org.aswing.components.Component;
+import org.aswing.geom.IntDimension;
+import org.aswing.geom.IntRectangle;
 
 /**
  * A basic implementation of ResizeStrategy.

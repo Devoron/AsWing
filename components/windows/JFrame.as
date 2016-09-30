@@ -10,12 +10,17 @@ package org.aswing.components.windows
 	import org.aswing.components.windows.JWindow;
 	import org.aswing.decorators.Icon;
 	import org.aswing.event.FrameEvent;
+	import org.aswing.event.MovedEvent;
 	import org.aswing.event.PropertyChangeEvent;
 	import org.aswing.FrameTitleBar;
 	import org.aswing.geom.IntRectangle;
 	import org.aswing.keyboard.KeyType;
 	import org.aswing.layouts.WindowLayout;
+	import org.aswing.lookandfeel.plaf.ComponentUI;
+	import org.aswing.lookandfeel.plaf.DefaultEmptyDecoraterResource;
 	import org.aswing.lookandfeel.plaf.FrameUI;
+	import org.aswing.lookandfeel.UIManager;
+	import org.aswing.plaf.basic.BasicFrameUI;
 	import org.aswing.resizer.Resizer;
 	import org.aswing.resizer.ResizerController;
 	

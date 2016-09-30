@@ -2,7 +2,7 @@
  Copyright aswing.org, see the LICENCE.txt.
 */
 
-package devoron.aswing3d.resizer{
+package org.aswing.resizer{
 
 import org.aswing.geom.IntDimension;
 import org.aswing.geom.IntRectangle;

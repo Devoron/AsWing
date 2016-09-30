@@ -245,7 +245,7 @@ package org.aswing.components.buttons
 		public function setSelectedIndex(index:uint):void
 		{
 			setSelected(AbstractButton(buttons[index]).getModel(), true);
-			AbstractButton(buttons[index]).dispatchEvent(new AWEvent(AWEvent.ACT));
+			//AbstractButton(buttons[index]).dispatchEvent(new AWEvent(AWEvent.ACT));
 		}
 		
 		public function setSelectedIndices(indices:Array):void
@@ -257,7 +257,7 @@ package org.aswing.components.buttons
 				if (index < buttons.length - 1)
 				{
 					setSelected(AbstractButton(buttons[index]).getModel(), true);
-					AbstractButton(buttons[index]).dispatchEvent(new AWEvent(AWEvent.ACT));
+					//AbstractButton(buttons[index]).dispatchEvent(new AWEvent(AWEvent.ACT));
 				}
 			}
 		}

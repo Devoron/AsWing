@@ -2,23 +2,21 @@
    Copyright aswing.org, see the LICENCE.txt.
  */
 
-package org.aswing.plaf.basic
+package org.aswing.lookandfeel.plaf.basic
 {
-	import org.aswing.Icon;
-	import org.aswing.Insets;
-	import org.aswing.lookandfeel.plaf.BaseComponentUI;
-	import org.aswing.lookandfeel.plaf.SliderUI;
+	import org.aswing.components.Component;
+	import org.aswing.event.FocusKeyEvent;
+	import org.aswing.geom.IntRectangle;
+	import org.aswing.JSlider;
+	import org.aswing.plaf.BaseComponentUI;
+	import org.aswing.plaf.SliderUI;
+	import org.aswing.util.ASTimer;
+	import org.aswing.values.ASColor;
+	import org.aswing.values.Insets;
+	import org.aswing.decorators.Icon;
 	import starling.display.Shape;
 	import flash.events.*;
 	import flash.ui.Keyboard;
-	import starling.filters.BlurFilter;
-	
-	import devoron.aswing3d.*;
-	import org.aswing.event.*;
-	import org.aswing.geom.*;
-	import org.aswing.graphics.*;
-	import org.aswing.plaf.*;
-	import org.aswing.util.*;
 	
 	/**
 	 * Basic slider ui imp.

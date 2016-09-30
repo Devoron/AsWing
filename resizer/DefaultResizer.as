@@ -4,12 +4,16 @@
 
 package org.aswing.resizer
 {
+	import org.aswing.CursorManager;
+	import org.aswing.values.Insets;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import org.aswing.AWSprite;
 	import org.aswing.components.Component;
 	import org.aswing.geom.IntRectangle;
-	import org.aswing.Insets;
+	import org.aswing.graphics.Graphics2D;
+	import org.aswing.graphics.SolidBrush;
+	import org.aswing.lookandfeel.UIManager;
 	import org.aswing.values.ASColor;
 	import starling.display.DisplayObject;
 	import starling.display.Shape;
@@ -308,6 +312,31 @@ package org.aswing.resizer
 			gdi = new Graphics2D(bottomRightResizeMC.graphics);
 			gdi.fillRectangle(brush, -r * 2, -r, r * 2, r);
 			gdi.fillRectangle(brush, -r, -r * 2, r, r * 2);
+			
+			
+			//var g2d:Graphics2D = new Graphics2D(backgroundShape.graphics);
+			//
+			//if (image)
+				//g2d.beginFill(new BitmapBrush(image));
+			//else
+				//g2d.beginFill(new SolidBrush(color));
+			//
+			//if (radius != 0)
+			//{
+				//var trR:Number = topRightRadius == -1 ? radius : topRightRadius;
+				//var blR:Number = bottomLeftRadius == -1 ? radius : bottomLeftRadius;
+				//var brR:Number = bottomRightRadius == -1 ? radius : bottomRightRadius;
+				//
+				//if(radius < 10)
+				//g2d.drawRoundRect(new Pen(borderColor, 0, true, "none", CapsStyle.ROUND, JointStyle.ROUND, 9), b.x + leftGap, b.y + topGap, b.width + rightGap, b.height + bottomGap, radius, trR, blR, brR-0.3);
+				//else
+				//g2d.drawCircle(new Pen(borderColor, 0), b.x + leftGap, b.y + topGap, /*b.width + rightGap, b.height + bottomGap,*/ radius);
+				//
+				//if (openingRect)
+					//g2d.drawRectangle(new Pen((internalBorderColor || new ASColor(0, 0)), 0), openingRect.x, openingRect.y, openingRect.width, openingRect.height);
+				//
+			//}
+			
 			
 			resizeMC.visible = enabled;
 		}

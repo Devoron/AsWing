@@ -1,14 +1,18 @@
-package org.aswing.paling
+package org.aswing.lookandfeel.paling
 {
+	import devoron.aswing3d.skinbuilder.SkinClosableTabbedPaneUI;
+	import devoron.aswing3d.skinbuilder.SkinComboBoxUI;
+	import devoron.aswing3d.skinbuilder.SkinProgressBarUI;
+	import org.aswing.lookandfeel.plaf.ASFontUIResource;
+	import org.aswing.lookandfeel.plaf.basic.BasicLookAndFeel;
+	import org.aswing.lookandfeel.plaf.InsetsUIResource;
+	import org.aswing.lookandfeel.plaf.UIStyleTune;
+	import org.aswing.lookandfeel.UIDefaults;
+	import org.aswing.plaf.ASColorUIResource;
 	import org.aswing.plaf.basic.BasicTableHeaderUI;
 	import org.aswing.values.Insets;
 	import org.aswing.values.ASColor;
 	import org.aswing.plaf.basic.border.EmptyBorderResource;
-	import org.aswing.plaf.basic.BasicLookAndFeel;
-	import org.aswing.UIDefaults;
-	import org.aswing.lookandfeel.plaf.ASColorUIResource;
-	import org.aswing.lookandfeel.plaf.ASFontUIResource;
-	import org.aswing.lookandfeel.plaf.InsetsUIResource;
 	import org.aswing.plaf.UIStyleTune;
 	import org.aswing.skinbuilder.*;
 	

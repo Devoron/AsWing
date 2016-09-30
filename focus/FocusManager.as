@@ -128,7 +128,7 @@ package org.aswing.focus
 				stage.addEventListener(KeyboardEvent.KEY_UP, __onKeyUp /*, false, 0, true*/);
 				stage.addEventListener(MouseEvent.MOUSE_DOWN, __onMouseDown /*, false, 0, true*/);
 				focusRect = new Sprite();
-				focusRect.mouseEnabled = false;
+				//focusRect.mouseEnabled = false;
 				focusRect.visible = false;
 				stage.addChild(focusRect);
 				//Make stage reference this manager to keep manager will not be GC until stage be GC.
@@ -182,7 +182,7 @@ package org.aswing.focus
 		
 		private function __focusPaintedComRemoved(e:Event):void
 		{
-			focusRect.graphics.clear();
+			//focusRect.graphics.clear();
 			removeistenerToFocusPaintedComponent();
 		}
 		
@@ -280,7 +280,7 @@ package org.aswing.focus
 		{
 			if (focusOwner != null)
 			{
-				focusOwner.fireFocusKeyDownEvent(e);
+				//focusOwner.fireFocusKeyDownEvent(e);
 			}
 		}
 		
@@ -288,7 +288,7 @@ package org.aswing.focus
 		{
 			if (focusOwner != null)
 			{
-				focusOwner.fireFocusKeyUpEvent(e);
+				//focusOwner.fireFocusKeyUpEvent(e);
 			}
 		}
 		
@@ -322,7 +322,7 @@ package org.aswing.focus
 			focusRect.visible = b;
 			if (!b)
 			{
-				focusRect.graphics.clear();
+				//focusRect.graphics.clear();
 				removeistenerToFocusPaintedComponent();
 			}
 		}
